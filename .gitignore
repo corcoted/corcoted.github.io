@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-_site
-=======
 _site/
->>>>>>> d90427cac1e4752ff96dacb4952f8a411890b2f9
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+Gemfile.lock
 
