@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Ted Corcovilos<br />
+Experimental physics
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Research interests include ultracold atoms, related optics, chemical spectroscopy, environmental hazards.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Teaching interests include undergraduate physics, especially upper division courses.
 
-
-[jekyll-organization]: https://github.com/jekyll
+## Professional History
+* Duquesne University, Dept. of Physics.  Assistant Professor (2013-present).
+* Penn State University, Dept. of Physics.  Postdoc under David Weiss (2010-2013).
+* Rice University, Dept. of Physics. Postdoc under Randy Hulet (2007-2010).
+* Caltech, Physics.  Graduate student under Nai-Chang Yeh (Ph.D. 2008).
+* University of Tennessee, College Scholars. (B.A. 1999).
