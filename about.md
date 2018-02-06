@@ -14,6 +14,8 @@ Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pi
 * [Caltech](http://www.caltech.edu), [Physics](http://www.pma.caltech.edu/content/physics).  Graduate student under [Nai-Chang Yeh](https://yehgroup.caltech.edu/) (Ph.D. 2008).
 * University of Tennessee at Knoxville, College Scholars - Physics and Math. (B.A. 1999).
 
+[Recent CV](/assets/Corcovilos-CV-pub.pdf)
+
 ## Online Presence
 ### Professional affliations
 * [Duquesne University page](http://www.duq.edu/academics/faculty/theodore-a-corcovilos)
