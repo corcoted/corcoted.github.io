@@ -1,0 +1,6 @@
+Some notes for myself:
+Interesting fonts from Google:
+Spectral (body text)
+Raleway (display)
+
+Another option is to use XITS if I can find a font server that supports it.
