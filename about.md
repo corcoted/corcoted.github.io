@@ -5,20 +5,20 @@ permalink: /about/
 ---
 
 Ted Corcovilos<br />
-Experimental physics
-
-Research interests include ultracold atoms, related optics, chemical spectroscopy, environmental hazards.
-
-Teaching interests include undergraduate physics, especially upper division courses.
+Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
 ## Professional History
-* Duquesne University, Dept. of Physics.  Assistant Professor (2013-present).
-* Penn State University, Dept. of Physics.  Postdoc under David Weiss (2010-2013).
-* Rice University, Dept. of Physics. Postdoc under Randy Hulet (2007-2010).
-* Caltech, Physics.  Graduate student under Nai-Chang Yeh (Ph.D. 2008).
-* University of Tennessee, College Scholars. (B.A. 1999).
+* [Duquesne University](http://www.duq.edu), [Dept. of Physics](http://www.duq.edu/academics/schools/natural-and-environmental-sciences/academic-programs/physics).  Assistant Professor (2013-present).
+* [Penn State University](http://www.psu.edu), [Dept. of Physics](http://www.phys.psu.edu/).  Postdoc under [David Weiss](http://www.phys.psu.edu/people/dsw13) (2010-2013).
+* [Rice University](http://www.rice.edu), [Dept. of Physics and Astronomy](http://www.physics.rice.edu/). Postdoc under [Randy Hulet](http://atomcool.rice.edu) (2007-2010).
+* [Caltech](http://www.caltech.edu), [Physics](http://www.pma.caltech.edu/content/physics).  Graduate student under [Nai-Chang Yeh](https://yehgroup.caltech.edu/) (Ph.D. 2008).
+* University of Tennessee at Knoxville, College Scholars - Physics and Math. (B.A. 1999).
 
 ## Online Presence
+### Professional affliations
+* [Duquesne University page](http://www.duq.edu/academics/faculty/theodore-a-corcovilos)
+* [Pittsburgh Quantum Institute page](https://www.pqi.org/members/theodore-corcovilos)
+
 ### Social Media
 Twitter
 : [@TedCorcovilos](http://www.twitter.com/TedCorcovilos) (Professional)
@@ -39,3 +39,6 @@ Scopus
 
 Mendeley
 : [theodore-corcovilos](https://www.mendeley.com/profiles/theodore-corcovilos/)
+
+GitHub
+: [corcoted](https://github.com/corcoted)
