@@ -5,8 +5,10 @@
 layout: home
 ---
 Ted Corcovilos<br />
-Experimental physics at [Duquesne University](http://www.duq.edu) in Pittsburgh, PA.
+Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
 [Research](./research/) interests include ultracold atoms, related optics, chemical spectroscopy, environmental hazards.
 
 [Teaching](./teaching/) interests include undergraduate physics, especially upper division courses.
+
+[More info](./about/) about where to find me online.
