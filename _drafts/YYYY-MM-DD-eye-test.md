@@ -48,14 +48,36 @@ have a focal length of *f* = 1/*P* = -0.2 m.
 So, what do eyeglasses do?  In the approximation that the lenses are close to the eye, the optical power of the eyeglasses adds to the optical power of the eye's lens to bring the combination to the nominal values above.
 
 ### The test
-The test is simple.  Take a tape measure (at least 6-m long for best results) and stretch it out as far as possible (on the floor of a hallway works best).  With your eye placed at the end of the tape measure, move an object as close as possible such that you can still clearly see it.  Record this distance as *d<sub>near</sub>*.  Next, move the object as far away as possible along the tape measure until it is just no longer clear.  Record this distance as *d<sub>far</sub>*.  (If you can place the object all of the way at the end of the tape, let *d<sub>far</sub>* = the length of the tape)  If *d<sub>far</sub>* &ge; 6 m and *d<sub>near</sub>* &le; 25 cm, then you have "normal" vision.  If your measurements aren't in those limits, then we can do a little algebra to estimate an eyeglass prescription.
+The test is simple.  Take a tape measure (at least 6-m long for best results) and stretch it out as far as possible (on the floor of a hallway works best).  With your eye placed at the end of the tape measure, move an object as close as possible such that you can still clearly see it.  Record this distance as *d'<sub>near</sub>*.  Next, move the object as far away as possible along the tape measure until it is just no longer clear.  Record this distance as *d'<sub>far</sub>*.  (If you can place the object all of the way at the end of the tape, let *d'<sub>far</sub>* = the length of the tape)  If *d'<sub>far</sub>* &ge; 6 m and *d'<sub>near</sub>* &le; 25 cm, then you have "normal" vision.  If your measurements aren't in those limits, then we can do a little algebra to estimate an eyeglass prescription.
 
-TODO -- write up the calculation.
+Here's how the calculation goes:
+
+1. The first step is to calculate the range of optical powers implied by the measured distances.  For example, the near distance *d'<sub>near</sub>* gives the maximum optical power of the eye.  (I'll use primes to indicate the values for the test subject.)  From the lens equation:
+
+    $$
+    P'_{near} = \frac{1}{f'_{near}} = \frac{1}{d'_{near}} + \frac{1}{s_i}.
+    $$
+
+    Simlarly, for *P'<sub>far</sub>* which is the minimum optical power of the eye.
+
+2. We need to compare the measured optical powers to the "normal" values given above.
+    * If *P'<sub>near</sub>* < *P<sub>near</sub>* then the person is *far-sighted* and the optical power of the eyeglasses needed to correct the vision is *P<sub>glasses</sub>* = *P<sub>near</sub>* - *P'<sub>near</sub>*, which will be a positive number.
+    * If *P'<sub>far</sub>* > *P<sub>far</sub>* then the person is *near-sighted* and the optical power of the eyeglasses needed to correct the vision is *P<sub>glasses</sub>* = *P<sub>far</sub>* - *P'<sub>far</sub>*, which will be a negative number.
+
+3. Wait!  What if we choose glasses to correct near-sightedness, but it makes it hard to read because the new near power is too small(*P'<sub>near</sub>* + *P<sub>glasses</sub>* < *P<sub>near</sub>*).  Or maybe we correct far-sightedness to improve reading, but now distance vision is compromised.  In these cases we need bifocal lenses: the top part of the lens will be used for distance vision and the bottom lens for reading.  The recipe then is
+    * Pick the power of the top lens to set *P'<sub>far</sub>* + *P<sub>top</sub>* = *P<sub>far</sub>*.  This may actually involve reducing the far power.  This ok because we want to increase the near power as much as possible to make intermediate distances visible.
+    * Now add additional power to the bottom lens to bring the new total *P''<sub>near</sub>* = *P'<sub>near</sub>* + *P<sub>top</sub>* + *P<sub>add</sub>*.
 
 ### Astigmatism
 The test described here doesn't work for measuring astigmatism.  Astigmatism is when the focusing of the eye depends on the orientation of the *object*.  For example, vertical lines may focus at a different distance than horizontal lines.  To correct for astigmatism, a cylindrical correction is added to the eyeglass lenses, and the resulting final lens is often shaped like a slice of a torus (donut).
 
+The test above could be modified by using a spoke target as the object and asking the test subject to identify, for example, the closest distance at which only one spoke is clear and the closest distance at which all the spokes can be clear (but not at the same time -- the eye's autofocus ability will switch between spokes).  This way the cylinder axis and additional cylinder power can be approximation.
+
+### What we've left out
+The model here has been simplified as much as possible.  The night-myopia described above has been left out, and we haven't tried to calculate the actual visual acuity (how small of an object can be resolved).
+Most importantly, this test doesn't assess any diseases of the eye, such as glaucoma or cataracts.  Even if your vision is perfect, regular eye exams by a professional are necessary to protect your eyes.
+
 ### References
-[^1]: Pedrotti
+[^1]: F. L. Pedrotti, L. M. Pedrotti, L. S. Pedrotti, *Introduction to Optics* (Pearson, Harlow, ed. 3rd, 2007).
 
 [^2]: In an actual human eye the interior is filled with *vitreous humor*, a gel substance with an index of refraction of about *n* = 1.33.  For simplicity, I've adjusted the actual image distance (approximately the diameter of the eye = 22 mm) to account for the index of refraction.  The focal lengths I use above are the object-side focal lengths of the combined cornea-lens system.
