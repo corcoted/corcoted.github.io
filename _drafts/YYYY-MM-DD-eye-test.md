@@ -61,12 +61,12 @@ Here's how the calculation goes:
     Simlarly, for *P'<sub>far</sub>* which is the minimum optical power of the eye.
 
 2. We need to compare the measured optical powers to the "normal" values given above.
-    * If *P'<sub>near</sub>* < *P<sub>near</sub>* then the person is *far-sighted* and the optical power of the eyeglasses needed to correct the vision is *P<sub>glasses</sub>* = *P<sub>near</sub>* - *P'<sub>near</sub>*, which will be a positive number.
-    * If *P'<sub>far</sub>* > *P<sub>far</sub>* then the person is *near-sighted* and the optical power of the eyeglasses needed to correct the vision is *P<sub>glasses</sub>* = *P<sub>far</sub>* - *P'<sub>far</sub>*, which will be a negative number.
+    * If *P'<sub>near</sub>* > *P<sub>near</sub>* then the person is *far-sighted* and the optical power of the eyeglasses needed to correct the vision is *P<sub>glasses</sub>* = *P<sub>near</sub>* - *P'<sub>near</sub>*, which will be a positive number.
+    * If *P'<sub>far</sub>* < *P<sub>far</sub>* then the person is *near-sighted* and the optical power of the eyeglasses needed to correct the vision is *P<sub>glasses</sub>* = *P<sub>far</sub>* - *P'<sub>far</sub>*, which will be a negative number.
 
 3. Wait!  What if we choose glasses to correct near-sightedness, but it makes it hard to read because the new near power is too small(*P'<sub>near</sub>* + *P<sub>glasses</sub>* < *P<sub>near</sub>*).  Or maybe we correct far-sightedness to improve reading, but now distance vision is compromised.  In these cases we need bifocal lenses: the top part of the lens will be used for distance vision and the bottom lens for reading.  The recipe then is
-    * Pick the power of the top lens to set *P'<sub>far</sub>* + *P<sub>top</sub>* = *P<sub>far</sub>*.  This may actually involve reducing the far power.  This ok because we want to increase the near power as much as possible to make intermediate distances visible.
-    * Now add additional power to the bottom lens to bring the new total *P''<sub>near</sub>* = *P'<sub>near</sub>* + *P<sub>top</sub>* + *P<sub>add</sub>*.
+    * If *P'<sub>near</sub>* + *P<sub>glasses</sub>* < *P<sub>near</sub>*, then we need to add a power *P<sub>add</sub>* = *P<sub>near</sub>*-(*P'<sub>near</sub>* + *P<sub>glasses</sub>*) to the original perscription for the bifocal lens.
+    * If *P'<sub>far</sub>* + *P<sub>glasses</sub>* > *P<sub>far</sub>*, then we need to subtract some power from the main lens and add it back for the bifocal lens.  The amount of this correction is *P<sub>add</sub>* = (*P'<sub>far</sub>* + *P<sub>glasses</sub>*)-*P<sub>far</sub>*.
 
 ### Astigmatism
 The test described here doesn't work for measuring astigmatism.  Astigmatism is when the focusing of the eye depends on the orientation of the *object*.  For example, vertical lines may focus at a different distance than horizontal lines.  To correct for astigmatism, a cylindrical correction is added to the eyeglass lenses, and the resulting final lens is often shaped like a slice of a torus (donut).
