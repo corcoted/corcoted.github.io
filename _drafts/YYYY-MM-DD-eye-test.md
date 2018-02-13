@@ -5,7 +5,7 @@ category: teaching
 tags: optics
 ---
 Most of us are familiar with the "refraction" exam done by optometrists to determine our eyeglass prescription.  The test involves the patient trying to read a chart placed at reading distance (20 in = 50 cm) or a standard far distance (20 ft = 6 m) while the optometrist tries placing different lenses in front of each eye to find the lenses that give the best image for the patient.
-The test is largely trial-and-error.  A good practicioner can reach an optimal lens with only a few trials, but there's a more direct method to measure myopia (nearsightedness), hyperopoia (farsightedness), and presbyopia (age-related farsightedness).  The only tool we need is a tape measure and an object to look at.  (Unfortunately this test doesn't work for astigmatism, the other common vision defect.)
+The test is largely trial-and-error.  A good practicioner can reach an optimal lens with only a few trials, but there's a more direct method to measure myopia (nearsightedness), hyperopia (farsightedness), and presbyopia (age-related farsightedness).  The only tool we need is a tape measure and an object to look at.  (Unfortunately this test doesn't work for astigmatism, the other common vision defect.)
 
 ### Normal vision
 "Normal vision" means that a person can clearly see an object at both reading distance (50 cm) and at far distance (infinity).[^1]  We can model the eye as a single lens with variable focal length *f* and a fixed image distance *s'*.  A good approximation is that *s'* = 16.7 mm.[^2]  Using Gauss's Lens equation we can solve for the values of focal length in the near and far cases:
