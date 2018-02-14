@@ -5,4 +5,14 @@ Raleway (display)
 
 Another option is to use XITS if I can find a font server that supports it.
 
-TODO: Make margin box
+Useful markdown (perhaps move to includes)
+
+margin note:
+{:marbox: style="border: 1px solid black; width: 300px; float: right; color: #606060; padding: 5px;
+font-size: 0.9em;"}
+
+inline note:
+{:note: style="font-style: italic;"}
+
+float box for figure:
+{:flt: style="float: right; padding-left: 5px; padding-right: 0px; text-align: center"}
