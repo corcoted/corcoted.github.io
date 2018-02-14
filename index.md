@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
 Ted Corcovilos<br />
 Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
@@ -11,4 +12,4 @@ Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pi
 
 [Teaching](./teaching/) interests include undergraduate physics, especially upper division courses.
 
-[More info](./about/) about where to find me online.
+[More info](./about/) about where to find me online. 
