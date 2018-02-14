@@ -8,7 +8,7 @@ permalink: /research/
 Broadly speaking, atomic physics.
 
 ## Ultracold atoms in quasicrystal potentials
-![quasicrystal potential](.\assets\qx-atoms-zoom-sm.png)<br />
+![quasicrystal potential](./assets/qx-atoms-zoom-sm.png)<br />
 Simulated quasicrystal optical potential
 {:flt}
 
