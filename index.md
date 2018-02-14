@@ -5,7 +5,6 @@
 layout: home
 ---
 
-Ted Corcovilos<br />
 Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
 [Research](./research/) interests include ultracold atoms, related optics, chemical spectroscopy, environmental hazards.

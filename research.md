@@ -5,7 +5,7 @@ permalink: /research/
 ---
 {:flt: style="float: right; padding-left: 5px; padding-right: 0px; text-align: center"}
 
-Broadly speaking, atomic physics.
+Broadly speaking, atomic physics, but also applications of spectroscopy to molecular systems.
 
 ## Ultracold atoms in quasicrystal potentials
 ![quasicrystal potential](./assets/qx-atoms-zoom-sm.png)<br />
