@@ -4,6 +4,14 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+![Ted Corcovilos, Ph.D.](./assets/Corcovilos.jpg)
+{: style="float: right;
+       padding-left: 5px;
+       padding-right: 0px;
+       text-align: center;
+       width: 350px;
+       box-sizing: border-box;
+       "}
 
 Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
