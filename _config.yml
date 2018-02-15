@@ -20,7 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.corcoviloslab.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: corcoted
-github_username:  corcoted
+#github_username:  corcoted
+linkedin_username: ted-corcovilos-34376216
 google_analytics: UA-114117860-1
 
 # Build settings
