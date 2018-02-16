@@ -4,8 +4,8 @@ title: Publications
 ---
 {% include research_sub.html %}
 ## Refereed articles
-
-<!-- TODO: add links -->
+*If you do not have access to the papers, please contact me and I'd be happy to send the files to you.*
+<!-- TODO: add links and docs -->
 
 * de Jong, W. A., Dau, P. D., Wilson, R. E., Marçalo, J., Van
   Stipdonk, M. J., Corcovilos, T. A., Berden, G., Martens, J.,
