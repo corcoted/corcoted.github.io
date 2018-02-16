@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Research Overview
 permalink: /research/
 ---
 {:flt: style="float: right;
@@ -10,6 +10,8 @@ permalink: /research/
        width: 350px;
        box-sizing: border-box;
        "}
+
+{% include research_sub.html %}
 
 Broadly speaking, atomic physics, but also applications of spectroscopy to molecular systems.
 
