@@ -24,6 +24,13 @@ twitter_username: corcoted
 linkedin_username: ted-corcovilos-34376216
 google_analytics: UA-114117860-1
 
+header_pages:
+  - blog.html
+  - research.md
+  - teaching.md
+  - about.md
+
+
 # Build settings
 markdown: kramdown
 theme: minima

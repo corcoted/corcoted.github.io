@@ -2,17 +2,23 @@
 layout: default
 title: Blog
 ---
-<h2 class="post-list-heading">{{ page.list_title | default: "Recent Blog Posts" }}</h2>
+<h2 class="post-list-heading">{{ page.list_title | default: "Blog Posts" }}</h2>
+{% assign postsByYear =
+  site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+<h1>{{ year.name }}</h1>
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in year.items %}
       <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h3>
-        {{ post.excerpt }}
+        {{ post.date }}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {{ post.excerpt }}<br />
+        <em>
+        category: {{ post.category }},
+        tags: {{ post.tags }}
+        </em>
       </li>
     {% endfor %}
   </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+{% endfor %}
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
