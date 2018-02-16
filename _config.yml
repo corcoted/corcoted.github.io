@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Personal site of Ted Corcovilos, Assistant Professor of Physics at Duquesne University
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.corcoviloslab.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: corcoted
+twitter_username: TedCorcovilos
 #github_username:  corcoted
 linkedin_username: ted-corcovilos-34376216
 google_analytics: UA-114117860-1
