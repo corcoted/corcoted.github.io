@@ -44,3 +44,13 @@ Mendeley
 
 GitHub
 : [corcoted](https://github.com/corcoted)
+
+
+### Professional memberships
+* American Physical Society
+* Optical Society of America
+* American Association of Physics Teachers
+* American Society of Mass Spectrometry
+* Society of Physics Students and Sigma Pi Sigma
+
+*[Website colophon](/colophon)*
