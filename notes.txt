@@ -3,7 +3,10 @@ Interesting fonts from Google:
 Spectral (body text)
 Raleway (display)
 
-Another option is to use XITS if I can find a font server that supports it.
+Wishlist:
+    Gallery of posters
+    Group member page
+    Publications page (autogen from CV bib files?)(files or links?)
 
 Useful markdown (perhaps move to includes)
 
