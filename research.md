@@ -16,9 +16,9 @@ permalink: /research/
 Broadly speaking, atomic physics, but also applications of spectroscopy to molecular systems.
 
 ## Ultracold atoms in quasicrystal potentials
-![quasicrystal potential](./assets/qx-atoms-zoom-sm.png)<br />
+![quasicrystal potential](./assets/figs/qx-atoms-zoom-sm.png)<br />
 Simulated quasicrystal optical potential<br /><br />
-![LTQ with CO2 laser addition](./assets/LTQ-CO2.jpg)<br />
+![LTQ with CO2 laser addition](./assets/photos/LTQ-CO2.jpg)<br />
 LTQ mass spectrometer with custom viewport for IRMPD and other optical experiments.
 {:flt}
 
@@ -34,7 +34,7 @@ and at free electron user facilities such as the Free Electron Laser for Infrare
 Presently we are interested in high-valence actinide chemistry, in collaboration with John Gibson from Lawrence Berkeley National Laboratory (Berkeley, CA).
 
 ### Fluorescent detection of lead in water
-![Homemade fluorometer](./assets/LG4-photo.png)<br />
+![Homemade fluorometer](./assets/photos/LG4-photo.png)<br />
 Homemade fluorometer for measuring lead in drinking water
 {:flt}
 
@@ -44,7 +44,7 @@ In collaboration with Partha Basu at IUPUI, we've build a small handheld spectro
 This work uses fluorescent tags that bind to cross-links in bio-organic polymers.  Michael Cascio (Duquesne Chemistry and Biochemistry) and I are building a system to put a microfluidics fluorescence cell in tandom with a mass spectrometer to allow quantitative measurements of cross-linking reaction efficiencies.
 
 ### Automated sampling system for river and lake water
-![Automated water sampler](./assets/H2O-sampler.jpg)<br />
+![Automated water sampler](./assets/photos/H2O-sampler.jpg)<br />
 Automated water sampling system build by David Friese (right) that will be fitted with components from Duquesne including a gamma ray spectrometer.
 {:flt}
 

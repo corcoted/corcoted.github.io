@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-![Ted Corcovilos, Ph.D.](./assets/Corcovilos.jpg)
+![Ted Corcovilos, Ph.D.](./assets/photos/Corcovilos.jpg)
 {: style="float: right;
        padding-left: 5px;
        padding-right: 0px;
