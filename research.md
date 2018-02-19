@@ -13,7 +13,7 @@ permalink: /research/
 
 {% include research_sub.html %}
 
-Broadly speaking, atomic physics, but also applications of spectroscopy to molecular systems.
+Broadly speaking, atomic physics, but also applications of spectroscopy to molecular systems.  All of my research is done with the help of undergraduate students.  If you're interested in working on any of these projects, please [contact me](mailto:corcovilost@duq.edu).  *No previous experience is required, just curiosity and a willingness to work hard.*
 
 ## Ultracold atoms in quasicrystal potentials
 ![quasicrystal potential](./assets/figs/qx-atoms-zoom-sm.png)<br />
@@ -48,4 +48,4 @@ This work uses fluorescent tags that bind to cross-links in bio-organic polymers
 Automated water sampling system build by David Friese (right) that will be fitted with components from Duquesne including a gamma ray spectrometer.
 {:flt}
 
-My group with Dr. Michael Van Stipdonk (Duquesne Chemistry) and David Friese (University of South Florida - St. Petersburg) are working on an automated sampling system to collect water samples in rivers and lakes.  The system collects samples for later mass spectrometry analysis and does realtime detection of radionuclides using a homemade gamma spectrometer.
+My group with Dr. Michael Van Stipdonk (Duquesne Chemistry) and David Fries (University of South Florida - St. Petersburg) are working on an automated sampling system to collect water samples in rivers and lakes.  The system collects samples for later mass spectrometry analysis and does realtime detection of radionuclides using a homemade gamma spectrometer.

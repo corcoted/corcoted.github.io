@@ -7,6 +7,11 @@ permalink: /about/
 Ted Corcovilos<br />
 Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
+## Contact information
+Office: Fisher 309C, Phone: +1-412-396-5973<br />
+corcovilost@duq.edu
+
+
 ## Professional History
 * [Duquesne University](http://www.duq.edu), [Dept. of Physics](http://www.duq.edu/academics/schools/natural-and-environmental-sciences/academic-programs/physics).  Assistant Professor (2013-present).
 * [Penn State University](http://www.psu.edu), [Dept. of Physics](http://www.phys.psu.edu/).  Postdoc under [David Weiss](http://www.phys.psu.edu/people/dsw13) (2010-2013).
