@@ -9,7 +9,7 @@ Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pi
 
 ## Contact information
 Office: Fisher 309C, Phone: +1-412-396-5973<br />
-corcovilost@duq.edu
+[corcovilost@duq.edu](mailto:corcovilost@duq.edu)
 
 
 ## Professional History

@@ -13,7 +13,7 @@ permalink: /research/
 
 {% include research_sub.html %}
 
-Broadly speaking, atomic physics, but also applications of spectroscopy to molecular systems.  All of my research is done with the help of undergraduate students.  If you're interested in working on any of these projects, please [contact me](mailto:corcovilost@duq.edu).  *No previous experience is required, just curiosity and a willingness to work hard.*
+Broadly speaking, I work on atomic physics, but also applications of spectroscopy to molecular systems.  All of my research is done with the help of undergraduate students.  If you're interested in working on any of these projects, please [contact me](/about).  *No previous experience is required, just curiosity and a willingness to work hard.*
 
 ## Ultracold atoms in quasicrystal potentials
 ![quasicrystal potential](./assets/figs/qx-atoms-zoom-sm.png)<br />
