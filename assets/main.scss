@@ -2,10 +2,20 @@
 ---
 @import "minima";
 
+@import url('https://fonts.googleapis.com/css?family=Raleway|Spectral:500');
+
+// $my-body-font: 'Spectral';
+$my-body-font: 'Palatino';
+$my-display-font: 'Raleway';
+
+body {
+    font-family: $my-body-font, 'Times New Roman', Times, serif;
+    font-kerning: normal;
+}
+
 /**
  * Headings
  */
-/* h1, h2, h3, h4, h5, h6 {
-    font-family: 'Times New Roman', Times, serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: $my-display-font, Arial, Helvetica, sans-serif;
   }
-*/  
