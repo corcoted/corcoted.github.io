@@ -49,7 +49,7 @@ This work uses fluorescent tags that bind to cross-links in bio-organic polymers
 
 ### Automated sampling system for river and lake water
 ![Automated water sampler](./assets/photos/H2O-sampler.jpg)<br />
-Automated water sampling system build by David Friese (right) that will be fitted with components from Duquesne including a gamma ray spectrometer.
+Automated water sampling system build by David Fries (right) that will be fitted with components from Duquesne including a gamma ray spectrometer.
 {:flt}
 
 My group with Dr. Michael Van Stipdonk (Duquesne Chemistry) and David Fries (University of South Florida - St. Petersburg) are working on an automated sampling system to collect water samples in rivers and lakes.  The system collects samples for later mass spectrometry analysis and does realtime detection of radionuclides using a homemade gamma spectrometer.
