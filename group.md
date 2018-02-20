@@ -4,6 +4,11 @@ title: Research Group
 ---
 {% include research_sub.html %}
 
+![Group photo July 2017](./assets/photos/Group-201707.JPG)<br />
+Corcovilos Lab members and alumni at the 2017 Undergraduate Research Symposium.
+{: style="text-align: center; color: #606060; padding: 5px;
+font-size: 0.9em; font-style: italic;"}
+
 ## Current members
 
 ### Faculty
