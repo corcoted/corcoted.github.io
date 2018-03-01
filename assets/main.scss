@@ -2,15 +2,14 @@
 ---
 @import "minima";
 
-@import url('https://fonts.googleapis.com/css?family=Raleway|Spectral:500');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Gentium+Basic');
 
 // $my-body-font: 'Spectral';
-$my-body-font: 'Palatino';
+$my-body-font: 'Gentium Basic';
 $my-display-font: 'Raleway';
 
 body {
     font-family: $my-body-font, 'Times New Roman', Times, serif;
-    font-kerning: normal;
 }
 
 /**
