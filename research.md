@@ -42,6 +42,8 @@ Homemade fluorometer for measuring lead in drinking water
 
 In collaboration with Partha Basu at IUPUI, we've build a small handheld spectrometer that uses a specific turn-on fluorophor for detecting lead in drinking water.  The latest version of the device is sensitive down to about 2 ppb concentrations (by mass), below the EPA action limit of 15 ppb.  Our hope is to make several copies of the device and test homes in the neighborhoods of Pittsburgh near Duquesne.
 
+[See my recent blog post for more detail.](/research/2018/03/08/lead-background.html)
+
 *Previous funding from an InnovationWorks/Department of Defense Technology Transfer Consortia award, and a Duquesne University Charles Henry Leach II grant.*
 
 ### Laser-Induced Fluorescence for Quantitation of Cross-Linking in Bio-polymers
