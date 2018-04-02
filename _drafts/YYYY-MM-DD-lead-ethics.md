@@ -38,3 +38,7 @@ These may be extreme examples, but our main point is that we don't want anyone t
 ## Legal issues
 
 We also have to be careful about what we claim with our test.  Although we believe we meet rigorous scientific standards, our system does not have government certification.  Therefore, our results are not "official," and cannot, for example, be used in court.  If we do not clearly state that our results do not meet legal standards, then we could be sued for making false claims.  So, in the literature that we distribute to potential subjects, we have lots of weasel-words.  Our results are only "suggestive" of the presence of lead, for example.  If we get a positive result, we encourage people to follow up with an EPA-certified test.  (Fortunately, the City of Pittsburgh will pay for testing, but the wait is long.)
+
+## Informed consent
+
+Perhaps the key concept in making sure our work is ethical is the doctrine of *Informed Consent*.  The idea is simple: any test subjects should be aware of all possible risks of participating in an experiment, and agree to these risks.  In practice this means that we are responsible for creating a document that states, in pay-person's terms, what we are doing, what the results mean, and how they could affect the participants.  In our case, there are no direct risks to the participants (in one interpretation, there are no human participants, only houses), but 
