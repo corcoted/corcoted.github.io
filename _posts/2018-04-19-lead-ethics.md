@@ -3,6 +3,7 @@ layout: post
 title: Lead in Drinking Water, Part 2 (Ethics)
 category: research
 tags: lead, ethics, IRB
+date: 2018-04-19
 excerpt: >-
     Before I describe how we measure lead in drinking water, I want to discuss some of the new (to me) meta issues associated with this project.  A lot of these things are uncommon for physics research, but will be familiar to folks in biology or medicine.  I am a rank amateur on these issues, so consider this an imperfect discussion by someone still finding his way.
 ---
@@ -31,14 +32,17 @@ Similar to the last case, but the resident is renting.  Under law, the landlord 
 
 We collect data on many homes in a neighborhood, and somehow our data get stolen.  A malicious developer uses our data to get properties condemned and then purchases them to build a new apartment complex.  The original residents are forced out and can not afford to live in the new housing.
 
-
-
 These may be extreme examples, but our main point is that we don't want anyone to be harmed by participating in our study.
 
 ## Legal issues
 
 We also have to be careful about what we claim with our test.  Although we believe we meet rigorous scientific standards, our system does not have government certification.  Therefore, our results are not "official," and cannot, for example, be used in court.  If we do not clearly state that our results do not meet legal standards, then we could be sued for making false claims.  So, in the literature that we distribute to potential subjects, we have lots of weasel-words.  Our results are only "suggestive" of the presence of lead, for example.  If we get a positive result, we encourage people to follow up with an EPA-certified test.  (Fortunately, the City of Pittsburgh will pay for testing, but the wait is long.)
 
+We also have to protect our data in the case of potential lawsuits.
+Suppose we find lead in a rental property and the landlord sues us claiming that our test is invalid and that this caused unnecessary repairs to the property.
+The courts may then force us to reveal the names of the participants.
+Unfortunately, we need to take measures to protect ourselves and the participants in case something like this were to happen.
+
 ## Informed consent
 
-Perhaps the key concept in making sure our work is ethical is the doctrine of *Informed Consent*.  The idea is simple: any test subjects should be aware of all possible risks of participating in an experiment, and agree to these risks.  In practice this means that we are responsible for creating a document that states, in pay-person's terms, what we are doing, what the results mean, and how they could affect the participants.  In our case, there are no direct risks to the participants (in one interpretation, there are no human participants, only houses), but 
+Perhaps the key concept in making sure our work is ethical is the doctrine of *Informed Consent*.  The idea is simple: any test subjects should be aware of all possible risks of participating in an experiment, and agree to these risks.  In practice this means that we are responsible for creating a document that states, in pay-person's terms, what we are doing, what the results mean, and how they could affect the participants.  In our case, there are no direct risks to the participants (in one interpretation, there are no human participants, only houses), but we feel we have at least an ethical and moral obligation, if not a legal one, to give our volunteers as much information as possible and in a clear way.  We're still working on these documents, and we'll seek input on them before we distribute them.
