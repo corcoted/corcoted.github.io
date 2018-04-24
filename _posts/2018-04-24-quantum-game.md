@@ -7,7 +7,7 @@ date: 2018-04-24
 excerpt: >-
   For a couple of years I've been polishing up a classroom activity to demonstrate how quantum measurements work on a simple qubit system.  Here I'd like to summarize the game in simple terms for non-experts.
 ---
-{:gametable: style="border: 1px solid black; display: block; margin-left: auto; margin-right: auto; width: 40%; text-align: center;"}
+{:gametable: style="display: block; margin-left: auto; margin-right: auto; width: 40%; text-align: center;"}
 
 For a couple of years I've been polishing up a classroom activity to demonstrate how quantum measurements work on a simple qubit system.
 The work has just been accepted to *American Journal of Physics* and will appear there later this year.
