@@ -53,7 +53,7 @@ At midnight, two airplanes will take off, one flying due East with a groundspeed
 The Earth's circumference is almost exactly 40,000 km ([Thanks, Napoleon!](http://en.wikipedia.org/wiki/History_of_the_metric_system)), so clock L will record a time for the flights of
 
 $$
-t_L = \frac{4\times 10^7\,\mathrm{m}}{271\,\mathrm{m/s}} = 147601.476015\,\mathrm{s} \approx 41\,\textrm{hours}.
+t_L = \frac{4\times 10^7\,\mathrm{m}}{271\,\mathrm{m/s}} = 147601.47601476\,\mathrm{s} \approx 41\,\textrm{hours}.
 $$
 
 Nothing interesting there.  However, to calculate the time recorded by the airplane clocks, we have to use Eq. (1) above. But, *not so fast!*, the time *t* in the equation is for a clock that is not moving and not affected by gravity.  Our land clock L does experience gravity, and it is also moving as the Earth rotates, so *t* &ne; *t<sub>L</sub>*.  To do the calculation, we need to imagine another clock, that I'll call "S" for "Space clock" that is stationary and far away from gravity, say half way between the sun and [Alpha Centauri](http://en.wikipedia.org/wiki/Alpha_Centauri).
@@ -78,11 +78,41 @@ We need to put in the values of the variables.  Here's a quick summary, plus a f
 | *v<sub>W</sub>* | speed of West-bound airplane | *v<sub>L</sub>* - 271 m/s = 192 m/s |
 
 Ok, so now we can get a number for the time of the flight measured by the Space clock.  Substituting above, we get
-XXXX
+*t<sub>S</sub>* = 147601.475912109 s.  So, the time difference between clock S and clock L is *t<sub>S</sub>*-*t<sub>L</sub>* = −0.000102651 s = -102.651 &mu;s.
 
-<!-- add Sagnac effect -->
+(Side note: that's a lot of digits in the clock times.  We need them because we need to subtract two large numbers that are almost the same.  A cleaner approach is to use Taylor series approximations of the equations using the facts that \|*v*\| \<\< *c* and *h* \<\< *r*.  Then the subtraction mostly cancels algebraically, leaving only the relevant parts.)
+
+Now, we use the same formula to calculate the airplane clock times, replacing the "L" variables with the "E" or "W" variables.  The E and W clocks read
+
+$$
+\begin{aligned}
+t_E &= t_S/ \left( \frac{1}{\sqrt{1-(v_E/c)^2}} - \frac{GM}{c^2(r+h)}\right) = 147601.476014300\,\mathrm{s}; \\
+t_W &= t_S/ \left( \frac{1}{\sqrt{1-(v_W/c)^2}} - \frac{GM}{c^2(r+h)}\right) = 147601.476014712\,\mathrm{s}.
+\end{aligned}
+$$
+
+So, finally, the differences between the Land clock and the airplanes clocks are
+
+*t<sub>L</sub>* - *t<sub>E</sub>* = 0.000000460 s  = 460 ns and
+*t<sub>L</sub>* - *t<sub>W</sub>* = 0.000000048 s = 48 ns.
+
+This is a tiny amount!  After a voyage of 40 hours, the clocks shift by billionths of a second.  That works out to less than a part in 10<sup>12</sup> error per second in the clocks.  Luckily, portable atomic clocks at the time had a stability of about a part in 10<sup>14</sup>, so the experiment was just within the capabilities of the technology.  (The uncertainty in the planes' trajectories was a larger source of error.)  The actual numbers for the experiment[^1] and their uncertainties are
+
+|-
+| Plane | Predicted shift (ns) | Measured shift (ns) |
+|-
+| East | +40 ± 23 | +59 ± 10 |
+| West | -275 ± 21 | -273 ± 7 |
+
+The numbers are off compared to our simplified prediction above, but the order of magnitude is correct and the general trend is correct.  Not too bad considering we don't have the original flight data!
+
+## Conclusion ##
+I'm still amazed that we can measure relativity in such a simple way as putting clocks on airplanes.  Of course going faster and flying higher will give larger clock shifts relative to a land-based clock.  The [GPS](http://en.wikipedia.org/wiki/Global_Positioning_System) satellites have been serving this function continuously since they first came on line.  Essentially the satellites are just atomic clocks that broadcast their time and position.  The GPS receiver calculates the relative delay of the signal from multiple satellites to solve for its position and time.
+
+One of my favorite GPS stories goes back to the original testing of that system[^4].  The Air Force generals in charge of the program didn't believe the scientists' "voodoo talk" about this relativity stuff, so the original code for the GPS receivers did not include any relativistic corrections.  During the first test, the position numbers started slowly but surely drifting away and the test was considered a failure.  Then one of the engineers dramatically walked over and flipped a switch on the back of the receiver box. Magically everything started working.  He had secretly added the relativity code against orders and rigged up the switch to turn it on, thereby saving the day. Once again the moral of the story is "don't bet against Einstein."
 
 #### Footnotes ####
 [^1]: J. C. Hafele and R. E. Keating, *Science* 177(4044), 166 (14 July 1972), [doi:10.1126/science.177.4044.166](http://dx.doi.org/10.1126/science.177.4044.166), also [JSTOR:1734834](http://www.jstor.org/stable/1734834).  J. C. Hafele and R. E. Keating, *Science* 177(4044), 168 (14 July 1972), [doi:10.1126/science.177.4044.168](http://dx.doi.org/10.1126/science.177.4044.168), also [JSTOR:1734833](http://www.jstor.org/stable/1734833).
 [^2]: A. Einstein, "Zur Elektrodynamik bewegter Körper," *Annalen der Physik* 17, 891 (1905).  An English translation with typos corrected can be found at <http://www.fourmilab.ch/etexts/einstein/specrel/www/>.
-[^3]: We can measure the combination *GM* much more precisely than *G* or *M* alone.  (About 10 digits of precision for *GM* compared to 5 for *G* or *M* separately.) It's know as the "[Standard Gravity Parameter](http://en.wikipedia.org/wiki/Standard_gravitational_parameter)."
+[^3]: We can measure the combination *GM* much more precisely than *G* or *M* alone.  (About 10 digits of precision for *GM* compared to 5 for *G* or *M* separately.) It's known as the "[Standard Gravity Parameter](http://en.wikipedia.org/wiki/Standard_gravitational_parameter)."
+[^4]: I can't remember the source for this story, which may be apocryphal anyway.  My best guess would be one of Neil Ashby's papers.
