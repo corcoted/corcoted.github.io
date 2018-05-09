@@ -4,7 +4,8 @@ title: Mr. Adam Clock, please report to the ticket counter.
 category: teaching
 tags: relativity, atomic clocks
 excerpt: >-
-  Brief summary or excerpt of the post.
+  I'm still amazed that we can measure relativity in such a simple way as putting clocks on airplanes.
+date: 2018-05-09
 ---
 
 Last week I gave a homework problem on one of my favorite experiments testing relativity: flying atomic clocks around the world on commercial airplanes to measure time dilation.
@@ -80,7 +81,7 @@ We need to put in the values of the variables.  Here's a quick summary, plus a f
 Ok, so now we can get a number for the time of the flight measured by the Space clock.  Substituting above, we get
 *t<sub>S</sub>* = 147601.475912109 s.  So, the time difference between clock S and clock L is *t<sub>S</sub>*-*t<sub>L</sub>* = −0.000102651 s = -102.651 &mu;s.
 
-(Side note: that's a lot of digits in the clock times.  We need them because we need to subtract two large numbers that are almost the same.  A cleaner approach is to use Taylor series approximations of the equations using the facts that \|*v*\| \<\< *c* and *h* \<\< *r*.  Then the subtraction mostly cancels algebraically, leaving only the relevant parts.)
+(Side note: that's a lot of digits in the clock times.  We need them because we need to subtract two large numbers that are almost the same.  A cleaner approach is to use Taylor series approximations of the equations using the facts that \|*v*\| \<\< *c* and *h* \<\< *r*.  Then the subtraction mostly cancels algebraically, leaving only the interesting parts.)
 
 Now, we use the same formula to calculate the airplane clock times, replacing the "L" variables with the "E" or "W" variables.  The E and W clocks read
 
