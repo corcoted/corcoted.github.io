@@ -5,8 +5,10 @@ category: teaching
 tags: relativity, atomic clocks
 excerpt: >-
   I'm still amazed that we can measure relativity in such a simple way as putting clocks on airplanes.
-date: 2018-05-09
+date: 2018-05-11
 ---
+
+*Editted 2018-05-11 to fix sign error in the gravitational redshift. D'oh!*
 
 Last week I gave a homework problem on one of my favorite experiments testing relativity: flying atomic clocks around the world on commercial airplanes to measure time dilation.
 The original experiment was published in *Science* 1972 by Hafele and Keating[^1].
@@ -30,18 +32,18 @@ $$ E' = mc^2 - \frac{GMm}{r} $$
 
 where *G* is Newton's gravity constant and *r* is the distance from the center of the Earth to our clock.
 
-The gravitational redshift says that our clock's time measurement will be inversely proportional to its change in energy, so
+The gravitational redshift says that our clock's time measurement will be proportional to its change in energy, so
 
 $$ 
 \begin{aligned}
-E't' &= Et \\
-t &= t' \frac{E'}{E} = t' \left( 1 - \frac{GM}{c^2r}\right).
+t'/t &= E'/E \\
+t' &= t \frac{E'}{E} = t \left( 1 - \frac{GM}{c^2r}\right).
 \end{aligned}
 $$
 
 Because *t'* > *t*, our clock runs slower near Earth than in deep space.  We could have included kinetic energy into *E'* also, adding time dilation to our equation.  Then the combined clock shift is
 
-$$ t = t' \left( \frac{1}{\sqrt{1-(v/c)^2}} - \frac{GM}{c^2r}\right). \tag{1} $$
+$$ t = t' \left( \frac{1}{\sqrt{1-(v/c)^2}}\right)/\left(1 - \frac{GM}{c^2r}\right). \tag{1} $$
 
 ## The experiment ##
 The original experiment by Hafele and Keating was simple enough: put atomic clocks on airplanes and fly them around the world, and then compare their times with a stationary clock on the ground.
@@ -62,7 +64,7 @@ Nothing interesting there.  However, to calculate the time recorded by the airpl
 To use Eq. (1), we identify *t* = *t<sub>S</sub>* and *t'* = *t<sub>L</sub>*.  So, our imaginary astronaut reading clock S will say that the airplane flights took a time of 
 
 $$
-t_S = t_L \left( \frac{1}{\sqrt{1-(v_L/c)^2}} - \frac{GM}{c^2r}\right).
+t_S = t_L \left( \frac{1}{\sqrt{1-(v/c)^2}}\right)/\left(1 - \frac{GM}{c^2r}\right).
 $$
 
 We need to put in the values of the variables.  Here's a quick summary, plus a few values we'll need later for the airplanes:
@@ -79,7 +81,7 @@ We need to put in the values of the variables.  Here's a quick summary, plus a f
 | *v<sub>W</sub>* | speed of West-bound airplane | *v<sub>L</sub>* - 271 m/s = 192 m/s |
 
 Ok, so now we can get a number for the time of the flight measured by the Space clock.  Substituting above, we get
-*t<sub>S</sub>* = 147601.475912109 s.  So, the time difference between clock S and clock L is *t<sub>S</sub>*-*t<sub>L</sub>* = −0.000102651 s = -102.651 &mu;s.
+*t<sub>S</sub>* = 147601.476117763.  So, the time difference between clock S and clock L is *t<sub>S</sub>*-*t<sub>L</sub>* = 0.000103003 s = 103.003 &mu;s.
 
 (Side note: that's a lot of digits in the clock times.  We need them because we need to subtract two large numbers that are almost the same.  A cleaner approach is to use Taylor series approximations of the equations using the facts that \|*v*\| \<\< *c* and *h* \<\< *r*.  Then the subtraction mostly cancels algebraically, leaving only the interesting parts.)
 
@@ -87,15 +89,15 @@ Now, we use the same formula to calculate the airplane clock times, replacing th
 
 $$
 \begin{aligned}
-t_E &= t_S/ \left( \frac{1}{\sqrt{1-(v_E/c)^2}} - \frac{GM}{c^2(r+h)}\right) = 147601.476014300\,\mathrm{s}; \\
-t_W &= t_S/ \left( \frac{1}{\sqrt{1-(v_W/c)^2}} - \frac{GM}{c^2(r+h)}\right) = 147601.476014712\,\mathrm{s}.
+t_E &= 147601.476014494\,\mathrm{s}; \\
+t_W &= 147601.476014906\,\mathrm{s}.
 \end{aligned}
 $$
 
 So, finally, the differences between the Land clock and the airplanes clocks are
 
-*t<sub>L</sub>* - *t<sub>E</sub>* = 0.000000460 s  = 460 ns and
-*t<sub>L</sub>* - *t<sub>W</sub>* = 0.000000048 s = 48 ns.
+*t<sub>L</sub>* - *t<sub>E</sub>* = 0.000000266 s  = 266 ns and
+*t<sub>L</sub>* - *t<sub>W</sub>* = -0.000000146 s = -146 ns.
 
 This is a tiny amount!  After a voyage of 40 hours, the clocks shift by billionths of a second.  That works out to less than a part in 10<sup>12</sup> error per second in the clocks.  Luckily, portable atomic clocks at the time had a stability of about a part in 10<sup>14</sup>, so the experiment was just within the capabilities of the technology.  (The uncertainty in the planes' trajectories was a larger source of error.)  The actual numbers for the experiment[^1] and their uncertainties are
 
