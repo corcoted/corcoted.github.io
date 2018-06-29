@@ -48,7 +48,7 @@ with many others using "soft" cutoffs (whatever that means) or otherwise making 
 It's easy to demonize departments for doing this, but the task they have is daunting.
 They have to whittle down perhaps hundreds of applications into a few dozen for closer consideration.
 Using test scores is easy, and it is easy to mistakenly believe that the tests are objective.
-However, it clearly doesn't work as intended.
+However, it clearly doesn't work as intended.  Increasingly, schools are dropping the GRE Physics requirement (14% according to a recent survey[^1]).
 
 Nor can [ETS](http://www.ets.org), the company that adminsters the test, be solely to blame.
 In [their own score interpretation guide](https://www.ets.org/s/gre/pdf/gre_guide.pdf), they warn against using cutoffs for exactly the reasons above:[^2]
@@ -66,15 +66,30 @@ He showed data showing nearly zero correlation between GRE Physics scores and gr
 There is an acknowledged survivor's bias in the data -- students who weren't admitted into grad school were obviously missing from the data -- but the trend is concerning and puts the use of test scores for admissions further into doubt.
 Among the variables that Miller discussed, undergraduate GPA was the best predictor of success, but even that correlation was weak (r = 0.3 is what I put in my notes).
 
-What Miller advocates for is a holistic admissions process, and given the data above, it seems clear to me that this is imperative.
+What Miller advocates for is a holistic admissions process,[^3] and given the data above, it seems clear to me that this is imperative.  However, I'm still struggling with what it means for those of us who teach undergraduates.  The depressing truth is that the students still need to do well on the GRE Physics exam to be admitted to most schools.  The one bright spot is that more and more graduate schools are using holistic evaluations.  I feel I should stear students towards those schools, but there is no comprehensive list that I know of.  Some institutions are part of the [APS Inclusive Graduate Education Network (IGEN.)](http://www.apsbridgeprogram.org/igen/people.cfm), so this may be a good starting place.  If you know of other schools, please let me know.
 
 ### Faculty and students view admissions standards differently
 
 The talks by Potvin and Cochran both addressed the topic of perceptions of graduate admissions.
-Potvin presented some survey data and Cochran presented some interview results of students from underrepresented groups.
+Potvin presented some survey data[^1] and Cochran presented some interview results[^4] of students from underrepresented groups.
+
+The most important criteria for graduate admissions, according to the survey of admissions chairs[^1] are
+
+1. Undergraduate GPA in physics and math
+2. *Letters of recommendation* (emphasis added)
+3. Courses taken and GRE Physics score (tied)
+
+The least important factors are the proximity/familiarity of the undergraduate department to the admissions committee, GRE general scores (GRE general math is too easy for physics students and GRE written is less relevant), and student conference presentations.
+
+
 
 ### References
 
-[^1]: [Rachel E. Scherr, Monica Plisch, Kara E. Gray, Geoff Potvin, and Theodore Hodapp *Phys. Rev. Phys. Educ. Res.* 13, 020133 (2017)](http://dx.doi.org/10.1103/PhysRevPhysEducRes.13.020133)
+[^1]: [Geoff Potvin, Deepra Chari, and Theodore Hodapp. *Phys. Rev. Phys. Educ. Res.* 13, 020142 (2017).](https://doi.org/10.1103/PhysRevPhysEducRes.13.020142)
 
 [^2]: [ETS. *GRE Guide to the Use of Scores (2017-2018)* pg. 13.](https://www.ets.org/s/gre/pdf/gre_guide.pdf)
+
+[^3]: [Rachel E. Scherr, Monica Plisch, Kara E. Gray, Geoff Potvin, and Theodore Hodapp *Phys. Rev. Phys. Educ. Res.* 13, 020133 (2017)](http://dx.doi.org/10.1103/PhysRevPhysEducRes.13.020133)
+
+[^4]: [Cochran, Geraldine L., Theodore Hodapp, and Erika E. Alexander Brown. "Identifying barriers to ethnic/racial minority students’ participation in graduate physics." Proceedings of *Physics Education Research Conference*. (2018).](http://www.apsbridgeprogram.org/resources/Identifying-Barriers-Cochran.pdf)
+
