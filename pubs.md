@@ -6,6 +6,7 @@ title: Publications
 ## Refereed articles
 *If you do not have access to the papers, please contact me and I'd be happy to send the files to you.*
 <!-- TODO: add links and docs -->
+* Corcovilos, Theodore A. *A Simple Game Simulating Quantum Measurements of Qubits.* American Journal of Physics, **2018**, Vol. 86(7), pp. 510-517. doi: [10.1119/1.5036620](https://doi.org/10.1119/1.5036620). arXiv: [1804.08417](https://arxiv.org/abs/1804.08417)
 
 * de Jong, W. A., Dau, P. D., Wilson, R. E., Marçalo, J., Van
   Stipdonk, M. J., Corcovilos, T. A., Berden, G., Martens, J.,
