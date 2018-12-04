@@ -31,30 +31,30 @@ My main research project is studying atoms in two-dimensional optical potentials
 ### Infrared Multi-Photon Dissociation of gas-phase ions
 Infrared Multi-Photon Dissociation uses high flux mid-IR lasers to heat molecules to their breaking point.
 We measure the fragmentation products using mass spectrometry to infer structural information and gas-phase reaction pathways.
-I do this work in collaboration with Michael Van Stipdonk in the Chemistry and Biochemistry Department at Duquesne,
+I do this work in collaboration with [Michael Van Stipdonk](https://www.duq.edu/academics/faculty/michael-van-stipdonk) in the Chemistry and Biochemistry Department at Duquesne,
 both in Mike's lab, where I've installed a 20-W CO<sub>2</sub> laser onto his linear ion trap (Thermo-Fisher LTQ),
 and at free electron user facilities such as the Free Electron Laser for Infrared eXperiments ([FELIX](http://www.ru.nl/felix/)) at Radboud University in Nijmegen, the Netherlands and Le Centre Laser Infrarouge d'Orsay ([CLIO](http://old.clio.lcp.u-psud.fr/clio_eng/clio_eng.htm)) at Université Paris-Sud in Orsay, France.
-Presently we are interested in gas-phase actinide chemistry, in collaboration with John Gibson from Lawrence Berkeley National Laboratory (Berkeley, CA).
+Presently we are interested in gas-phase actinide chemistry, in collaboration with [John K. Gibson](http://actinide.lbl.gov/jkgibson/) from Lawrence Berkeley National Laboratory (Berkeley, CA).
 
 ### Optical detection of contaminants in water
 ![Homemade fluorometer](./assets/photos/LG4-photo.png)<br />
 Homemade fluorometer for measuring lead in drinking water
 {:flt}
 
-In collaboration with Partha Basu at IUPUI and David Kahler in Duquesne's Center for Environmental Research and Education, we've build a small handheld spectrometer/colorimeter that can (1) use a specific turn-on fluorophor for detecting lead in drinking water and (2) perform a suite of color-based water quality measurements.  The latest version of the device is sensitive to lead down to about 2 ppb concentrations (by mass), below the EPA action limit of 15 ppb.  Another test we are developing is measuring fluoride concentrations and water hardness.  Our hope is to make several copies of the device and test homes in the neighborhoods of Pittsburgh near Duquesne and at test sites in South Africa.
+In collaboration with [Partha Basu](https://science.iupui.edu/people/basu-partha) at IUPUI and [David Kahler](https://davidmkahler.blogspot.com/) in Duquesne's Center for Environmental Research and Education, we've build a small handheld spectrometer/colorimeter that can (1) use a specific turn-on fluorophor for detecting lead in drinking water and (2) perform a suite of color-based water quality measurements.  The latest version of the device is sensitive to lead down to about 2 ppb concentrations (by mass), below the EPA action limit of 15 ppb.  Another test we are developing is measuring fluoride concentrations and water hardness.  Our hope is to make several copies of the device and test homes in the neighborhoods of Pittsburgh near Duquesne and at test sites in South Africa.
 
 [See my recent blog post for more detail.](/research/2018/03/08/lead-background.html)
 
 *Previous funding from an InnovationWorks/Department of Defense Technology Transfer Consortia award, and a Duquesne University Charles Henry Leach II grant.*
 
 ### Laser-Induced Fluorescence for Quantitation of Cross-Linking in Bio-polymers
-This work uses fluorescent tags that bind to cross-links in bio-organic polymers.  Michael Cascio (Duquesne Chemistry and Biochemistry) and I are building a system to put a microfluidics fluorescence cell in tandom with a mass spectrometer to allow quantitative measurements of cross-linking reaction efficiencies.
+This work uses fluorescent tags that bind to cross-links in bio-organic polymers.  [Michael Cascio](https://www.duq.edu/academics/faculty/michael-cascio) (Duquesne Chemistry and Biochemistry) and I are building a system to put a microfluidics fluorescence cell in tandom with a mass spectrometer to allow quantitative measurements of cross-linking reaction efficiencies.
 
 ### Automated sampling system for river and lake water
 ![Automated water sampler](./assets/photos/H2O-sampler.jpg)<br />
 Automated water sampling system build by David Fries (right) that will be fitted with components from Duquesne including a gamma ray spectrometer.
 {:flt}
 
-My group with Dr. Michael Van Stipdonk (Duquesne Chemistry) and David Fries (University of South Florida - St. Petersburg) are working on an automated sampling system to collect water samples in rivers and lakes.  The system collects samples for later mass spectrometry analysis and does realtime detection of radionuclides using a homemade gamma spectrometer.
+My group along with [Michael Van Stipdonk](https://www.duq.edu/academics/faculty/michael-van-stipdonk) (Duquesne Chemistry) and David Fries (University of South Florida - St. Petersburg) are working on an automated sampling system to collect water samples in rivers and lakes.  The system collects samples for later mass spectrometry analysis and does realtime detection of radionuclides using a homemade gamma spectrometer.
 
 *Previous funding from a Duquense University Charles Henry Leach II grant.*
