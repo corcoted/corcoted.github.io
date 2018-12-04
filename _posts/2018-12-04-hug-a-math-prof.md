@@ -2,7 +2,7 @@
 layout: post
 title: Hug a math professor
 category: teaching
-tags: reading
+tags: math, collaboration
 excerpt: >-
   A brief meeting with a math colleague opened both of our eyes about helping our students.
 ---
