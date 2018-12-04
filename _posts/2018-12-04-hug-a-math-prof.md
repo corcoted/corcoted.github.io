@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hug a math professor
+title: Hug a math professor!
 category: teaching
 tags: math, collaboration
 excerpt: >-
