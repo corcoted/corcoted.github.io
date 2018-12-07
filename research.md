@@ -17,7 +17,7 @@ Broadly speaking, I work on atomic physics, but also applications of spectroscop
 
 ## Ultracold atoms in quasicrystal potentials
 <!-- ![quasicrystal potential](./assets/figs/qx-atoms-zoom-sm.png)-->
-![quasicrystal potential with phason excitation](.\assets\figs\qx-phason-ani.gif){: style="width: 300px; border-style: solid; border-color: black; border-size: 1px;"}<br />
+![quasicrystal potential with phason excitation](./assets/figs/qx-phason-ani.gif){: style="width: 300px; border-style: solid; border-color: black; border-size: 1px;"}<br />
 Simulated quasicrystal optical potential showing animation of a phason mode.<br /><br />
 ![LTQ with CO2 laser addition](./assets/photos/LTQ-CO2.jpg)<br />
 LTQ mass spectrometer with custom viewport for IRMPD and other optical experiments.
