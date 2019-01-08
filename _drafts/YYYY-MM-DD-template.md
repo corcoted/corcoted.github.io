@@ -15,3 +15,12 @@ excerpt: >-
        box-sizing: border-box;
        "}
 <!-- end kramdown -->
+
+<!-- 
+Reminder that mathjax is enabled.  Inline math using double backslash parenthesis: \\( \\) 
+Display math using double dollar or double backslash bracket: $$ $$ or \\[ \\]
+-->
+
+<!--
+kramdown reference: https://kramdown.gettalong.org/quickref.html
+-->
