@@ -1,4 +1,6 @@
 name,type,current,start,end,grad,degree,now,photo
+Tom Aumer,UG,true,2019,,2023,Physics,Freshman,
+Ben Kazimer,UG,true,2019,,2023,Physics,Freshman
 Briona Bryson,HS,false,2017,2017,2019,Shaler Area High School,,
 Duncan Hunter,HS,false,2017,2017,2018,Allderdice High School,,
 Gage Tiber,UG,false,2013,2017,2017,B.S Physics,Grad student at U. of Dayton,
@@ -14,9 +16,9 @@ Julie Gillis,UG,false,2014,2015,2016,B.S. Physics,Grad student at U. of Arizona 
 Anthony Ruggiero,UG,false,2014,2014,2016,B.S. Physics,Grad student at U. Montana in Physics,
 Chris Zaccagnini,UG,false,2014,2014,2017,B.S. Physics and B.S. Mechanical Engineering,,
 Jahnavee Mittal,UG,true,2017,,2020,B.S. Physics,Junior,
-Madelyn Hoying,UG,true,2017,,2020,Biomedical Engineering,Junior,
-Spencer Graves,UG,true,2017,,2020,Binary engineering,Senior,
-Ross Aguilar,UG,true,2018,,2021,Physics,Sophomore,
+Madelyn Hoying,UG,false,2017,2017,2020,Biomedical Engineering,Junior,
+Spencer Graves,UG,false,2017,2018,2020,Binary engineering,Senior,
+Ross Aguilar,UG,true,2018,,2021,Physics,Junior,
 Ted Corcovilos,F,true,2013,,2008,Ph.D. Caltech,Assistant Professor at Duquesne,
 Michael Van Stipdonk,C,true,2013,,,,Duquesne Chemistry and Biochemistry,
 Partha Basu,C,true,2014,,,,Indiana University Purdue University Indianapolis Chemistry,
