@@ -34,6 +34,8 @@ Then, in a follow up post, I'll solve the same problem a different way, borrowin
 
 The trade off is in the math.  The first method requires solving four simultaneous linear equations, while the second method uses infinite series. YMMV regarding which is easiest.
 
+## Single step potential
+
 ## References
 [^1]: Griffiths quantum mechanics
 
