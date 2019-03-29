@@ -19,7 +19,7 @@ Office: Fisher 309C, Phone: +1-412-396-5973<br />
 * [Caltech](http://www.caltech.edu), [Physics](http://www.pma.caltech.edu/content/physics).  Graduate student under [Nai-Chang Yeh](https://yehgroup.caltech.edu/) (Ph.D. 2008).
 * University of Tennessee at Knoxville, College Scholars - Physics and Math. (B.A. 1999).
 
-[Recent CV (2018-12-04)](/assets/docs/Corcovilos-CV-pub.pdf)
+[Recent CV (2019-03-29)](/assets/docs/Corcovilos-CV-pub.pdf)
 
 ## Online Presence
 ### Professional affliations
