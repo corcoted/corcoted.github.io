@@ -9,7 +9,8 @@ Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pi
 
 ## Contact information
 Office: Fisher 309C, Phone: +1-412-396-5973<br />
-[corcovilost@duq.edu](mailto:corcovilost@duq.edu)
+[corcovilost@duq.edu](mailto:corcovilost@duq.edu)<br />
+[corcoted@gmail.com](mailto:corcoted@gmail.com)
 
 
 ## Professional History
@@ -19,7 +20,8 @@ Office: Fisher 309C, Phone: +1-412-396-5973<br />
 * [Caltech](http://www.caltech.edu), [Physics](http://www.pma.caltech.edu/content/physics).  Graduate student under [Nai-Chang Yeh](https://yehgroup.caltech.edu/) (Ph.D. 2008).
 * University of Tennessee at Knoxville, College Scholars - Physics and Math. (B.A. 1999).
 
-[Recent CV (2019-03-29)](/assets/docs/Corcovilos-CV-pub.pdf)
+[Short Résumé](/assets/docs/Corcovilos-resume.pdf)<br />
+[Full CV](/assets/docs/Corcovilos-CV-pub.pdf)
 
 ## Online Presence
 ### Professional affliations
@@ -29,13 +31,12 @@ Office: Fisher 309C, Phone: +1-412-396-5973<br />
 ### Social Media
 Twitter
 : [@TedCorcovilos](http://www.twitter.com/TedCorcovilos) (Professional)
-: [@corcoted](http://www.twitter.com/corcoted) (Personal)
 
 Linked-In
-: [ted-corcovilos-34376216](https://www.linkedin.com/in/ted-corcovilos-34376216)
+: [ted-corcovilos](https://www.linkedin.com/in/ted-corcovilos)
 
 ### Research-related
-ORCID
+ORCiD
 : <a href="https://orcid.org/0000-0001-5716-1188" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-5716-1188</a>
 
 ResearcherID
@@ -44,12 +45,11 @@ ResearcherID
 Scopus
 : [6506655683](https://www.scopus.com/authid/detail.uri?authorId=6506655683)
 
-Mendeley
-: [theodore-corcovilos](https://www.mendeley.com/profiles/theodore-corcovilos/)
-
 GitHub
 : [corcoted](https://github.com/corcoted)
 
+GitLab
+: [corcovilost](https://gitlab.com/corcovilost)
 
 ### Professional memberships
 * American Physical Society
