@@ -16,7 +16,7 @@
 title: Corcovilos Lab
 email: corcoted@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal site of Ted Corcovilos, Assistant Professor of Physics at Duquesne University
+  Personal site of Ted Corcovilos, Associate Professor of Physics at Duquesne University
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.corcoviloslab.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TedCorcovilos
