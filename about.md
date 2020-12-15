@@ -14,7 +14,7 @@ Office: Fisher 309C, Phone: +1-412-396-5973<br />
 
 
 ## Professional History
-* [Duquesne University](http://www.duq.edu), [Dept. of Physics](http://www.duq.edu/academics/schools/natural-and-environmental-sciences/academic-programs/physics).  Assistant Professor (2013-present).
+* [Duquesne University](http://www.duq.edu), [Dept. of Physics](http://www.duq.edu/academics/schools/natural-and-environmental-sciences/academic-programs/physics).  Associate Professor (2020-present), Assistant Professor (2013-2020).
 * [Penn State University](http://www.psu.edu), [Dept. of Physics](http://www.phys.psu.edu/).  Postdoc under [David Weiss](http://www.phys.psu.edu/people/dsw13) (2010-2013).
 * [Rice University](http://www.rice.edu), [Dept. of Physics and Astronomy](http://www.physics.rice.edu/). Postdoc under [Randy Hulet](http://atomcool.rice.edu) (2007-2010).
 * [Caltech](http://www.caltech.edu), [Physics](http://www.pma.caltech.edu/content/physics).  Graduate student under [Nai-Chang Yeh](https://yehgroup.caltech.edu/) (Ph.D. 2008).

@@ -6,4 +6,4 @@ Built using [Jekyll](http://jekyllrb.com) with a customization of the [minima th
 
 Website founded 2018-02-13.
 
-All rights reserved, Theodore A. Corcovilos, 2018.
+All rights reserved, Theodore A. Corcovilos, 2018-2021.

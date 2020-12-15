@@ -9,7 +9,7 @@ layout: home
        padding-left: 5px;
        padding-right: 0px;
        text-align: center;
-       width: 350px;
+       width: 300px;
        box-sizing: border-box;
        "}
 
@@ -21,4 +21,8 @@ Experimental atomic physics research at [Duquesne University](http://www.duq.edu
 
 [Teaching](./teaching/) interests include undergraduate physics, especially upper division courses.
 
-[More info](./about/) about where to find me online. 
+[More info](./about/) about where to find me online.
+
+A brief video describing our research:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vUE_Bs3hgbg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
