@@ -56,6 +56,7 @@ GitLab
 * Optical Society of America
 * American Association of Physics Teachers
 * American Society of Mass Spectrometry
+* Society of Industrial and Applied Mathematics
 * Society of Physics Students and Sigma Pi Sigma
 
 *[Website colophon](/colophon)*
