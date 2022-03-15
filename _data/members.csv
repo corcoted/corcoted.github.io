@@ -1,8 +1,8 @@
 name,type,current,start,end,grad,degree,now,photo
-Rebecca Nelson,UG,true,2021,,2022,Physics,Junior,
-Katelyn Spadavecchia,UG,true,2020,,2023,Physics,Sophomore,
-Tom Aumer,UG,true,2019,,2022,Physics,Junior,
-Ben Kazimer,UG,true,2019,2019,2021,Physics,Senior,
+Rebecca Nelson,UG,true,2021,,2022,Physics,Senior,
+Katelyn Spadavecchia,UG,true,2020,,2023,Physics,Junior,
+Tom Aumer,UG,true,2019,,2022,Physics,Senior,
+Ben Kazimer,UG,false,2019,2019,2021,Physics,Senior,
 Jake Kline,UG,false,2016,2017,2020,Binary engineering,,
 Louis Sollon,UG,false,2016,2016,2020,Binary engineering,,
 Jahnavee Mittal,UG,true,2017,,2021,B.S. Physics,Senior,
