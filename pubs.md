@@ -6,6 +6,19 @@ title: Publications
 ## Refereed articles
 *If you do not have access to the papers, please contact me and I'd be happy to send the files to you.*
 <!-- TODO: add links and docs -->
+
+* Metzler, Luke J., Christopher T. Farmen, Allison N. Fry, Mark P. Seibert, Kayla A. Massari, Theodore A. Corcovilos, and Michael J. van Stipdonk. 
+ *Intrinsic Reactivity of [OUCH]<sup>+</sup>: Apparent Synthesis of [OUS]<sup>+</sup> by Reaction with CS<sub>2</sub>.* Rapid Communications in Mass Spectrometry, **2022**, Vol 36(8), p. e9260. [doi:10.1002/rcm.9260](https://doi.org/10.1002/rcm.9260).
+
+* Perez, Evan, Irena Tatosian, Amanda Bubas, Anna Iacovino, Susan Kline, Luke Metzler, Arpad Somogyi, Theodore Corcovilos, and Michael Van Stipdonk. 
+  *Creation of [OUF]<sup>+</sup> Using Gas-Phase Reactions of [UO<sub>2</sub>(C<sub>6</sub>F<sub>5</sub>)]<sup>+</sup>.* International Journal of Mass Spectrometry, **2021**, Vol 469, p. 116664. [doi:10.1016/j.ijms.2021.116664](https://doi.org/10.1016/j.ijms.2021.116664).
+
+* Van Stipdonk, Michael J., Evan H. Perez, Luke J. Metzler, Amanda R. Bubas, Theodore Corcovilos, and Arpad Somogyi. 
+  *Destruction and Reconstruction of UO₂²⁺ Using Gas-Phase Reactions.* Physical Chemistry Chemical Physics, **2021**, Vol 23(20), pp. 11844–51. [doi:10.1039/D1CP01520F](https://doi.org/10.1039/D1CP01520F).
+
+* Metzler, Luke J, Christopher T Farmen, Theodore A Corcovilos, and Michael J Van Stipdonk.
+  *Intrinsic Chemistry of [OUCH]<sup>+</sup>: Reactions with H<sub>2</sub>O, CH<sub>3</sub>C≡N and O<sub>2</sub>.* Phys. Chem. Chem. Phys., **2021**, Vol 23(8), pp. 4475–79. [doi:10.1039/D1CP00177A](https://doi.org/10.1039/D1CP00177A).
+
 * Tatosiana, Irena; Metzler,Luke; Graca, Connor; Bubas, Amanda; Corcovilos, Theodore;
   Martens, Jonathan; Berden, Gielc; Oomens, Jos; Van Stipdonk, Michael J.
   *Measurement of the asymmetric UO22+ stretching frequency for U<sup>VI</sup>O<sub>2</sub>(F)<sub>3</sub><sup>-</sup> using IRMPD spectroscopy.*
