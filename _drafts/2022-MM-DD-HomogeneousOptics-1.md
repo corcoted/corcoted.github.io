@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optics in Homogeneous Coordinates, Part 1
+title: Optics in Homogeneous Coordinates, Introduction
 category: research
 tags: optics
 excerpt: >-
@@ -46,3 +46,11 @@ The same ABCD matrix that describes the path of geometric rays through the syste
 What I would really like to do is find a solution to imaging problems that is as simple to use as the ABCD matrices.  One solution is that I can build two rays that pass through my object point and find where they intersect on the output side to locate the image, but that's still a lot of algebra, and I am lazy.  Can I get there more directly?
 
 The answer is "yes," but first I need to re-examine what the ABCD matrices are doing to the rays, in a geometric sense.
+And to do _that_, I first need to mathematically define rays as oriented lines.
+
+## A homogenous vector representation of lines
+
+* The line equation
+* Coefficients to homogenous coordinates
+  * Normalized form and what it means
+* Orientation
