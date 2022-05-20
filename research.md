@@ -31,7 +31,6 @@ We measure the fragmentation products using mass spectrometry to infer structura
 I do this work in collaboration with [Michael Van Stipdonk](https://www.duq.edu/academics/faculty/michael-van-stipdonk) in the Chemistry and Biochemistry Department at Duquesne,
 both in Mike's lab, where I've installed a 20-W CO<sub>2</sub> laser onto his linear ion trap (Thermo-Fisher LTQ),
 and at free electron user facilities such as the Free Electron Laser for Infrared eXperiments ([FELIX](http://www.ru.nl/felix/)) at Radboud University in Nijmegen, the Netherlands and Le Centre Laser Infrarouge d'Orsay ([CLIO](http://old.clio.lcp.u-psud.fr/clio_eng/clio_eng.htm)) at Université Paris-Sud in Orsay, France.
-Presently we are interested in gas-phase actinide chemistry, in collaboration with [John K. Gibson](http://actinide.lbl.gov/jkgibson/) from Lawrence Berkeley National Laboratory (Berkeley, CA).
 
 ### Optical detection of contaminants in water
 ![Homemade fluorometer](./assets/photos/LG4-photo.png)<br />
