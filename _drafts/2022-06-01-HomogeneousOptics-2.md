@@ -1,0 +1,111 @@
+---
+layout: post
+title: Optics in Homogeneous Coordinates, Coordinate Tranformations
+category: research
+tags: optics
+excerpt: >-
+  Last time we added an extra row and column to our ABCD matrices.  What can we do with these?
+---
+<!-- kramdown tags defined below -->
+{:flt: style="
+       float: right;
+       padding-left: 5px;
+       padding-right: 0px;
+       text-align: center;
+       width: 350px;
+       box-sizing: border-box;
+       font-size: 0.9em;
+       "}
+      
+{:marbox: style="
+       border: 1px solid black;
+       width: 300px;
+       float: right;
+       color: #606060;
+       padding: 5px;
+       font-size: 0.9em;
+       "}
+
+<!-- end kramdown -->
+
+<!-- 
+Reminder that mathjax is enabled.  Inline math using double backslash parenthesis: \\( \\) 
+Display math using double dollar or double backslash bracket: $$ $$ or \\[ \\]
+-->
+
+<!--
+kramdown reference: https://kramdown.gettalong.org/quickref.html
+-->
+
+*This is the second post discussing my new paper on a new way to look at geometric optics.
+I deconstruct the familiar ABCD ray-transfer matrices and rebuild them based on geometric considerations.
+The paper itself is posted to [arXiv](http://arxiv.org/abs/2205.09746)[^1].
+These blog posts will focus on the motivation and how to use the results.*
+
+[^1]: T. Corcovilos. Beyond the ABCDs: A projective geometry treatment of paraxial ray tracing using homogeneous coordinates. [arXiv:2205.09746](http://arxiv.org/abs/2205.09746) (2022)
+
+[Part 1 is here.](/research/2022/05/20/HomogeneousOptics-1.html)
+
+## Picking up from last time...
+In the previous post I defined an oriented line by considering the equation of a line in 2D:
+\\( ax+by+c = 0 \\), which we can abbreviate as the vector \\( (c,a,b) \\).
+Here we want to perform some geometric operations on this line.
+Namely, we want to move (translate) it, rotate it about the coordinate origin, and switch its orientation (from left-to-right to right-to-left).
+Once we understand how to manipulate the line, we'll perform these same transformations on our ABCD matrices.
+
+## Translation
+Our first task is to shift our line by a constant vector (_u_,_v_).  Equivalently, we can move our coordinate axis by the opposite translation.  In other words, we can do \\( x \\rightarrow x-u, y \\rightarrow y-v \\).
+Substituting this change into the line equation, we have
+\\[ a(x-u) + b(y-v) + c = 0, \\]
+\\[ ax + by + (-au -bv + c) = 0. \\]
+The coefficents are transforming line \\( a \\rightarrow a, b \\rightarrow b, c \\rightarrow c-au-bv \\).
+Working backwards, we can represent this transformation of the coefficients as a matrix equation:
+\\[
+\\begin{pmatrix}c \\\\ a \\\\ b \\end{pmatrix}
+\\rightarrow
+\\begin{pmatrix} 1 & -u & -v \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}
+\\begin{pmatrix}c \\\\ a \\\\ b \\end{pmatrix}.
+\\]
+We identify the matrix here as the _translation operator_ and we'll give it the name
+\\[
+T(u,v) = \\begin{pmatrix} 1 & -u & -v \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}.
+\\]
+Note that only the _c_ coefficient changes.
+If our line coefficients happend to be normalized such that \\( a^2 + b^2 = 1 \\), then _c_ is the distance of the line from the origin.
+What does this mean?
+Because only _c_ is changing, any translation of a line can be interpreted as motion towards or away from the origin.
+Any motion perpendicular to that would simply shift the line along itself, resulting in no change to the line.
+
+## Rotation
+Now we'd like to rotate the line.
+Rotation of the line by an angle _&theta;_ about the coordinate origin is equivalent to rotating the axes by the opposite angle _-&theta;_.
+This looks like the usual rotation operation in the _xy_ plane:
+\\[ x \\rightarrow x \cos(-\\theta) + y \sin(-\\theta) = x \cos(\\theta) - y \sin(\\theta), \\]
+\\[ y \\rightarrow x (-)\sin(-\\theta) + y \cos(-\\theta) = x \sin(\\theta) + y \cos(\\theta),\\]
+where I've used the odd/even nature of sin/cos to simplify the signs.
+
+Substitute these changes into our line equation:
+\\[ a(x \\cos\\theta - y \\sin\\theta) + b(x \\sin\\theta + y \\cos\\theta) + c = 0, \\]
+\\[ (a \\cos \\theta + b \\sin\\theta)x + (-a \\sin\\theta + b \\cos\\theta)y + c = 0. \\]
+
+TODO...
+
+### Alternate derivation
+If we put the line coefficients into normalized form, we can express them as
+\\( c', \\cos(\\alpha), \\sin(\\alpha), \\)
+where _&alpha;_ is the angle that the line makes with the _x_ axis, and \\( c' = c/\\sqrt{a^2+b^2} \\).
+Now our rotation is simply the change from \\( \\alpha \\rightarrow \\alpha + \\theta \\).
+Cosine and sine change like
+\\[ \\cos \\alpha  \\rightarrow \\cos(\\alpha+\\theta) = \\cos \\alpha \\cos \\theta - \\sin \\alpha \\sin \\theta, \\]
+\\[ \\sin \\alpha  \\rightarrow \\sin(\\alpha+\\theta) = \\sin \\alpha \\cos \\theta + \\cos \\alpha \\sin \\theta. \\]
+This can be cast in matrix form as
+\\[
+\\begin{pmatrix} c' \\\\ \\cos \\alpha \\\\ \\sin \\alpha \\end{pmatrix}
+\\rightarrow
+\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & \\cos \\theta & -\\sin \\theta \\\\ 0 & \\sin \\theta & \\cos \\theta \\end{pmatrix}
+\\begin{pmatrix} c' \\\\ \\cos \\alpha \\\\ \\sin \\alpha \\end{pmatrix}.
+\\]
+We call this matrix the _rotation operator_:
+\\[ R(\\theta) = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & \\cos \\theta & -\\sin \\theta \\\\ 0 & \\sin \\theta & \\cos \\theta \\end{pmatrix}.\\]
+
+## Orientation swap
