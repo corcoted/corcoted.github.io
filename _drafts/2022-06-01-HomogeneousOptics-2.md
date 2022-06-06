@@ -6,6 +6,9 @@ tags: optics
 excerpt: >-
   Last time we added an extra row and column to our ABCD matrices.  What can we do with these?
 ---
+<!-- TODO clean up URLs -->
+<!-- TODO add examples -->
+
 <!-- kramdown tags defined below -->
 {:flt: style="
        float: right;
@@ -53,7 +56,58 @@ Here we want to perform some geometric operations on this line.
 Namely, we want to move (translate) it, rotate it about the coordinate origin, and switch its orientation (from left-to-right to right-to-left).
 Once we understand how to manipulate the line, we'll perform these same transformations on our ABCD matrices.
 
-## Translation
+For the sake of brevity, I'll give the results here and put the [derivations at the bottom](#derivations).
+
+To translate a ray by a displacement vector (_u_, _v_) we multiply the ray vector from the left by the matrix
+\\[
+T(u,v) = \\begin{pmatrix} 1 & -u & -v \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}.
+\\]
+In other words, the new ray _r_' = _T r_.
+
+Similarly, rotations of the rays are represented by the matrix
+\\[ R(\\theta) = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & \\cos \\theta & -\\sin \\theta \\\\ 0 & \\sin \\theta & \\cos \\theta \\end{pmatrix},\\]
+giving a new ray _r_' = _R r_.
+
+For the ray transfer matrices, both the row space and column space of the matrix must be transformed.  If we rotate and then translate, the new matrix is \\( M' = TRMR^{-1}T^{-1} \\). 
+
+One way to understand why we need two copies of the transformation matrices is this &ndash;
+our ABCD matrices for surfaces assume the surface is located at the origin.
+If we want to place that surface anywhere else, we have to move our coordinates such that the desired optical element location is at the origin, install our element, then restore the original coordinates.
+
+## Why this matters
+Being able to translate and rotate our lenses and mirrors lets us model optical systems _just as they are built on our optical table_.
+We don't have to unfold our beam paths to model them.
+And we can see what happens if a lens is decentered or tilted
+(e.g. when your professor bumps a random mirror and you have to realign everything, not that I have any experience with that...).
+
+Also, now we have a way to mathematically describe not just optics, but also opto-mechanics.
+We can model beam-steering elements like galvos, motorized mirrors, or acousto-optics.
+We can do tolerancing of layouts or vibration analysis with simple matrix multiplication.
+To an experimentalist like myself with only a handful of math tools in my pocket and insufficient patience to code all of this up in Zemax, _this is exciting!!_
+
+## Examples
+## What's missing
+### Aberrations
+These new tools let us analytically lay out our optical setup, but we are still only working in the paraxial limit.
+That means our angles and beam displacements can't get too large else our errors will accumulate, particularly for refractive elements and spherical surfaces. (Plane mirrors are perfect!)
+Specifically, our method says nothing about aberrations because those are, by definition, nonlinear in the ray height and slope, and we are using a strictly linear formulation.
+Can we extend these ideas to low-order aberrations?
+I'm looking into a few ideas others have published recently[^2], so stay tuned.
+Computer tricks like automatic differentiation might yield a simple, compact way to look beyond the paraxial limit without doing full-bore ray tracing.
+
+[^2]: Lin, P.-D.; Hsueh, C.-C. 6×6 Matrix Formalism of Optical Elements for Modeling and Analyzing 3D Optical Systems. <i>Appl. Phys. B</i> <b>2009</b>, <i>97</i> (1), 135–143. <a href="https://doi.org/10.1007/s00340-009-3616-7">https://doi.org/10.1007/s00340-009-3616-7</a>. Lin, P. D.; Johnson, R. B. <i>Opt. Express</i> <b>2019</b>, <i>27</i> (14), 19712. [doi:10.1364/OE.27.019712](http://doi.org/10.1364/OE.27.019712).
+  
+### The Third Dimension
+Extending the ray matrices to three dimensions is fairly straight forward, but a bit cumbersome as we need 6&times;6 matrices.
+Lin has one method that keeps things looking similar to the 2-D case[^3], but I'm looking into the prefered representation of the computer graphics folks: [Plücker coordinates](https://en.wikipedia.org/wiki/Pl%C3%BCcker_coordinates), which are a true homogeneous representation of lines in 3D, and thus preserve geometric information in a covariant way.[^4]
+This will be important to investigating points and planes (see next post!).
+
+[^3]: Lin, P. D. <i>New Computation Methods for Geometrical Optics</i>; Springer Series in Optical Sciences; Springer Singapore: Singapore, 2014; Vol. 178. [ISBN: 978-981-4451-79-6](https://doi.org/10.1007/978-981-4451-79-6).
+
+[^4]: Wolf, K. B. Optical Models and Symmetry. Chapter 4 of <i>Progress in Optics</i>; Elsevier, 2017; Vol. 62, pp 225–291. <a href="https://doi.org/10.1016/bs.po.2016.12.002">https://doi.org/10.1016/bs.po.2016.12.002</a>.
+
+## Derivations
+### Translation
 Our first task is to shift our line by a constant vector (_u_,_v_).  Equivalently, we can move our coordinate axis by the opposite translation.  In other words, we can do \\( x \\rightarrow x-u, y \\rightarrow y-v \\).
 Substituting this change into the line equation, we have
 \\[ a(x-u) + b(y-v) + c = 0, \\]
@@ -76,7 +130,7 @@ What does this mean?
 Because only _c_ is changing, any translation of a line can be interpreted as motion towards or away from the origin.
 Any motion perpendicular to that would simply shift the line along itself, resulting in no change to the line.
 
-## Rotation
+### Rotation
 Now we'd like to rotate the line.
 Rotation of the line by an angle _&theta;_ about the coordinate origin is equivalent to rotating the axes by the opposite angle _-&theta;_.
 This looks like the usual rotation operation in the _xy_ plane:
@@ -90,7 +144,7 @@ Substitute these changes into our line equation:
 
 TODO...
 
-### Alternate derivation
+#### Alternate derivation
 If we put the line coefficients into normalized form, we can express them as
 \\( c', \\cos(\\alpha), \\sin(\\alpha), \\)
 where _&alpha;_ is the angle that the line makes with the _x_ axis, and \\( c' = c/\\sqrt{a^2+b^2} \\).
@@ -108,4 +162,4 @@ This can be cast in matrix form as
 We call this matrix the _rotation operator_:
 \\[ R(\\theta) = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & \\cos \\theta & -\\sin \\theta \\\\ 0 & \\sin \\theta & \\cos \\theta \\end{pmatrix}.\\]
 
-## Orientation swap
+## References
