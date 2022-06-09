@@ -50,9 +50,13 @@ These blog posts will focus on the motivation and how to use the results.*
 [Part 1 is here.](/research/2022/05/20/HomogeneousOptics-1.html)
 
 ## Picking up from last time...
-In the previous post I defined an oriented line by considering the equation of a line in 2D:
-\\( ax+by+c = 0 \\), which we can abbreviate as the vector \\( (c,a,b) \\).
-Here we want to perform some geometric operations on this line.
+![line](/assets/figs/2022-optics/line.svg)<br />
+The equation of an oriented line. In this example, _a_ and _b_ > 0 and _c_<0.
+{:flt}
+
+In the [previous post](/research/2022/05/20/HomogeneousOptics-1.html) I defined an oriented line by considering the equation of a line in 2D:
+\\( ax+by+c = 0 \\), which we can abbreviate as the vector of coefficients \\( (c,a,b) \\).
+In this post, we want to perform some geometric operations on this line.
 Namely, we want to move (translate) it, rotate it about the coordinate origin, and switch its orientation (from left-to-right to right-to-left).
 Once we understand how to manipulate the line, we'll perform these same transformations on our ABCD matrices.
 
@@ -71,7 +75,7 @@ giving a new ray _r_' = _R r_.
 For the ray transfer matrices, both the row space and column space of the matrix must be transformed.  If we rotate and then translate, the new matrix is \\( M' = TRMR^{-1}T^{-1} \\). 
 
 One way to understand why we need two copies of the transformation matrices is this &ndash;
-our ABCD matrices for surfaces assume the surface is located at the origin.
+our ABCD matrices for optical elements assume the element is located at the origin.
 If we want to place that surface anywhere else, we have to move our coordinates such that the desired optical element location is at the origin, install our element, then restore the original coordinates.
 
 ## Why this matters
@@ -107,6 +111,12 @@ This will be important to investigating points and planes (see next post!).
 [^4]: Wolf, K. B. Optical Models and Symmetry. Chapter 4 of <i>Progress in Optics</i>; Elsevier, 2017; Vol. 62, pp 225–291. <a href="https://doi.org/10.1016/bs.po.2016.12.002">https://doi.org/10.1016/bs.po.2016.12.002</a>.
 
 ## Derivations
+Here I walk through how the translation and rotation matrices are constructed.
+The rotation matrices you may have seen before, although probably not in homogeneous coordinates.
+The translation matrices are unique to the homogeneous representation.
+In traditional 2D matrix algebra, translation is not representable by matrix multiplication.  Instead, you have to add vectors directly.
+Being able to put all of the Euclidean transformations into the same form is one of the major benefits of using homogeneous coordinates.
+
 ### Translation
 Our first task is to shift our line by a constant vector (_u_,_v_).  Equivalently, we can move our coordinate axis by the opposite translation.  In other words, we can do \\( x \\rightarrow x-u, y \\rightarrow y-v \\).
 Substituting this change into the line equation, we have
