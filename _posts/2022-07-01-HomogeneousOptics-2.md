@@ -96,6 +96,10 @@ My motivation is pragmatic: do more stuff with simple tools (well, as long as yo
 
 ## Examples
 ### Right-angle mirror pair
+![retroreflector](/assets/figs/2022-optics/retro.svg)<br />
+Retroreflector
+{:flt}
+
 I have several examples in the paper[^1], but my favorite is a common lab optic: a right-angle retroreflector.
 The setup is simple: we have two flat mirrors that intersect at right angles.
 Any incoming ray will be retroreflected opposite its original direction, offset by some distance.
