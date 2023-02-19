@@ -19,3 +19,5 @@ inline note:
 
 float box for figure:
 {:flt: style="float: right; padding-left: 5px; padding-right: 0px; text-align: center"}
+
+Watch for DNS errors!
