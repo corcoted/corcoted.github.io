@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Ted Corcovilos<br />
+Theodore (Ted) A. Corcovilos<br />
 Experimental atomic physics at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
 ## Contact information
@@ -25,8 +25,8 @@ Office: Fisher 309C, Phone: +1-412-396-5973<br />
 
 ## Online Presence
 ### Professional affliations
-* [Duquesne University page](http://www.duq.edu/academics/faculty/theodore-a-corcovilos)
-* [Pittsburgh Quantum Institute page](https://www.pqi.org/members/theodore-corcovilos)
+* [Duquesne University](https://www.duq.edu/faculty-and-staff/theodore-a-corcovilos.php) page
+* [Pittsburgh Quantum Institute](https://www.pqi.org/members/theodore-corcovilos) page
 
 ### Social Media
 Twitter

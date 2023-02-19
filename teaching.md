@@ -1,22 +1,30 @@
+
 ---
 layout: page
 title: Teaching
 permalink: /teaching/
 ---
 
-I primarily teach upper-level undergraduate physics courses at Duquesne University.
+I teach undergraduate physics courses at [Duquesne University](http://duq.edu).
 
-* Physics 201 and 202, Physics for Life Sciences (AY 2021-22)
-* Physics 302, Optics (Fall 2013, 2015, 2017)
-* Physics 332, Electronics (Fall 2019, 2020)
-* Physics 473, Electrodynamics (Spring 2014, 2016, 2018, 2020, 2022)
-* Physics 474, Quantum Mechanics (Fall 2014, 2016, 2018)
-* Physics 475, Advanced Quantum Mechanics (Spring 2015, 2017, 2019, 2021)
-* Physics 487, Problems in Physics (Spring 2017, 2021)
+* [Physics 170, Acoustics](#acoustics) (Spring 2023)
+* [Physics 201 and 202, Physics for Life Sciences](#physics-for-life-sciences) (AY 2021-22, 2022-23)
+* [Physics 302, Optics](#optics) (Fall 2013, 2015, 2017)
+* [Physics 332, Electronics](#electronics) (Fall 2019, 2020)
+* [Physics 473, Electrodynamics](#electrodynamics) (Spring 2014, 2016, 2018, 2020, 2022)
+* [Physics 474, Quantum Mechanics](#quantum-mechanics-and-advanced-quantum-mechanics) (Fall 2014, 2016, 2018, 2022)
+* [Physics 475, Advanced Quantum Mechanics](#quantum-mechanics-and-advanced-quantum-mechanics) (Spring 2015, 2017, 2019, 2021, 2023)
+* Physics 487, Problems in Physics (Spring 2017, 2021, 2022)
+* Physics 499W, Senior Thesis
 
-***Coming soon: [Master's Courses!](https://www.duq.edu/academics/schools/natural-and-environmental-sciences/academics/departments-and-programs/physics/professional-masters-degree-in-applied-physics)***
+<!-- ***Coming soon: [Master's Courses!](https://www.duq.edu/academics/schools/natural-and-environmental-sciences/academics/departments-and-programs/physics/professional-masters-degree-in-applied-physics)*** 
 * Physics 502, Advanced Optical Theory and Devices
-* Physics 572, Quantum Optics
+* Physics 572, Quantum Optics -->
+
+------------------------
+
+## Acoustics
+This new class (for me) for Spring 2023 is targeted to students in Duquesne's [Mary Pappert School of Music](https://www.duq.edu/academics/colleges-and-schools/music/index.php?school=Mary+Pappert+School+of+Music).  The students are a mixture of music composition, music performance, and music technology majors.  The main theme of the course is connecting musical ideas with scientific concepts, particularly linking qualitative descriptions of sound with quantitative measurements.  For their final project, the students build their own musical instruments, describe how they produce sound, and characterize the sound using math tools.  I'm also using this course to pilot the idea of [posting my lecture slides online](http://www.corcoviloslab.com/phys170-2023/about.html) (*Caveat lector:* these lecture notes should be considered Works-In-Progress and may contain errors and clunky formatting).  Much thanks to Pappert School faculty [Paul Miller](http://www.theoryofpaul.net/) and [Paul Doerksen](https://www.duq.edu/faculty-and-staff/paul-doerksen.php) for helpful suggestions.
 
 ## Physics for Life Sciences
 I've only recently begun teaching this course: algebra-based physics for non-majors.  Currently, we are using the Cutnell textbook, which isn't really geared for this group of students.  I'm hoping to update the course soon to better match the life sciences context.  Colleagues in the school of Health Sciences have been very helpful in sharing how physics is used in their programs, so I hope we can better answer the when-will-I-ever-use-this questions that students often have.
