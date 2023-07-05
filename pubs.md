@@ -7,6 +7,9 @@ title: Publications
 *If you do not have access to the papers, please contact me and I'd be happy to send the files to you.*
 <!-- TODO: add links and docs -->
 
+* Corcovilos, Theodore A.
+  *Beyond the ABCDs: A better matrix method for geometric optics by using homogeneous coordinates.* American Journal of Physics, **2023**, Vol. 91(6), pp. 449-457. [doi:10.1119/5.0083069](https://doi.org/10.1119/5.0083069). Preprint at [arXiv:2205.09746](https://arxiv.org/abs/2205.09746).
+
 * Metzler, Luke J., Christopher T. Farmen, Allison N. Fry, Mark P. Seibert, Kayla A. Massari, Theodore A. Corcovilos, and Michael J. van Stipdonk. 
  *Intrinsic Reactivity of [OUCH]<sup>+</sup>: Apparent Synthesis of [OUS]<sup>+</sup> by Reaction with CS<sub>2</sub>.* Rapid Communications in Mass Spectrometry, **2022**, Vol 36(8), p. e9260. [doi:10.1002/rcm.9260](https://doi.org/10.1002/rcm.9260).
 

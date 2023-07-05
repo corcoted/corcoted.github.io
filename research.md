@@ -17,9 +17,11 @@ Broadly speaking, I work on atomic physics, but also applications of spectroscop
 
 <iframe width="360" height="240" src="https://www.youtube.com/embed/vUE_Bs3hgbg" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
-## Geometric Algebra descriptions of geometric optics
-*Stay tuned for updates...,* but in the meantime watch Katelyn's video introducing Geometric Algebra!
-<iframe width="360" height="240" src="https://www.youtube.com/embed/Eauj0JJEyJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Geometric descriptions of geometric optics
+This may sound a bit odd, but we don't typically use a lot of *geometry* when teaching *geometric optics*.  The usual way that these topics are taught and used is though algebraic methods (e.g. solving Gauss's imaging equation).  By rethinking where these equations come from, we gain insight into the relationships between light rays and images.  Mathematical tools like projective geometry (which has mostly been forgotten since the end of the 1800s) and Clifford's geometric algebra unify these various descriptions of light.
+
+## Mathematical analysis of vibrato in music performance
+Because sound and light are both waves, many of the physics tools used to describe light and other electromagnetic radiation like radio waves can also be used to describe sound.  I'm working with [Paul Doerksen](https://www.duq.edu/faculty-and-staff/paul-doerksen.php) in Duquesne's Mary Pappert School of Music to build a fuller mathematical description of how musicians produce vibrato when they perform using techniques originating from radio communication.
 
 ## Laser spectroscopy for chemistry applications
 ### Infrared Multi-Photon Dissociation of gas-phase ions
@@ -28,7 +30,7 @@ LTQ mass spectrometer with custom viewport for IRMPD and other optical experimen
 {:flt}
 Infrared Multi-Photon Dissociation uses high flux mid-IR lasers to heat molecules to their breaking point.
 We measure the fragmentation products using mass spectrometry to infer structural information and gas-phase reaction pathways.
-I do this work in collaboration with [Michael Van Stipdonk](https://www.duq.edu/academics/faculty/michael-van-stipdonk) in the Chemistry and Biochemistry Department at Duquesne,
+I do this work in collaboration with [Michael Van Stipdonk](https://www.duq.edu/faculty-and-staff/michael-van-stipdonk.php) in the Chemistry and Biochemistry Department at Duquesne,
 both in Mike's lab, where I've installed a 20-W CO<sub>2</sub> laser onto his linear ion trap (Thermo-Fisher LTQ),
 and at free electron user facilities such as the Free Electron Laser for Infrared eXperiments ([FELIX](http://www.ru.nl/felix/)) at Radboud University in Nijmegen, the Netherlands and Le Centre Laser Infrarouge d'Orsay ([CLIO](http://old.clio.lcp.u-psud.fr/clio_eng/clio_eng.htm)) at Université Paris-Sud in Orsay, France.
 
@@ -44,14 +46,14 @@ In collaboration with [Partha Basu](https://science.iupui.edu/people/basu-partha
 *Previous funding from an InnovationWorks/Department of Defense Technology Transfer Consortia award, and a Duquesne University Charles Henry Leach II grant.*
 
 ### Laser-Induced Fluorescence for Quantitation of Cross-Linking in Bio-polymers
-This work uses fluorescent tags that bind to cross-links in bio-organic polymers.  [Michael Cascio](https://www.duq.edu/academics/faculty/michael-cascio) (Duquesne Chemistry and Biochemistry) and I are building a system to put a microfluidics fluorescence cell in tandem with a mass spectrometer to allow quantitative measurements of cross-linking reaction efficiencies.
+This work uses fluorescent tags that bind to cross-links in bio-organic polymers.  [Michael Cascio](https://www.duq.edu/faculty-and-staff/michael-cascio.php) (Duquesne Chemistry and Biochemistry) and I are building a system to put a microfluidics fluorescence cell in tandem with a mass spectrometer to allow quantitative measurements of cross-linking reaction efficiencies.
 
 ### Automated sampling system for river and lake water
 ![Automated water sampler](./assets/photos/H2O-sampler.jpg)<br />
 Automated water sampling system build by David Fries (right) that will be fitted with components from Duquesne.
 {:flt}
 
-My group along with [Michael Van Stipdonk](https://www.duq.edu/academics/faculty/michael-van-stipdonk) (Duquesne Chemistry) and David Fries (University of South Florida - St. Petersburg) are working on an automated sampling system to collect water samples in rivers and lakes.  The system collects samples for later mass spectrometry analysis and does realtime detection of radionuclides using a homemade gamma spectrometer.
+My group along with [Michael Van Stipdonk](https://www.duq.edu/faculty-and-staff/michael-van-stipdonk.php) (Duquesne Chemistry) and David Fries (University of South Florida - St. Petersburg) worked on an automated sampling system to collect water samples in rivers and lakes.  The system collects samples for later mass spectrometry analysis and does realtime detection of radionuclides using a homemade gamma spectrometer.
 
 *Previous funding from a Duquense University Charles Henry Leach II grant.*
 
