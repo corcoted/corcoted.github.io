@@ -49,14 +49,14 @@ These blog posts will focus on the motivation and how to use the results.*
 
 [^1]: T. Corcovilos. Beyond the ABCDs: A projective geometry treatment of paraxial ray tracing using homogeneous coordinates. [arXiv:2205.09746](http://arxiv.org/abs/2205.09746) (2022)
 
-[Part 1 is here.](/research/2022/05/20/HomogeneousOptics-1.html)
+[Part 1 is here.](/posts/2022-05-20-HomogeneousOptics-1.html)
 
 ## Picking up from last time...
 ![line](/assets/figs/2022-optics/line.svg)<br />
 The equation of an oriented line. In this example, _a_ and _b_ > 0 and _c_<0.
 {:flt}
 
-In the [previous post](/research/2022/05/20/HomogeneousOptics-1.html) I defined an oriented line by considering the equation of a line in 2D:
+In the [previous post](/posts/2022-05-20-HomogeneousOptics-1.html) I defined an oriented line by considering the equation of a line in 2D:
 $ ax+by+c = 0 $, which we can abbreviate as the vector of coefficients \\( (c,a,b) \\).
 In this post, we want to perform some geometric operations on this line.
 Namely, we want to move (translate) it, rotate it about the coordinate origin, and switch its orientation (from left-to-right to right-to-left).

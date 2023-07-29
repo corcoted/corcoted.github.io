@@ -18,7 +18,7 @@ excerpt: >-
        font-style: italic;
        "}
 
-One of my major [research projects](/research) is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.  Part 2 will talk about some of the ethical and legal issues regarding the lead testing (at least as far as I understand them), and Part 3 will be about the device itself.  My intention is to keep this a "living" post, and update it as new information and results develop.
+One of my major [research projects](/research.html) is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.  Part 2 will talk about some of the ethical and legal issues regarding the lead testing (at least as far as I understand them), and Part 3 will be about the device itself.  My intention is to keep this a "living" post, and update it as new information and results develop.
 
 ## What is Lead?
 Let's start at the very basic level.  [Lead](https://en.wikipedia.org/wiki/Lead) is a metallic chemical element with an atomic number of 82 and its most common isotope has an atomic mass of 208.  From a physics perspective, lead is interesting because it is the heaviest stable element.  Lead-208 has a doubly [magic nucleus](https://en.wikipedia.org/wiki/Magic_number_(physics)); it and the other stable isotopes of lead form the termination of the nuclear [decay chains](https://en.wikipedia.org/wiki/Decay_chain) for almost all of the heavier elements.
@@ -74,10 +74,10 @@ The bulk of the information here came from the Wikipedia page on [lead](https://
 
 [^5]: Lamb, Michael. 2017. “Performance Audit: Pittsburgh Water and Sewer Authority.” City of Pittsburgh. [Link to PDF](http://apps.pittsburghpa.gov/co/Draft_Pittsburgh_Water_and_Sewer_Authority_February_2017.pdf).
 
-[^6]: “PWSA Releases December 2016 Lead Compliance Test Results.” 2017. Pittsburgh Water and Sewer Authority. January 19, 2017. [http://pgh2o.com/release?id=6912](http://pgh2o.com/release?id=6912).
+[^6]: “PWSA Releases December 2016 Lead Compliance Test Results.” 2017. Pittsburgh Water and Sewer Authority. January 19, 2017. [Deadlink].  <!-- (http://pgh2o.com/release?id=6912) -->
 
 [^7]: Centers for Disease Control and Prevention. 2017. "CDC’s National Surveillance Data (1997-2015)" [https://www.cdc.gov/nceh/lead/data/national.htm](https://www.cdc.gov/nceh/lead/data/national.htm)
 
-[^8]: Pennsylvania Department of Health. 2014. *2014 Childhood Lead Surveillence Annual Report*. [Link to PDF](http://www.health.pa.gov/My%20Health/Infant%20and%20Childrens%20Health/Lead%20Poisoning%20Prevention%20and%20Control/Documents/2014%20Lead%20Surveillance%20Annual%20Report%20r2.pdf)
+[^8]: Pennsylvania Department of Health. 2014. *2014 Childhood Lead Surveillence Annual Report*. [Deadlink]. <!-- (http://www.health.pa.gov/My%20Health/Infant%20and%20Childrens%20Health/Lead%20Poisoning%20Prevention%20and%20Control/Documents/2014%20Lead%20Surveillance%20Annual%20Report%20r2.pdf) -->
 
 [^9]: Hanna-Attisha, Mona; LaChance, Jenny; Sadler, Richard Casey; Champney Schnepp, Allison. 2015. "Elevated Blood Lead Levels in Children Associated With the Flint Drinking Water Crisis: A Spatial Analysis of Risk and Public Health Response". *American Journal of Public Health*. 106 (2): 283–290. doi:[10.2105/AJPH.2015.303003](http://doi.org/10.2105/AJPH.2015.303003).

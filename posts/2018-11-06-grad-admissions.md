@@ -55,7 +55,7 @@ Using test scores is easy, and it is easy to mistakenly believe that the tests a
 However, it clearly doesn't work as intended.  Increasingly, schools are dropping the GRE Physics requirement (14% according to a recent survey[^1]).
 
 Nor can [ETS](http://www.ets.org), the company that administers the test, be solely to blame.
-In [their own score interpretation guide](https://www.ets.org/s/gre/pdf/gre_guide.pdf), they warn against using cutoffs for exactly the reasons above:[^2]
+In [their own score interpretation guide](http://www.ets.org/pdfs/gre/gre-guide-to-the-use-of-scores.pdf), they warn against using cutoffs for exactly the reasons above:[^2]
 
 > The GRE Board believes that GRE scores should never be 
 > the sole basis for an admissions decision and 
@@ -103,7 +103,7 @@ I'd love to hear any observations or advice on this.
 
 [^1]: [Geoff Potvin, Deepra Chari, and Theodore Hodapp. *Phys. Rev. Phys. Educ. Res.* 13, 020142 (2017).](https://doi.org/10.1103/PhysRevPhysEducRes.13.020142)
 
-[^2]: [ETS. *GRE Guide to the Use of Scores (2017-2018)* pg. 13.](https://www.ets.org/s/gre/pdf/gre_guide.pdf)
+[^2]: [ETS. *GRE Guide to the Use of Scores (2023-2024)* pg. 12.](http://www.ets.org/pdfs/gre/gre-guide-to-the-use-of-scores.pdf)
 
 [^3]: [Rachel E. Scherr, Monica Plisch, Kara E. Gray, Geoff Potvin, and Theodore Hodapp *Phys. Rev. Phys. Educ. Res.* 13, 020133 (2017)](http://dx.doi.org/10.1103/PhysRevPhysEducRes.13.020133)
 
