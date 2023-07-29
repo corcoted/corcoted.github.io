@@ -16,10 +16,6 @@ I teach undergraduate physics courses at [Duquesne University](http://duq.edu).
 * Physics 487, Problems in Physics (Spring 2017, 2021, 2022)
 * Physics 499W, Senior Thesis
 
-<!-- ***Coming soon: [Master's Courses!](https://www.duq.edu/academics/schools/natural-and-environmental-sciences/academics/departments-and-programs/physics/professional-masters-degree-in-applied-physics)*** 
-* Physics 502, Advanced Optical Theory and Devices
-* Physics 572, Quantum Optics -->
-
 ------------------------
 
 ## Acoustics

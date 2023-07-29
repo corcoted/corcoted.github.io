@@ -6,7 +6,7 @@ format:
   html:
     toc: false
 ---
-![Ted Corcovilos, Ph.D.](./assets/photos/Corcovilos.jpg)
+![](./assets/photos/Corcovilos.jpg){ width=400px fig-alt="photo of Ted Corcovilos, Ph.D." fig-align="center"}
 
 ***Website under repair!*** I moved to a [new platform](https://quarto.org/), so some things may look a little funny while I reformat everything.  Also, old links to pages herein are probably dead now.  Please excuse my mess!
 
@@ -22,4 +22,6 @@ Experimental atomic physics research at [Duquesne University](http://www.duq.edu
 
 A brief video describing our research:
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vUE_Bs3hgbg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>

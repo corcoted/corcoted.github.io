@@ -58,4 +58,4 @@ GitLab
 * Society of Industrial and Applied Mathematics
 * Society of Physics Students and Sigma Pi Sigma
 
-*[Website colophon](/colophon)*
+<!-- *[Website colophon](/colophon)* -->
