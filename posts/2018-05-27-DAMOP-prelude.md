@@ -2,7 +2,8 @@
 layout: post
 title: DAMOP 2018 prelude
 category: news
-tags: conferences
+tags:
+  - conferences
 date: 2018-05-27
 excerpt: >-
   Preview of the 2018 DAMOP conference.

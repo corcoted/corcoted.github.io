@@ -2,7 +2,9 @@
 layout: post
 title: Optics in Homogeneous Coordinates, Coordinate Tranformations
 category: research
-tags: optics
+tags:
+  - optics
+date: 2022-07-01
 excerpt: >-
   Last time we added an extra row and column to our ABCD matrices.  What can we do with these?
 ---

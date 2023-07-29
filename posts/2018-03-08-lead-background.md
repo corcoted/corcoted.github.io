@@ -2,10 +2,12 @@
 layout: post
 title: Lead in Drinking Water, Part 1 (Background)
 category: research
-tags: lead
+tags:
+  - lead
+date: 2018-03-08
 excerpt: >-
   One of my major research projects is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.
-date: 2018-03-08
+
 ---
 {:flt: style="float: right;
        padding-left: 5px;

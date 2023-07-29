@@ -2,7 +2,8 @@
 layout: post
 title: New Paper! Generating quasicrystal optical potentials
 category: news
-tags: optics
+tags:
+  - optics
 date: 2019-03-19
 excerpt: >-
   We recently published a paper about how we are generating the quasicrystal optical potentials for our ultracold atom experiment.

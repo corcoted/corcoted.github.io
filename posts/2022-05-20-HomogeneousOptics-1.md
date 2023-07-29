@@ -2,7 +2,9 @@
 layout: post
 title: Optics in Homogeneous Coordinates, Introduction
 category: research
-tags: optics
+tags:
+  - optics
+date: 2022-05-20
 excerpt: >-
   I introduce the homogeneous representation of rays and extend the ABCD matrices to include rotations and translations (properly!).
 ---

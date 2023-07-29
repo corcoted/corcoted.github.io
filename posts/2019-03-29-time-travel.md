@@ -2,7 +2,10 @@
 layout: post
 title: Time Travel Lecture
 category: teaching
-tags: relativity, quantum mechanics
+tags:
+  - relativity
+  - quantum mechanics
+date: 2019-03-29
 excerpt: >-
   I gave a fun talk to Eric Vogelstein's *Philosophy of Star Trek* class about time travel.
 ---

@@ -2,7 +2,9 @@
 layout: post
 title: Quantum State Guessing Game
 category: teaching
-tags: quantum mechanics, quantum game
+tags:
+  - quantum mechanics
+  - quantum game
 date: 2018-04-24
 excerpt: >-
   For a couple of years I've been polishing up a classroom activity to demonstrate how quantum measurements work on a simple qubit system.  Here I'd like to summarize the game in simple terms for non-experts.

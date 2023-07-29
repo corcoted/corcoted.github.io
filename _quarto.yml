@@ -9,6 +9,10 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - research.qmd
+      - teaching.qmd
+      - blog.qmd
+  page-footer: "Copyright 2023, Ted Corcovilos"
 
 format:
   html:

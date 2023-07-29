@@ -1,0 +1,10 @@
+---
+layout: default
+title: Page Not Found
+---
+
+# 404 error
+
+The requested page could not be found. ☹️
+
+[Back to the homepage](./index.html)

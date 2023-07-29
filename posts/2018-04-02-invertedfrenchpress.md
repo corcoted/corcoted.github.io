@@ -2,7 +2,8 @@
 layout: post
 title: Use a French press coffee pot backwards
 category: fun
-tags: coffee
+tags:
+  - coffee
 date: 2018-04-02
 excerpt: >-
   I found a different way of using a french press coffee pot that keeps the coffee from getting bitter if you don't drink it right away.

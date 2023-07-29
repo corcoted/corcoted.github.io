@@ -2,7 +2,10 @@
 layout: post
 title: A student caught me studying
 category: teaching
-tags: preparation, philosophy
+tags:
+  - preparation
+  - philosophy
+date: 2019-11-20
 excerpt: >-
   A student caught me studying, so I had to explain my teaching philosophy.
 ---

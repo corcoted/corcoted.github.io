@@ -2,7 +2,10 @@
 layout: post
 title: Hug a math professor!
 category: teaching
-tags: math, collaboration
+tags:
+  - math
+  - collaboration
+date: 2018-12-04
 excerpt: >-
   A brief meeting with a math colleague opened both of our eyes about helping our students.
 ---
