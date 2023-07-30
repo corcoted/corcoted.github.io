@@ -9,14 +9,6 @@ excerpt: >-
   One of my major research projects is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.
 
 ---
-{:flt: style="float: right;
-       padding-left: 5px;
-       padding-right: 0px;
-       text-align: center;
-       width: 350px;
-       box-sizing: border-box;
-       font-style: italic;
-       "}
 
 One of my major [research projects](/research.html) is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.  Part 2 will talk about some of the ethical and legal issues regarding the lead testing (at least as far as I understand them), and Part 3 will be about the device itself.  My intention is to keep this a "living" post, and update it as new information and results develop.
 
@@ -33,9 +25,7 @@ Chemically, lead is a member of the carbon group (Group 14) in the periodic tabl
 The health effects of lead were suspected as early as the Roman days and began to be taken seriously as early as the late 1800's.
 Today the largest concern is the effect of lead exposure to children.
 
-![Blood lead levels 2015](/assets/figs/BLL2015.png)<br />
-Percentage of children under 6 years of age who had blood lead levels &gt; 10&mu;g/dL in 2015.[^7]
-{:flt}
+![Percentage of children under 6 years of age who had blood lead levels &gt; 10&mu;g/dL in 2015.[^7]](/assets/figs/BLL2015.png){alt-text="Blood lead levels map 2015"}
 
 The Centers for Disease Control and Prevention (CDC) rank lead as the most common environmental toxin and the second highest priority among toxic substances, behind arsenic[^1].  Children exposed to lead exhibit long lasting physiological, mental, and behavioral problems such as lower IQ, ADHD[^2], and lower school performance[^3]. 
 One of the most frustrating aspects about the response to lead exposure in the U.S. is that mandatory remediation of lead in homes is only done after a child or pregnant woman tests positive for elevated blood lead levels (&gt;5&mu;g/dL).  In my opinion, this is clearly too late as damage has already been done.  This was the case in [Flint, MI](https://en.wikipedia.org/wiki/Flint_water_crisis).  The first indication of a problem in the city’s water was when pediatricians noticed a sudden increase in positive blood tests for lead in toddlers.[^9]  Only after this was the water suspected.
@@ -51,9 +41,7 @@ While it is believed that lead paint is still the largest contributor to childho
 ## Lead is here
 Pennsylvania, and Pittsburgh in particular, are at risk for home lead exposure because of the age of the houses.  This is demonstrated nicely in the figure below.
 
-![Homes built before 1950 in Pennsylvania](/assets/figs/2014 PA 1950 Homes.svg)<br />
-Percentage of homes built before 1950, when lead pipes were banned, by 2010 U.S. Census tract.  Source: PA Dept. of Health, 2014.[^8]
-{: style="text-align:center;font-style: italic;"}
+![Percentage of homes built before 1950, when lead pipes were banned, by 2010 U.S. Census tract.  Source: PA Dept. of Health, 2014.[^8]](/assets/figs/2014 PA 1950 Homes.svg){alt-text="Map of homes built before 1950 in Pennsylvania"}
 
 Most recently, elevated levels of lead in drinking water were found at home testing sites in Pittsburgh in June 2016 (90th percentile reading of 22 ppb)[^5] and December 2016 (90th percentile reading of 18 ppb)[^6].
 Water leaving treatment facilities shows no detectable level of lead.  The major source of lead in drinking water is from downstream plumbing, such as lead service lines and lead solder and fixtures inside homes.  An internal audit by the city showed that no record exists of where city-owned lead service lines are located, although preliminary efforts to survey the city for lead services lines have begun[^5].  The leaching of lead into the water supply can be moderated by proper chemical buffering of the water at the treatment plant, but the optimal buffer chemistry has not yet been determined.  A voluntary screening program by the city, which gives residents the opportunity to submit their own water samples for testing, showed 12% of the volunteer samples to be above the 15 ppb EPA limit as of February 2017, with the volunteer samples coming disproportionately from higher-income neighborhoods -- these results likely underestimate the city-wide average.  However, the city has not been able to keep up with the demand to test water samples: only 396 of the 1,076 samples have been analyzed as of February 2017.  Of note, the volunteer testing showed no geographic correlation of the measured lead level: houses in the same neighborhood, or even on the same block, showed widely varying lead levels.  Therefore, each and every home must be tested individually.  This emphasizes the need for low-cost and rapid screening methods and tools, with sufficient reliability and limits of detection.  Currently, there is no method that will allow rapid measurements, on site, specific to lead and sensitive down to the EPA mandated action level of 15 ppm.  Our work fulfills this need.

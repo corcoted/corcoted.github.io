@@ -72,11 +72,11 @@ $$
 We need to put in the values of the variables.  Here's a quick summary, plus a few values we'll need later for the airplanes:
 
 | Symbol | Definition | Value |
-|---
+|---|---|---|
 | *r* | radius of Earth | 40,000 km / 2&pi; |
 | *GM* | Newton's constant times mass of Earth[^3] | 3.986 &times; 10<sup>14</sup> m<sup>3</sup>/s<sup>2</sup> |
 | *c* | speed of light | 2.99792458 &times; 10<sup>8</sup> m/s |
-| *v<sub>L</sub>* | speed of Land clock | $$\frac{40,000\,\mathrm{km}}{1\,\textrm{day}}$$ = 463 m/s |
+| *v<sub>L</sub>* | speed of Land clock | $$\frac{40,000\,\mathrm{km}}{1\,\textrm{day}} = 463 \mathrm{m/s} $$ |
 |---
 | *h* | altitude of airplanes | 12,000 m |
 | *v<sub>E</sub>* | speed of East-bound airplane | *v<sub>L</sub>* + 271 m/s = 734 m/s |
@@ -85,7 +85,9 @@ We need to put in the values of the variables.  Here's a quick summary, plus a f
 Ok, so now we can get a number for the time of the flight measured by the Space clock.  Substituting above, we get
 *t<sub>S</sub>* = 147601.476117763.  So, the time difference between clock S and clock L is *t<sub>S</sub>*-*t<sub>L</sub>* = 0.000103003 s = 103.003 &mu;s.
 
-(Side note: that's a lot of digits in the clock times.  We need them because we need to subtract two large numbers that are almost the same.  A cleaner approach is to use Taylor series approximations of the equations using the facts that \|*v*\| \<\< *c* and *h* \<\< *r*.  Then the subtraction mostly cancels algebraically, leaving only the interesting parts.)
+::: {.callout-note appearance="minimal"}
+That's a lot of digits in the clock times.  We need them because we need to subtract two large numbers that are almost the same.  A cleaner approach is to use Taylor series approximations of the equations using the facts that \|*v*\| \<\< *c* and *h* \<\< *r*.  Then the subtraction mostly cancels algebraically, leaving only the interesting parts.
+:::
 
 Now, we use the same formula to calculate the airplane clock times, replacing the "L" variables with the "E" or "W" variables.  The E and W clocks read
 
@@ -103,9 +105,9 @@ So, finally, the differences between the Land clock and the airplanes clocks are
 
 This is a tiny amount!  After a voyage of 40 hours, the clocks shift by billionths of a second.  That works out to less than a part in 10<sup>12</sup> error per second in the clocks.  Luckily, portable atomic clocks at the time had a stability of about a part in 10<sup>14</sup>, so the experiment was just within the capabilities of the technology.  (The uncertainty in the planes' trajectories was a larger source of error.)  The actual numbers for the experiment[^1] and their uncertainties are
 
-|-
+
 | Plane | Predicted shift (ns) | Measured shift (ns) |
-|-
+|---|---|---|
 | East | +40 ± 23 | +59 ± 10 |
 | West | -275 ± 21 | -273 ± 7 |
 
@@ -116,7 +118,7 @@ I'm still amazed that we can measure relativity in such a simple way as putting 
 
 One of my favorite GPS stories goes back to the original testing of that system[^4].  The Air Force generals in charge of the program didn't believe the scientists' "voodoo talk" about this relativity stuff, so the original code for the GPS receivers did not include any relativistic corrections.  During the first test, the position numbers started slowly but surely drifting away and the test was considered a failure.  Then one of the engineers dramatically walked over and flipped a switch on the back of the receiver box. Magically everything started working.  He had secretly added the relativity code against orders and rigged up the switch to turn it on, thereby saving the day. Once again the moral of the story is "don't bet against Einstein."
 
-#### Footnotes ####
+
 [^1]: J. C. Hafele and R. E. Keating, *Science* 177(4044), 166 (14 July 1972), [doi:10.1126/science.177.4044.166](http://dx.doi.org/10.1126/science.177.4044.166), also [JSTOR:1734834](http://www.jstor.org/stable/1734834).  J. C. Hafele and R. E. Keating, *Science* 177(4044), 168 (14 July 1972), [doi:10.1126/science.177.4044.168](http://dx.doi.org/10.1126/science.177.4044.168), also [JSTOR:1734833](http://www.jstor.org/stable/1734833).
 [^2]: A. Einstein, "Zur Elektrodynamik bewegter Körper," *Annalen der Physik* 17, 891 (1905).  An English translation with typos corrected can be found at <http://www.fourmilab.ch/etexts/einstein/specrel/www/>.
 [^3]: We can measure the combination *GM* much more precisely than *G* or *M* alone.  (About 10 digits of precision for *GM* compared to 5 for *G* or *M* separately.) It's known as the "[Standard Gravity Parameter](http://en.wikipedia.org/wiki/Standard_gravitational_parameter)."

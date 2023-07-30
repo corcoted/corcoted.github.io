@@ -11,7 +11,9 @@ excerpt: >-
   The DAMOP session on graduate admissions was enlightening and disheartening.  Best practices are not being followed by schools or by students.  I'll discuss a little of what I learned here.
 ---
 
-*This post is long, long overdue.  I beg forgiveness, dear reader, as real life took precedence for a couple of months.  And then procrastination set in, and then.... Anyway, because graduate school application season is near, it seemed appropriate to finish the ideas here and push them out to the world.*
+::: {.callout-note appearance="minimal"}
+This post is long, long overdue.  I beg forgiveness, dear reader, as real life took precedence for a couple of months.  And then procrastination set in, and then.... Anyway, because graduate school application season is near, it seemed appropriate to finish the ideas here and push them out to the world.
+:::
 
 The DAMOP session on graduate admissions last summer was enlightening and disheartening.  Best practices are not being followed by schools or by students.  I'll discuss a little of what I learned here, and some things that have come to mind in as I've had a chance to process some of what I learned.
 
@@ -99,7 +101,6 @@ Also, I must (1) assume the worst practices from graduate admissions and (2) pus
 
 I'd love to hear any observations or advice on this.
 
-### References
 
 [^1]: [Geoff Potvin, Deepra Chari, and Theodore Hodapp. *Phys. Rev. Phys. Educ. Res.* 13, 020142 (2017).](https://doi.org/10.1103/PhysRevPhysEducRes.13.020142)
 
