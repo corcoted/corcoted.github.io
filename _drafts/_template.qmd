@@ -1,0 +1,12 @@
+---
+layout: post
+title: Template
+categories:
+  - news
+  - meta
+date: 2000-01-01
+abstract: >-
+  Summary of pages
+---
+
+Template for blog posts
