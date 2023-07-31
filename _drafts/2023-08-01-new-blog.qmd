@@ -1,0 +1,27 @@
+---
+layout: post
+title: New website
+categories:
+  - news
+  - meta
+date: 2023-08-01
+abstract: >-
+  I updated the format of the website.
+---
+
+I just updated the format of the website.  Partly this was to make it easier for me to maintain, and partly it was to (hopefully) encourage me to write more.
+Please excuse any sloppiness (and the boring default theme) while I get things running again.
+
+The old website was built using [Jekyll](https://jekyllrb.com/).  At the time, this was the easiest platform to host on GitHub Pages.  But keeping up with patches in Jekyll was becoming a pain, so I dumped it.  (Jekyll is built on Ruby, but I'm not a regular Ruby user.)
+
+After looking around a bit, I switched over to [Quarto](https://quarto.org).  Quarto, like Jekyll, uses Markdown as the main file format, but it uses [Pandoc](https://pandoc.org) in the background to compile the markdown into html or LaTeX (and then onto PDF).  I already have some experience with Pandoc (e.g. I've been using it for my course syllabi for a while now), so I already understand its limitations and quirks.  The activation barrier was low.
+
+But on top of Pandoc, Quarto allows you to write generative documents, in the sense that you can embed code (R, python, javascript, etc.) into the document to generate plots, figures, etc.  I played around with this feature a little back in the Spring to generate my Acoustics lecture notes, and I liked it.
+(I also built a couple of "live" documents using [Shiny](https://shiny.rstudio.com/py/index.html) to embed interactive apps into the pages, but the overhead is still a bit high for everyday use.)  I think this will let me do a few more interesting things in my blog posts.
+
+So, stay tuned!
+
+On deck:
+
+- Part 3 of my geometric optics paper discussion. The paper was [published](https://doi.org/10.1119/5.0083069) a few weeks ago, so I need to finish that up by showing you how to use matrices to solve imaging problems *directly*.  Links to [Part 1](/posts/2022-05-20-HomogeneousOptics-1.html) and [Part 2](/posts/2022-07-01-HomogeneousOptics-2.html).
+- Intro to Markov chain Monte Carlo for fitting data, from a physicist's point of view.  I'm using this technique for analysing my water quality data, and it seems like a useful things to share.  The cool thing is that I can build a realistic model of how my experiment works (including details like instrument response, measurements errors, and chemical kinetics), and extract physically important fitting parameters (and their uncertainties) without doing a lot of algebra and calculus contortions.
