@@ -1,22 +1,16 @@
 ---
 layout: post
 title: Lead in Drinking Water, Part 1 (Background)
-category: research
-tags: lead
-excerpt: >-
-  One of my major research projects is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.
+categories:
+  - research
+  - lead
 date: 2018-03-08
----
-{:flt: style="float: right;
-       padding-left: 5px;
-       padding-right: 0px;
-       text-align: center;
-       width: 350px;
-       box-sizing: border-box;
-       font-style: italic;
-       "}
+abstract: >-
+  One of my major research projects is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.
 
-One of my major [research projects](/research) is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.  Part 2 will talk about some of the ethical and legal issues regarding the lead testing (at least as far as I understand them), and Part 3 will be about the device itself.  My intention is to keep this a "living" post, and update it as new information and results develop.
+---
+
+One of my major [research projects](/research.html) is building an inexpensive handheld device for measuring the amount of lead in drinking water.  This is the first of several planned posts on the project.  Today, I'd like to introduce the problem we're trying to solve and talk particularly about lead in Pittsburgh's drinking water.  Part 2 will talk about some of the ethical and legal issues regarding the lead testing (at least as far as I understand them), and Part 3 will be about the device itself.  My intention is to keep this a "living" post, and update it as new information and results develop.
 
 ## What is Lead?
 Let's start at the very basic level.  [Lead](https://en.wikipedia.org/wiki/Lead) is a metallic chemical element with an atomic number of 82 and its most common isotope has an atomic mass of 208.  From a physics perspective, lead is interesting because it is the heaviest stable element.  Lead-208 has a doubly [magic nucleus](https://en.wikipedia.org/wiki/Magic_number_(physics)); it and the other stable isotopes of lead form the termination of the nuclear [decay chains](https://en.wikipedia.org/wiki/Decay_chain) for almost all of the heavier elements.
@@ -31,9 +25,7 @@ Chemically, lead is a member of the carbon group (Group 14) in the periodic tabl
 The health effects of lead were suspected as early as the Roman days and began to be taken seriously as early as the late 1800's.
 Today the largest concern is the effect of lead exposure to children.
 
-![Blood lead levels 2015](/assets/figs/BLL2015.png)<br />
-Percentage of children under 6 years of age who had blood lead levels &gt; 10&mu;g/dL in 2015.[^7]
-{:flt}
+![Percentage of children under 6 years of age who had blood lead levels &gt; 10&mu;g/dL in 2015.[^7]](/assets/figs/BLL2015.png){alt-text="Blood lead levels map 2015"}
 
 The Centers for Disease Control and Prevention (CDC) rank lead as the most common environmental toxin and the second highest priority among toxic substances, behind arsenic[^1].  Children exposed to lead exhibit long lasting physiological, mental, and behavioral problems such as lower IQ, ADHD[^2], and lower school performance[^3]. 
 One of the most frustrating aspects about the response to lead exposure in the U.S. is that mandatory remediation of lead in homes is only done after a child or pregnant woman tests positive for elevated blood lead levels (&gt;5&mu;g/dL).  In my opinion, this is clearly too late as damage has already been done.  This was the case in [Flint, MI](https://en.wikipedia.org/wiki/Flint_water_crisis).  The first indication of a problem in the city’s water was when pediatricians noticed a sudden increase in positive blood tests for lead in toddlers.[^9]  Only after this was the water suspected.
@@ -49,9 +41,7 @@ While it is believed that lead paint is still the largest contributor to childho
 ## Lead is here
 Pennsylvania, and Pittsburgh in particular, are at risk for home lead exposure because of the age of the houses.  This is demonstrated nicely in the figure below.
 
-![Homes built before 1950 in Pennsylvania](/assets/figs/2014 PA 1950 Homes.svg)<br />
-Percentage of homes built before 1950, when lead pipes were banned, by 2010 U.S. Census tract.  Source: PA Dept. of Health, 2014.[^8]
-{: style="text-align:center;font-style: italic;"}
+![Percentage of homes built before 1950, when lead pipes were banned, by 2010 U.S. Census tract.  Source: PA Dept. of Health, 2014.[^8]](/assets/figs/2014 PA 1950 Homes.svg){alt-text="Map of homes built before 1950 in Pennsylvania"}
 
 Most recently, elevated levels of lead in drinking water were found at home testing sites in Pittsburgh in June 2016 (90th percentile reading of 22 ppb)[^5] and December 2016 (90th percentile reading of 18 ppb)[^6].
 Water leaving treatment facilities shows no detectable level of lead.  The major source of lead in drinking water is from downstream plumbing, such as lead service lines and lead solder and fixtures inside homes.  An internal audit by the city showed that no record exists of where city-owned lead service lines are located, although preliminary efforts to survey the city for lead services lines have begun[^5].  The leaching of lead into the water supply can be moderated by proper chemical buffering of the water at the treatment plant, but the optimal buffer chemistry has not yet been determined.  A voluntary screening program by the city, which gives residents the opportunity to submit their own water samples for testing, showed 12% of the volunteer samples to be above the 15 ppb EPA limit as of February 2017, with the volunteer samples coming disproportionately from higher-income neighborhoods -- these results likely underestimate the city-wide average.  However, the city has not been able to keep up with the demand to test water samples: only 396 of the 1,076 samples have been analyzed as of February 2017.  Of note, the volunteer testing showed no geographic correlation of the measured lead level: houses in the same neighborhood, or even on the same block, showed widely varying lead levels.  Therefore, each and every home must be tested individually.  This emphasizes the need for low-cost and rapid screening methods and tools, with sufficient reliability and limits of detection.  Currently, there is no method that will allow rapid measurements, on site, specific to lead and sensitive down to the EPA mandated action level of 15 ppm.  Our work fulfills this need.
@@ -72,10 +62,10 @@ The bulk of the information here came from the Wikipedia page on [lead](https://
 
 [^5]: Lamb, Michael. 2017. “Performance Audit: Pittsburgh Water and Sewer Authority.” City of Pittsburgh. [Link to PDF](http://apps.pittsburghpa.gov/co/Draft_Pittsburgh_Water_and_Sewer_Authority_February_2017.pdf).
 
-[^6]: “PWSA Releases December 2016 Lead Compliance Test Results.” 2017. Pittsburgh Water and Sewer Authority. January 19, 2017. [http://pgh2o.com/release?id=6912](http://pgh2o.com/release?id=6912).
+[^6]: “PWSA Releases December 2016 Lead Compliance Test Results.” 2017. Pittsburgh Water and Sewer Authority. January 19, 2017. [Deadlink].  <!-- (http://pgh2o.com/release?id=6912) -->
 
 [^7]: Centers for Disease Control and Prevention. 2017. "CDC’s National Surveillance Data (1997-2015)" [https://www.cdc.gov/nceh/lead/data/national.htm](https://www.cdc.gov/nceh/lead/data/national.htm)
 
-[^8]: Pennsylvania Department of Health. 2014. *2014 Childhood Lead Surveillence Annual Report*. [Link to PDF](http://www.health.pa.gov/My%20Health/Infant%20and%20Childrens%20Health/Lead%20Poisoning%20Prevention%20and%20Control/Documents/2014%20Lead%20Surveillance%20Annual%20Report%20r2.pdf)
+[^8]: Pennsylvania Department of Health. 2014. *2014 Childhood Lead Surveillence Annual Report*. [Deadlink]. <!-- (http://www.health.pa.gov/My%20Health/Infant%20and%20Childrens%20Health/Lead%20Poisoning%20Prevention%20and%20Control/Documents/2014%20Lead%20Surveillance%20Annual%20Report%20r2.pdf) -->
 
 [^9]: Hanna-Attisha, Mona; LaChance, Jenny; Sadler, Richard Casey; Champney Schnepp, Allison. 2015. "Elevated Blood Lead Levels in Children Associated With the Flint Drinking Water Crisis: A Spatial Analysis of Risk and Public Health Response". *American Journal of Public Health*. 106 (2): 283–290. doi:[10.2105/AJPH.2015.303003](http://doi.org/10.2105/AJPH.2015.303003).

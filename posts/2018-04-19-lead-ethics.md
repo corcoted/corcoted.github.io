@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Lead in Drinking Water, Part 2 (Ethics)
-category: research
-tags: lead, ethics, IRB
+categories:
+  - research
+  - lead
+  - ethics
+  - IRB
 date: 2018-04-19
-excerpt: >-
+abstract: >-
     Before I describe how we measure lead in drinking water, I want to discuss some of the new (to me) meta issues associated with this project.  A lot of these things are uncommon for physics research, but will be familiar to folks in biology or medicine.  I am a rank amateur on these issues, so consider this an imperfect discussion by someone still finding his way.
 ---
 

@@ -1,17 +1,19 @@
 ---
 layout: post
 title: Quantum State Guessing Game
-category: teaching
-tags: quantum mechanics, quantum game
+categories:
+  - teaching
+  - quantum mechanics
+  - quantum game
+  - papers
 date: 2018-04-24
-excerpt: >-
+abstract: >-
   For a couple of years I've been polishing up a classroom activity to demonstrate how quantum measurements work on a simple qubit system.  Here I'd like to summarize the game in simple terms for non-experts.
 ---
-{:gametable: style="display: block; margin-left: auto; margin-right: auto; width: 40%; text-align: center;"}
 
 For a couple of years I've been polishing up a classroom activity to demonstrate how quantum measurements work on a simple qubit system.
-The work has just been accepted to *American Journal of Physics* and will appear there later this year.
-In the meantime I've pushed the paper onto [arXiv](http://arxiv.org/abs/1804.08417).
+The work has just been accepted to [*American Journal of Physics*](http://doi.org/10.1119/1.5036620),
+or you can find a free version at [arXiv](http://arxiv.org/abs/1804.08417).
 Here I'd like to summarize the game in simple terms for non-experts.
 
 ## What's a qubit?
@@ -31,7 +33,7 @@ To complicate matters more, there are an infinite number of ways to readout the 
 With enough data of enough types of readings, we can say what the actual quantum state was at the end of the calculation, to within some statistical uncertainty.
 
 Our game simulates this readout process. The players must use the data they collect to determine the actual state of the qubit.
-I won't go into the theory here, but it's laid out in full in the [paper](http://arxiv.org/abs/1804.08417).
+I won't go into the theory here, but it's laid out in full in the [paper](http://doi.org/10.1119/1.5036620).
 Here I'll describe how to play the game.
 
 ## The Game
@@ -46,6 +48,7 @@ The playing field for the game is a set of quantum states (A, B, C,...) and thre
 For each combination of state and measurement there is a probability of reading out a 1 and the complementary probability of reading out a 0.
 This information is summarized in the Game Table:
 
+<center>
 <table class="gametable">
  <tr>
  <th></th><th colspan="4">Measurement probabilites</th>
@@ -89,13 +92,15 @@ This information is summarized in the Game Table:
  <tr>
    <td>0</td><td>50%</td><td>50%</td><td>100%</td>
  </tr>
-</table>{:gametable}
+</table>
+</center>
 
 
 The above table lists all the combinations of states, measurements, and outcomes.
 Let's simplify the table a little by changing the probabilities into die roll ranges for our d20.
 Also, since we only have two possible outcomes, 0 or 1, I'll only list the die rolls that represent a measurement of 1.
 
+<center>
 <table class="gametable">
  <tr>
  <th></th><th colspan="4">Measurement probabilites</th>
@@ -121,7 +126,8 @@ Also, since we only have two possible outcomes, 0 or 1, I'll only list the die r
  <tr>
  <th>F</th><td>1</td><td>1-10</td><td>1-10</td><td>none</td>
  </tr>
-</table>{:gametable}
+</table>
+</center>
 
 Great!  This simplified table is the one we'll use for playing the game.
 
@@ -168,6 +174,6 @@ On the other hand, a suprisingly hard task for the computer is knowing which mea
 I'll discuss these ideas in a later post and perhaps a paper.
 
 There are a lot of other goodies about quantum mechanics hidden in the game, but these are the key points to get you started.
-Try it out, and then take a look at the [paper](http://arxiv.org/abs/1804.08417) for some other Game Tables (without eigenstates!) and the theory behind it all.
+Try it out, and then take a look at the [paper](http://doi.org/10.1119/1.5036620) for some other Game Tables (without eigenstates!) and the theory behind it all.
 
 Enjoy, and happy state hunting!

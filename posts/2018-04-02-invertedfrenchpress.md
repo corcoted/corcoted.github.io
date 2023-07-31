@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Use a French press coffee pot backwards
-category: fun
-tags: coffee
+categories:
+  - fun
+  - coffee
 date: 2018-04-02
-excerpt: >-
+abstract: >-
   I found a different way of using a french press coffee pot that keeps the coffee from getting bitter if you don't drink it right away.
 ---
 
@@ -41,6 +42,6 @@ Anyway, here is my solution: put the grounds *on top of the plunger*.  It goes l
 * Pull out the plunger, slowly, with the grounds, and then discard the grounds
 * Pour and drink
 
-Pulling out the plunger can be messy, so do it over a sink or trash can, but otherwise, I like this for giving me a pitcher of joe that will last a while without becoming bitter.  There's an interesting sucking action that happens as you pull out the plunger, reminding me of the fancy [Clover machines](https://www.starbucks.com/coffee/learn/clover) you see in some Starbucks, but without the $10k price tag.  The resulting coffee seems to be milder in my opinion than conventionally brewed french press coffee, but I haven't done a scientific study.
+Pulling out the plunger can be messy, so **do it over a sink or trash can**, but otherwise, I like this for giving me a pitcher of joe that will last a while without becoming bitter.  There's an interesting sucking action that happens as you pull out the plunger, reminding me of the fancy [Clover machines](http://electronics.howstuffworks.com/gadgets/kitchen/clover-coffee-maker.htm) you see in some Starbucks, but without the $10k price tag.  The resulting coffee seems to be milder in my opinion than conventionally brewed french press coffee, but I haven't done a scientific study.
 
 Give it a try, and tell me what you think!  If nothing else, its an interesting novelty, and may even work its way into your coffee repetoire.

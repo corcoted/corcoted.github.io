@@ -1,13 +1,19 @@
 ---
 layout: post
 title: Thoughts on the graduate admissions process
-category: teaching
-tags: DAMOP, conference, grad-school
-excerpt: >-
+categories:
+  - teaching
+  - DAMOP
+  - conferences
+  - grad-school
+date: 2018-11-06
+abstract: >-
   The DAMOP session on graduate admissions was enlightening and disheartening.  Best practices are not being followed by schools or by students.  I'll discuss a little of what I learned here.
 ---
 
-*This post is long, long overdue.  I beg forgiveness, dear reader, as real life took precedence for a couple of months.  And then procrastination set in, and then.... Anyway, because graduate school application season is near, it seemed appropriate to finish the ideas here and push them out to the world.*
+::: {.callout-note appearance="minimal"}
+This post is long, long overdue.  I beg forgiveness, dear reader, as real life took precedence for a couple of months.  And then procrastination set in, and then.... Anyway, because graduate school application season is near, it seemed appropriate to finish the ideas here and push them out to the world.
+:::
 
 The DAMOP session on graduate admissions last summer was enlightening and disheartening.  Best practices are not being followed by schools or by students.  I'll discuss a little of what I learned here, and some things that have come to mind in as I've had a chance to process some of what I learned.
 
@@ -51,7 +57,7 @@ Using test scores is easy, and it is easy to mistakenly believe that the tests a
 However, it clearly doesn't work as intended.  Increasingly, schools are dropping the GRE Physics requirement (14% according to a recent survey[^1]).
 
 Nor can [ETS](http://www.ets.org), the company that administers the test, be solely to blame.
-In [their own score interpretation guide](https://www.ets.org/s/gre/pdf/gre_guide.pdf), they warn against using cutoffs for exactly the reasons above:[^2]
+In [their own score interpretation guide](http://www.ets.org/pdfs/gre/gre-guide-to-the-use-of-scores.pdf), they warn against using cutoffs for exactly the reasons above:[^2]
 
 > The GRE Board believes that GRE scores should never be 
 > the sole basis for an admissions decision and 
@@ -95,11 +101,10 @@ Also, I must (1) assume the worst practices from graduate admissions and (2) pus
 
 I'd love to hear any observations or advice on this.
 
-### References
 
 [^1]: [Geoff Potvin, Deepra Chari, and Theodore Hodapp. *Phys. Rev. Phys. Educ. Res.* 13, 020142 (2017).](https://doi.org/10.1103/PhysRevPhysEducRes.13.020142)
 
-[^2]: [ETS. *GRE Guide to the Use of Scores (2017-2018)* pg. 13.](https://www.ets.org/s/gre/pdf/gre_guide.pdf)
+[^2]: [ETS. *GRE Guide to the Use of Scores (2023-2024)* pg. 12.](http://www.ets.org/pdfs/gre/gre-guide-to-the-use-of-scores.pdf)
 
 [^3]: [Rachel E. Scherr, Monica Plisch, Kara E. Gray, Geoff Potvin, and Theodore Hodapp *Phys. Rev. Phys. Educ. Res.* 13, 020133 (2017)](http://dx.doi.org/10.1103/PhysRevPhysEducRes.13.020133)
 

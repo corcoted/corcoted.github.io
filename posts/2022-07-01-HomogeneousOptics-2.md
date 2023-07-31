@@ -1,61 +1,31 @@
 ---
 layout: post
 title: Optics in Homogeneous Coordinates, Coordinate Tranformations
-category: research
-tags: optics
-excerpt: >-
+categories:
+  - research
+  - optics
+  - papers
+date: 2022-07-01
+abstract: >-
   Last time we added an extra row and column to our ABCD matrices.  What can we do with these?
 ---
-<!-- TODO clean up URLs -->
-<!-- TODO add examples -->
 
-<!-- kramdown tags defined below -->
-{:flt: style="
-       float: right;
-       padding-left: 5px;
-       padding-right: 0px;
-       text-align: center;
-       width: 350px;
-       box-sizing: border-box;
-       font-size: 0.9em;
-       "}
-      
-{:marbox: style="
-       border: 1px solid black;
-       width: 300px;
-       float: right;
-       color: #606060;
-       padding: 5px;
-       font-size: 0.9em;
-       "}
-
-<!-- end kramdown -->
-
-<!-- 
-Reminder that mathjax is enabled.  Inline math using double backslash parenthesis: \\( \\) 
-Display math using double dollar or double backslash bracket: $$ $$ or \\[ \\]
--->
-
-<!--
-kramdown reference: https://kramdown.gettalong.org/quickref.html
--->
-
-*This is the second post discussing my new paper on a new way to look at geometric optics.
+::: {.callout-note appearance="minimal"}
+This is the second post discussing my new paper on a new way to look at geometric optics.
 I deconstruct the familiar ABCD ray-transfer matrices and rebuild them based on geometric considerations.
-The paper itself is posted to [arXiv](http://arxiv.org/abs/2205.09746)[^1].
-These blog posts will focus on the motivation and how to use the results.*
+The paper itself is published in *American Journal of Physics*[^1].
+These blog posts will focus on the motivation and how to use the results.
+:::
 
-[^1]: T. Corcovilos. Beyond the ABCDs: A projective geometry treatment of paraxial ray tracing using homogeneous coordinates. [arXiv:2205.09746](http://arxiv.org/abs/2205.09746) (2022)
+[^1]: T. Corcovilos. Beyond the ABCDs: A projective geometry treatment of paraxial ray tracing using homogeneous coordinates. *American Journal of Physics* 91(6):449-457 (2023).  doi:[10.1119/5.0083069](http://doi.org/10.1119/5.0083069) Preprint at arXiv:[2205.09746](http://arxiv.org/abs/2205.09746)
 
-[Part 1 is here.](/research/2022/05/20/HomogeneousOptics-1.html)
+[Part 1 is here.](/posts/2022-05-20-HomogeneousOptics-1.html)
 
 ## Picking up from last time...
-![line](/assets/figs/2022-optics/line.svg)<br />
-The equation of an oriented line. In this example, _a_ and _b_ > 0 and _c_<0.
-{:flt}
+![The equation of an oriented line. In this example, _a_ and _b_ > 0 and _c_<0.](/assets/figs/2022-optics/line.svg){ alt-text="Graph of a line"}
 
-In the [previous post](/research/2022/05/20/HomogeneousOptics-1.html) I defined an oriented line by considering the equation of a line in 2D:
-$ ax+by+c = 0 $, which we can abbreviate as the vector of coefficients \\( (c,a,b) \\).
+In the [previous post](/posts/2022-05-20-HomogeneousOptics-1.html) I defined an oriented line by considering the equation of a line in 2D:
+$ ax+by+c = 0 $, which we can abbreviate as the vector of coefficients $(c,a,b)$.
 In this post, we want to perform some geometric operations on this line.
 Namely, we want to move (translate) it, rotate it about the coordinate origin, and switch its orientation (from left-to-right to right-to-left).
 Once we understand how to manipulate the line, we'll perform these same transformations on our ABCD matrices.
@@ -63,16 +33,16 @@ Once we understand how to manipulate the line, we'll perform these same transfor
 For the sake of brevity, I'll give the results here and put the [derivations at the bottom](#appendix-derivations).
 
 To translate a ray by a displacement vector (_u_, _v_) we multiply the ray vector from the left by the matrix
-\\[
-T(u,v) = \\begin{pmatrix} 1 & -u & -v \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}.
-\\]
+$$
+T(u,v) = \begin{pmatrix} 1 & -u & -v \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}.
+$$
 In other words, the new ray _r_' = _T r_.
 
 Similarly, rotations of the rays are represented by the matrix
-\\[ R(\\theta) = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & \\cos \\theta & -\\sin \\theta \\\\ 0 & \\sin \\theta & \\cos \\theta \\end{pmatrix},\\]
+$$R(\theta) = \begin{pmatrix} 1 & 0 & 0 \\ 0 & \cos \theta & -\sin \theta \\ 0 & \sin \theta & \cos \theta \end{pmatrix},$$
 giving a new ray _r_' = _R r_.
 
-For the ray transfer matrices, both the row space and column space of the matrix must be transformed.  If we rotate and then translate, the new matrix is \\( M' = TRMR^{-1}T^{-1} \\). 
+For the ray transfer matrices, both the row space and column space of the matrix must be transformed.  If we rotate and then translate, the new matrix is $M' = TRMR^{-1}T^{-1}$. 
 
 One way to understand why we need two copies of the transformation matrices is this &ndash;
 our ABCD matrices for optical elements assume the element is located at the origin.
@@ -96,9 +66,7 @@ My motivation is pragmatic: do more stuff with simple tools (well, as long as yo
 
 ## Examples
 ### Right-angle mirror pair
-![retroreflector](/assets/figs/2022-optics/retro.svg)<br />
-Retroreflector
-{:flt}
+![Example of retroreflector made from two perpendicular mirrors.](/assets/figs/2022-optics/retro.svg){ alt-text="Retroreflector schematic"}
 
 I have several examples in the paper[^1], but my favorite is a common lab optic: a right-angle retroreflector.
 The setup is simple: we have two flat mirrors that intersect at right angles.
@@ -106,8 +74,7 @@ Any incoming ray will be retroreflected opposite its original direction, offset 
 
 The RTM for the upper mirror ($M_1$) is generated by a $45^{\circ}$ rotation of a plane mirror situated at the origin:
 
-<div>
-\[
+$$
 \begin{aligned}
 M_1 &= R_{45^{\circ}}M_\text{plane mirror}R_{45^{\circ}}^{-1}, \\
 &=
@@ -116,37 +83,30 @@ M_1 &= R_{45^{\circ}}M_\text{plane mirror}R_{45^{\circ}}^{-1}, \\
 \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1/\sqrt{2} & 1/\sqrt{2} \\ 0 & -1/\sqrt{2} & 1/\sqrt{2} \end{pmatrix} \\
 &= \begin{pmatrix} -1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}.
 \end{aligned}
-\]
-</div>
+$$
 
 Similarly, the second mirror ($M_2$) has the RTM
-<div>
-\[
+$$
 M_2 = R_{-45^{\circ}}M_\text{plane mirror}R_{-45^{\circ}}^{-1} = \begin{pmatrix} -1 & 0 & 0 \\ 0 & 0 & -1 \\ 0 & -1 & 0 \end{pmatrix}.    
-\]
-</div>
+$$
 We choose an incoming ray ${r}_0 = (-h,-m,1)^T$ with $h>0$ such that it will strike mirror $M_1$ first, yielding the reflected ray
-<div>
-\[
+$$
 {r}_1 = M_1 {r}_0 = (h,1,-m)^T.    
-\]
-</div>
-This ray follows the line $ h +x-my =0 $, propagating from right to left ($b < 0$).
+$$
+
+This ray follows the line $h +x-my =0$, propagating from right to left ($b < 0$).
 After the second reflection in $M_2$ the final ray is
-<div>
-\[
+$$
 {r}_2 = M_2 {r}_1 = (-h,m,-1)^T,    
-\]
-</div>
-which is antiparallel to the incoming ray, as expected, with a $y$ intercept of $-h$ and propagating right to left ($b < 0 $).
+$$
+which is antiparallel to the incoming ray, as expected, with a $y$ intercept of $-h$ and propagating right to left ($b < 0$).
 
 That's a piece-wise description, but we can multiply the two mirror matrices to get the system matrix for the retroreflector:
-<div>
-\[
+
+$$
 M_\text{ra} = M_2 M_1 =
 \begin{pmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & -1 \end{pmatrix}.
-\]
-</div>
+$$
 Multiplying this matrix by the original ray gives $r_2$ above in one step.
 
 ### Right-angle prism
@@ -156,8 +116,7 @@ In the mirror setup above, the intersection of the mirrors was located at the co
 We'll place the hypotenuese of the prism a distance _d_ to the left of the origin.
 
 The matrix for the entrance surface is a refracting surface from index of refraction 1 to index of refraction _n_, translated to the left by _d_:
-<div>
-\[
+$$
 \begin{aligned}
 S_1 &= T(-d,0)\,M_\text{ref}(1,n)\,T(d,0) \\
     &=
@@ -168,37 +127,30 @@ S_1 &= T(-d,0)\,M_\text{ref}(1,n)\,T(d,0) \\
     &=
     \begin{pmatrix} 1 & (d-nd)/n & 0 \\ 0 & 1/n & 0 \\ 0 & 0 & 1 \end{pmatrix}
 \end{aligned}
-\]
-</div>
+$$
 The matrix for the exit surface is constructed similarly:
-<div>
-\[
+$$
 \begin{aligned}
 S_2 &= T(-d,0)\,M_\text{ref}(n,1)\,T(d,0) \\
     &=
     \begin{pmatrix} 1 & nd-n & 0 \\ 0 & n & 0 \\ 0 & 0 & 1 \end{pmatrix}
 \end{aligned}
-\]
-</div>
+$$
 Now, we just combine these two surfaces in the correct order with the right-angle mirrors from above to get our prism matrix:
-<div>
-\[
+$$
 \begin{aligned}
 M_\text{prism} &= S_2 M_\text{ra} S_1 \\
 &= \begin{pmatrix} 1 & 2d(n-1)/n & 0 \\ 0 & -1 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 \end{aligned}
-\]
-</div>
+$$
 What does this matrix tell us?  We still get a retroreflector, as expected, but the outgoing ray is slightly displaced relative to the mirror-pair case.
-For our now canonical incoming ray $ r = (h,m,-1)^T $, we get an outgoing ray
-<div>
-\[
+For our now canonical incoming ray $r = (h,m,-1)^T$, we get an outgoing ray
+$$
 r' = M_\text{prism} r =
 \begin{pmatrix} 1 & 2d(n-1)/n & 0 \\ 0 & -1 & 0 \\ 0 & 0 & -1 \end{pmatrix}
 \begin{pmatrix} h \\ m \\ -1 \end{pmatrix}
 = \begin{pmatrix} -h + \frac{2md(n-1)}{n} \\ m \\ -1 \end{pmatrix},
-\]
-</div>
+$$
 showing a displacement in the height of ${2md(n-1)}/{n}$ relative to the mirror pair (i.e., setting $n=1$).
 
 ## What's missing
@@ -271,5 +223,3 @@ Substitute these changes into our line equation:
 \\[ a(x \\cos\\theta - y \\sin\\theta) + b(x \\sin\\theta + y \\cos\\theta) + c = 0, \\]
 \\[ (a \\cos \\theta + b \\sin\\theta)x + (-a \\sin\\theta + b \\cos\\theta)y + c = 0. \\]
 
-
-## References

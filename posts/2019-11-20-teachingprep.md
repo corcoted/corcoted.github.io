@@ -1,28 +1,14 @@
 ---
 layout: post
 title: A student caught me studying
-category: teaching
-tags: preparation, philosophy
-excerpt: >-
+categories:
+  - teaching
+date: 2019-11-20
+abstract: >-
   A student caught me studying, so I had to explain my teaching philosophy.
 ---
-<!-- kramdown tags defined below -->
-{:flt: style="float: right;
-       padding-left: 5px;
-       padding-right: 0px;
-       text-align: center;
-       width: 350px;
-       box-sizing: border-box;
-       "}
-<!-- end kramdown -->
 
-<!-- 
-Reminder that mathjax is enabled.  Inline math using double backslash parenthesis: \\( \\) 
-Display math using double dollar or double backslash bracket: $$ $$ or \\[ \\]
--->
-![Mount Everest](/assets/photos/Everest.jpg)<br />
-Mount Everest ([photo by Pavel Novek, Wikipedia](https://commons.wikimedia.org/wiki/File:Everest_kalapatthar.jpg)).
-{:flt}
+![Mount Everest ([photo by Pavel Novek, Wikipedia](https://commons.wikimedia.org/wiki/File:Everest_kalapatthar.jpg)).](/assets/photos/Everest.jpg){ atl-text="Mount Everest" }
 
 It's been a while since I've posted.
 I have no good excuse, other than I've been busy and this got pushed way down on the priority list.
@@ -52,6 +38,3 @@ But, I promise once you get there the view is worth it.
 
 Oh, and don't forget your oxygen mask.
 
-<!--
-kramdown reference: https://kramdown.gettalong.org/quickref.html
--->

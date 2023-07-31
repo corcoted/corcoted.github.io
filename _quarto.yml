@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Corcovilos Lab"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - research.qmd
+      - teaching.qmd
+      - blog.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com/TedCorcovilos
+      - icon: github
+        href: https://github.com/corcoted
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ted-corcovilos
+  page-footer: "Copyright 2023, Ted Corcovilos"
+  google-analytics: UA-114117860-1
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

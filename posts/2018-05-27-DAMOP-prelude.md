@@ -1,10 +1,11 @@
 ---
 layout: post
 title: DAMOP 2018 prelude
-category: news
-tags: conferences
+categories:
+  - news
+  - conferences
 date: 2018-05-27
-excerpt: >-
+abstract: >-
   Preview of the 2018 DAMOP conference.
 ---
 I just arrived in [Fort Lauderdale, Florida](https://en.wikipedia.org/wiki/Fort_Lauderdale,_Florida) for the 2018 edition of the [American Physical Society](http://www.aps.org) [Divison of Atomic, Molecular, and Optical Physics](https://www.aps.org/units/damop/index.cfm) (DAMOP) conference.
