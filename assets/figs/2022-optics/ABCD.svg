@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3.9933in" height="1.1738in" version="1.1" viewBox="0 0 101.43 29.816" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <title>ABCD</title>
+ <defs>
+  <marker id="marker2137" overflow="visible" orient="auto">
+   <path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleOutS" overflow="visible" orient="auto">
+   <path transform="scale(.2)" d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleOutS-6" overflow="visible" orient="auto">
+   <path transform="scale(.2)" d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleOutS-8" overflow="visible" orient="auto">
+   <path transform="scale(.2)" d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleOutS-6-9" overflow="visible" orient="auto">
+   <path transform="scale(.2)" d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker2137-6" overflow="visible" orient="auto">
+   <path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>ABCD</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-12.294 -22.97)">
+  <rect x="45.436" y="33.275" width="32.874" height="19.511" fill="#d2d2d2"/>
+  <path d="m12.294 43.298h101.43" fill="none" stroke="#000" stroke-width=".26458px"/>
+  <g transform="translate(14.7 21.248)" fill="none" stroke="#000" stroke-linecap="square" stroke-miterlimit="2.3" stroke-width=".70556">
+   <path d="m30.602 22.05v-4.8109" marker-end="url(#TriangleOutS)"/>
+   <path d="m30.602 22.05h4.8109" marker-end="url(#TriangleOutS-6)"/>
+  </g>
+  <g transform="translate(47.719 21.181)" fill="none" stroke="#000" stroke-linecap="square" stroke-miterlimit="2.3" stroke-width=".70556">
+   <path d="m30.602 22.05v-4.8109" marker-end="url(#TriangleOutS-8)"/>
+   <path d="m30.602 22.05h4.8109" marker-end="url(#TriangleOutS-6-9)"/>
+  </g>
+  <g font-family="'Libertinus Serif'" font-size="2.8222px" font-style="italic" stroke-width=".26458">
+   <text x="50.380306" y="42.362217" style="line-height:1.25" xml:space="preserve"><tspan x="50.380306" y="42.362217" font-family="'Libertinus Serif'" font-size="3.5278px" font-style="italic" stroke-width=".26458">x</tspan></text>
+   <text x="43.225925" y="37.105366" style="line-height:1.25" xml:space="preserve"><tspan x="43.225925" y="37.105366" font-family="'Libertinus Serif'" font-size="3.5278px" font-style="italic" stroke-width=".26458">y</tspan></text>
+   <text x="83.661621" y="42.27285" style="line-height:1.25" xml:space="preserve"><tspan x="83.661621" y="42.27285" font-family="'Libertinus Serif'" font-size="3.5278px" font-style="italic" stroke-width=".26458">x'</tspan></text>
+   <text x="78.77903" y="36.74873" style="line-height:1.25" xml:space="preserve"><tspan x="78.77903" y="36.74873" font-family="'Libertinus Serif'" font-size="3.5278px" font-style="italic" stroke-width=".26458">y'</tspan></text>
+  </g>
+  <g transform="matrix(4.1348 0 0 4.1348 50.077 19.761)" stroke-width="4.2873">
+   <g transform="translate(.73134 .81612)">
+    <path d="m0.66211 2.3569q-0.12305-0.10889-0.21094-0.24805-0.087891-0.13916-0.14111-0.29395-0.053223-0.15479-0.077637-0.32007-0.024414-0.16528-0.024414-0.33472 0-0.17041 0.024414-0.33618 0.024414-0.16577 0.077393-0.32007t0.14111-0.2937q0.088135-0.1394 0.21118-0.24829 0-0.0019531 0.004883-0.0019531h0.025879q0.00293 0 0.005615 0.0029297 0.002686 0.0029297 0.002686 0.0063477 0 0.0039063-0.001953 0.0058594-0.11426 0.11279-0.19312 0.25098-0.078857 0.13818-0.12524 0.29102-0.046387 0.15283-0.066162 0.31396-0.019775 0.16113-0.019775 0.3291 0 0.16748 0.019531 0.32642 0.019531 0.15894 0.066406 0.31372 0.046875 0.15479 0.12598 0.29297 0.079102 0.13818 0.19238 0.25098 0.001953 0.00195 0.001953 0.00586 0 0.00293-0.00293 0.00586t-0.005371 0.00293h-0.025879q-0.004883 0-0.004883-0.00195z" stroke-width="18.381" paint-order="stroke fill markers"/>
+   </g>
+   <g transform="translate(1.4858 1.7606)">
+    <path d="m0.179-0.115 0.348-0.584q0.01-0.016 0.026-0.017 0.015 0 0.017 0.01 1e-3 3e-3 2e-3 0.014l0.061 0.625q3e-3 0.025 0.012 0.03h1e-3v1e-3q0.012 5e-3 0.052 5e-3 0.022 0 0.023 0.011 0 0.02-0.018 0.02l-0.112-3e-3h-1e-3l-0.124 3e-3h-1e-3q-0.014 0-0.014-0.011 8e-3 -0.019 0.024-0.02 0.072 0 0.072-0.033 0 1e-3 -0.016-0.167h-0.251l-0.076 0.128q-0.014 0.025-0.014 0.037 0 0.031 0.047 0.035 0.016 0 0.016 0.012 0 0.019-0.019 0.019l-0.096-3e-3h-4e-3l-0.084 3e-3h-2e-3q-0.013 0-0.013-0.011 0-0.018 0.015-0.019v-1e-3h6e-3q0.063-4e-3 0.103-0.054 0.01-0.013 0.02-0.03m0.12-0.147h0.229l-0.032-0.33z" stroke-width="18.381" paint-order="stroke fill markers"/>
+   </g>
+   <g transform="translate(3.2778 1.7606)">
+    <path d="m0.16-0.078 0.134-0.537q4e-3 -0.016 4e-3 -0.019 0-0.012-0.016-0.015h-2e-3q-3e-3 0-9e-3 -1e-3 -0.017-2e-3 -0.038-2e-3 -0.026 0-0.028-0.011 0-0.018 0.015-0.02h0.35q0.115 0 0.164 0.068 0.022 0.032 0.022 0.07 0 0.081-0.09 0.141-1e-3 0-2e-3 1e-3 -0.053 0.034-0.117 0.046 0.102 0.012 0.14 0.08 0.015 0.028 0.015 0.061 0 0.073-0.07 0.137l-1e-3 1e-3q-0.086 0.078-0.205 0.078h-0.357q-0.025 0-0.027-0.011 0-0.018 0.015-0.02h0.012q0.065 0 0.078-0.014 6e-3 -7e-3 0.012-0.028 0-1e-3 1e-3 -5e-3m0.151-0.288h0.146q0.099 0 0.163-0.072 0.045-0.051 0.045-0.111 0-0.073-0.06-0.095-0.021-8e-3 -0.049-8e-3h-0.129q-0.036 0-0.044 0.01v1e-3h-1e-3v1e-3q-4e-3 6e-3 -9e-3 0.026l-0.062 0.248m-0.045 0.335h0.136q0.096 0 0.159-0.072 0.048-0.056 0.048-0.124 0-0.073-0.052-0.103-0.026-0.014-0.063-0.014h-0.189l-0.069 0.279q-5e-3 0.018-5e-3 0.023 0 8e-3 9e-3 0.01h4e-3q6e-3 1e-3 0.022 1e-3z" stroke-width="18.381" paint-order="stroke fill markers"/>
+   </g>
+   <g transform="translate(1.4673 2.8746)">
+    <path d="m0.76-0.695-0.063 0.255q-5e-3 0.018-0.01 0.019l-1e-3 1e-3h-7e-3q-0.015 0-0.015-0.01l3e-3 -0.049v-2e-3q0-0.124-0.078-0.171l-1e-3 -1e-3q-0.035-0.021-0.082-0.021-0.106 0-0.201 0.079-0.024 0.019-0.043 0.042-0.095 0.111-0.117 0.282-4e-3 0.031-4e-3 0.054 0 0.14 0.106 0.189 0.041 0.019 0.09 0.019 0.094 0 0.184-0.073 0.07-0.059 0.101-0.158 2e-3 -0.01 0.013-0.01 0.012 0 0.012 0.01 0 0.018-0.023 0.064-0.031 0.063-0.087 0.112-0.099 0.086-0.216 0.086-0.128 0-0.205-0.088-0.066-0.075-0.066-0.186 0-0.149 0.109-0.279 0.101-0.121 0.239-0.16 0.051-0.014 0.1-0.014 0.109 0 0.166 0.089l0.07-0.077q0.012-0.012 0.015-0.012 0.011 0 0.011 0.01z" stroke-width="18.381" paint-order="stroke fill markers"/>
+   </g>
+   <g transform="translate(3.2543 2.8746)">
+    <path d="m0.159-0.078 0.134-0.537q4e-3 -0.016 4e-3 -0.019 0-0.012-0.016-0.015h-1e-3q-2e-3 -1e-3 -5e-3 -1e-3 -0.024-2e-3 -0.043-2e-3 -0.026 0-0.028-8e-3 -1e-3 -2e-3 -1e-3 -4e-3 0-0.017 0.017-0.019h0.349q0.13 0 0.194 0.101 0.041 0.064 0.041 0.152 0 0.145-0.101 0.271-0.096 0.117-0.226 0.149-0.039 0.01-0.078 0.01h-0.331q-0.025 0-0.027-8e-3 -1e-3 -1e-3 -1e-3 -4e-3 0-0.017 0.016-0.019h0.012q0.065 0 0.078-0.014 6e-3 -7e-3 0.012-0.028 0-1e-3 1e-3 -5e-3m0.216-0.536-0.137 0.549q-5e-3 0.018-5e-3 0.023 0 8e-3 9e-3 0.01h4e-3q6e-3 1e-3 0.022 1e-3h0.113q0.124 0 0.214-0.093 9e-3 -0.01 0.017-0.02 0.08-0.104 0.101-0.272 4e-3 -0.031 4e-3 -0.051 0-0.134-0.105-0.172-0.034-0.013-0.076-0.013h-0.107q-0.036 0-0.044 0.01v1e-3h-1e-3v1e-3q-4e-3 6e-3 -9e-3 0.026z" stroke-width="18.381" paint-order="stroke fill markers"/>
+   </g>
+   <g transform="translate(4.1103 .81612)">
+    <path d="m0.042969 2.3589q-0.0087891 0-0.0087891-0.00879 0-0.00391 0.0019531-0.00586 0.11426-0.11279 0.19287-0.25122 0.078613-0.13843 0.125-0.29102 0.046387-0.15259 0.066162-0.31201 0.019775-0.15942 0.019775-0.33081 0-0.17334-0.019775-0.33154-0.019775-0.1582-0.065674-0.31006-0.045898-0.15186-0.12549-0.29126-0.07959-0.1394-0.19287-0.25122-0.0019531-0.0019531-0.0019531-0.0058594 0-0.0092773 0.0087891-0.0092773h0.025879q0.003418 0 0.0053711 0.0019531 0.12354 0.10938 0.21143 0.24878 0.087891 0.1394 0.14062 0.29419 0.052734 0.15479 0.07666 0.31982t0.023926 0.33545q0 0.16943-0.023926 0.33398t-0.07666 0.31958-0.14062 0.29443-0.21143 0.24878q-0.0019531 0.00195-0.0053711 0.00195z" stroke-width="18.381" paint-order="stroke fill markers"/>
+   </g>
+  </g>
+  <path d="m18.888 39.005 25.057 2.1048" fill="none" marker-end="url(#marker2137)" stroke="#000" stroke-dasharray="1.41111, 0.352778" stroke-width=".35278"/>
+  <path d="m78.636 48.112 25.057-2.1048" fill="none" marker-end="url(#marker2137-6)" stroke="#000" stroke-dasharray="1.41111, 0.352778" stroke-width=".35278"/>
+  <text x="30.1436" y="38.931545" font-family="Libertinus Serif" font-size="2.8222px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="30.1436" y="38.931545" font-family="'Libertinus Serif'" font-size="3.5278px" font-style="italic" stroke-width=".26458">r</tspan></text>
+  <text x="90.982018" y="49.727554" font-family="Libertinus Serif" font-size="2.8222px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="90.982018" y="49.727554" font-family="'Libertinus Serif'" font-size="3.5278px" font-style="italic" stroke-width=".26458">r'</tspan></text>
+ </g>
+</svg>
