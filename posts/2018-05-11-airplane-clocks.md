@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Mr. Adam Clock, please report to the ticket counter.
-category: teaching
-tags:
+categories:
+  - teaching
   - relativity
   - atomic clocks
-excerpt: >-
+abstract: >-
   I'm still amazed that we can measure relativity in such a simple way as putting clocks on airplanes.
 date: 2018-05-11
 ---

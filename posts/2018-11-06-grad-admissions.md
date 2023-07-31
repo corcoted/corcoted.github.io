@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Thoughts on the graduate admissions process
-category: teaching
-tags:
+categories:
+  - teaching
   - DAMOP
-  - conference
+  - conferences
   - grad-school
 date: 2018-11-06
-excerpt: >-
+abstract: >-
   The DAMOP session on graduate admissions was enlightening and disheartening.  Best practices are not being followed by schools or by students.  I'll discuss a little of what I learned here.
 ---
 
