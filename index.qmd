@@ -4,10 +4,10 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: "Corcovilos Lab"
 listing:
-  - contents: posts
-  - sort: "date desc"
-  - page-size: 3
-  - id: blog-listings
+  contents: posts
+  sort: "date desc"
+  page-size: 3
+  id: blog-listings
 format:
   html:
     toc: false

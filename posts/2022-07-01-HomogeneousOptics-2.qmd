@@ -6,6 +6,9 @@ categories:
   - optics
   - papers
 date: 2022-07-01
+date-modified: 2023-08-01
+image: "/assets/figs/2022-optics/retro.svg"
+image-alt: "Schematic of a retroreflector"
 abstract: >-
   Last time we added an extra row and column to our ABCD matrices.  What can we do with these?
 ---
