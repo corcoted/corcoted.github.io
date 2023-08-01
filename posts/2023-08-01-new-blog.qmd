@@ -6,13 +6,17 @@ categories:
   - meta
 date: 2023-08-01
 abstract: >-
-  I updated the format of the website.
+  I updated the engine for the website.  Watch for more updates soon!
 ---
 
 I just updated the format of the website.  Partly this was to make it easier for me to maintain, and partly it was to (hopefully) encourage me to write more.
 Please excuse any sloppiness (and the boring default theme) while I get things running again.
 
 The old website was built using [Jekyll](https://jekyllrb.com/).  At the time, this was the easiest platform to host on GitHub Pages.  But keeping up with patches in Jekyll was becoming a pain, so I dumped it.  (Jekyll is built on Ruby, but I'm not a regular Ruby user.)
+
+:::{style="float: right; position: relative; top: 0px; padding: 30px;"}
+![](/assets/figs/quarto.png){alt-text="Quarto" width=200px} 
+:::
 
 After looking around a bit, I switched over to [Quarto](https://quarto.org).  Quarto, like Jekyll, uses Markdown as the main file format, but it uses [Pandoc](https://pandoc.org) in the background to compile the markdown into html or LaTeX (and then onto PDF).  I already have some experience with Pandoc (e.g. I've been using it for my course syllabi for a while now), so I already understand its limitations and quirks.  The activation barrier was low.
 
