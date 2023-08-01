@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2018-05-27">
+<meta name="dcterms.date" content="2023-08-01">
 
-<title>Corcovilos Lab - DAMOP 2018 prelude</title>
+<title>Corcovilos Lab - New website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -137,10 +137,10 @@ ga('send', {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DAMOP 2018 prelude</h1>
+<h1 class="title">New website</h1>
   <div class="quarto-categories">
     <div class="quarto-category">news</div>
-    <div class="quarto-category">conferences</div>
+    <div class="quarto-category">meta</div>
   </div>
   </div>
 
@@ -152,7 +152,7 @@ ga('send', {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 27, 2018</p>
+      <p class="date">August 1, 2023</p>
     </div>
   </div>
   
@@ -162,15 +162,25 @@ ga('send', {
 <div>
   <div class="abstract">
     <div class="abstract-title">Abstract</div>
-    Preview of the 2018 DAMOP conference.
+    I updated the engine for the website. Watch for more updates soon!
   </div>
 </div>
 
 </header>
 
-<p>I just arrived in <a href="https://en.wikipedia.org/wiki/Fort_Lauderdale,_Florida">Fort Lauderdale, Florida</a> for the 2018 edition of the <a href="http://www.aps.org">American Physical Society</a> <a href="https://www.aps.org/units/damop/index.cfm">Divison of Atomic, Molecular, and Optical Physics</a> (DAMOP) conference. Over the next few days I’ll try to write brief recaps of interesting things I see and relay some interesting conversations. My first job is to skim through the <a href="http://meetings.aps.org/Meeting/DAMOP18/Content/3507">scientific program</a> and choose my adventure for the week. Definite must-see events are the <a href="http://meetings.aps.org/Meeting/DAMOP18/Session/B01">prize session</a> (always the first thing: 8am on Tuesday), and the <a href="http://meetings.aps.org/Meeting/DAMOP18/Session/D03">Ph.D.&nbsp;thesis prize competition</a> on Tuesday afternoon. Quickly glancing at the thesis prize abstracts it looks like no theory talks were nominated this year, which hasn’t happened before in my recollection.</p>
-<p>In addition to keeping up with the latest developments, I also try to catch old friends and colleagues. The poster sessions are always great for that. I’ll be presenting a <a href="http://meetings.aps.org/Meeting/DAMOP18/Session/T01.134">poster myself on Thursday afternoon</a> on our quasicrystal project. I hope to get useful feedback on what we’re doing.</p>
-<p>I’ll sign off for now, but stay tuned throughout the week.</p>
+<p>I just updated the format of the website. Partly this was to make it easier for me to maintain, and partly it was to (hopefully) encourage me to write more. Please excuse any sloppiness (and the boring default theme) while I get things running again.</p>
+<p>The old website was built using <a href="https://jekyllrb.com/">Jekyll</a>. At the time, this was the easiest platform to host on GitHub Pages. But keeping up with patches in Jekyll was becoming a pain, so I dumped it. (Jekyll is built on Ruby, but I’m not a regular Ruby user.)</p>
+<div style="float: right; position: relative; top: 0px; padding: 30px;">
+<p><img src="../assets/figs/quarto.png" class="img-fluid" data-alt-text="Quarto" width="200"></p>
+</div>
+<p>After looking around a bit, I switched over to <a href="https://quarto.org">Quarto</a>. Quarto, like Jekyll, uses Markdown as the main file format, but it uses <a href="https://pandoc.org">Pandoc</a> in the background to compile the markdown into html or LaTeX (and then onto PDF). I already have some experience with Pandoc (e.g.&nbsp;I’ve been using it for my course syllabi for a while now), so I already understand its limitations and quirks. The activation barrier was low.</p>
+<p>But on top of Pandoc, Quarto allows you to write generative documents, in the sense that you can embed code (R, python, javascript, etc.) into the document to generate plots, figures, etc. I played around with this feature a little back in the Spring to generate my Acoustics lecture notes, and I liked it. (I also built a couple of “live” documents using <a href="https://shiny.rstudio.com/py/index.html">Shiny</a> to embed interactive apps into the pages, but the overhead is still a bit high for everyday use.) I think this will let me do a few more interesting things in my blog posts.</p>
+<p>So, stay tuned!</p>
+<p>On deck:</p>
+<ul>
+<li>Part 3 of my geometric optics paper discussion. The paper was <a href="https://doi.org/10.1119/5.0083069">published</a> a few weeks ago, so I need to finish that up by showing you how to use matrices to solve imaging problems <em>directly</em>. Links to <a href="../posts/2022-05-20-HomogeneousOptics-1.html">Part 1</a> and <a href="../posts/2022-07-01-HomogeneousOptics-2.html">Part 2</a>.</li>
+<li>Intro to Markov chain Monte Carlo for fitting data, from a physicist’s point of view. I’m using this technique for analysing my water quality data, and it seems like a useful things to share. The cool thing is that I can build a realistic model of how my experiment works (including details like instrument response, measurements errors, and chemical kinetics), and extract physically important fitting parameters (and their uncertainties) without doing a lot of algebra and calculus contortions.</li>
+</ul>
 
 
 

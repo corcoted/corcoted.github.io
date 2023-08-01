@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.306">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -55,10 +57,39 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-blog-listings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-blog-listings'] = new List('listing-blog-listings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
 <script type="text/javascript">
 
@@ -74,6 +105,8 @@ ga('send', {
 });
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -117,9 +150,9 @@ ga('send', {
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="https://twitter.com/TedCorcovilos" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com/corcoted" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.linkedin.com/in/ted-corcovilos" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com/TedCorcovilos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://github.com/corcoted" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/ted-corcovilos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -133,7 +166,22 @@ ga('send', {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Corcovilos Lab</h1>
+</div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -152,8 +200,547 @@ ga('send', {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vUE_Bs3hgbg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
 </center>
+<section id="latest-blog-posts" class="level3">
+<h3 class="anchored" data-anchor-id="latest-blog-posts">Latest blog posts</h3>
+<div id="listing-blog-listings" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="news,meta" data-listing-date-sort="1690862400000" data-listing-file-modified-sort="1690910917031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/2023-08-01-new-blog.html"> <p class="card-img-top"><img src="assets/figs/quarto.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2023-08-01-new-blog.html">
+<h3 class="no-anchor listing-title">
+New website
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I updated the engine for the website. Watch for more updates soon!</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2023-08-01-new-blog.html">
+<div class="listing-date">
+Aug 1, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="research,optics,papers" data-listing-date-sort="1656648000000" data-listing-file-modified-sort="1690910917012" data-listing-date-modified-sort="1690862400000" data-listing-reading-time-sort="11">
+<div class="thumbnail">
+<p><a href="./posts/2022-07-01-HomogeneousOptics-2.html"> <img src="./assets/figs/2022-optics/retro.svg" class="thumbnail-image" alt="Schematic of a retroreflector"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2022-07-01-HomogeneousOptics-2.html">
+<h3 class="no-anchor listing-title">
+Optics in Homogeneous Coordinates, Coordinate Tranformations
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Last time we added an extra row and column to our ABCD matrices. What can we do with these?</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2022-07-01-HomogeneousOptics-2.html">
+<div class="listing-date">
+Jul 1, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="research,optics,papers" data-listing-date-sort="1653019200000" data-listing-file-modified-sort="1690910916990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="thumbnail">
+<p><a href="./posts/2022-05-20-HomogeneousOptics-1.html"> <p class="card-img-top"><img src="assets/figs/2022-optics/line.svg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2022-05-20-HomogeneousOptics-1.html">
+<h3 class="no-anchor listing-title">
+Optics in Homogeneous Coordinates, Introduction
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I introduce the homogeneous representation of rays and extend the ABCD matrices to include rotations and translations (properly!).</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2022-05-20-HomogeneousOptics-1.html">
+<div class="listing-date">
+May 20, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="teaching,masters,planning" data-listing-date-sort="1647316800000" data-listing-file-modified-sort="1690910916982" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="thumbnail">
+<p><a href="./posts/2022-03-15-masters.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2022-03-15-masters.html">
+<h3 class="no-anchor listing-title">
+Our New Master’s Program
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I discuss how we built our new Professional Master’s in Applied Physics program at Duquesne.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2022-03-15-masters.html">
+<div class="listing-date">
+Mar 15, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="teaching" data-listing-date-sort="1574226000000" data-listing-file-modified-sort="1690910916973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/2019-11-20-teachingprep.html"> <p class="card-img-top"><img data-src="assets/photos/Everest.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-11-20-teachingprep.html">
+<h3 class="no-anchor listing-title">
+A student caught me studying
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>A student caught me studying, so I had to explain my teaching philosophy.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-11-20-teachingprep.html">
+<div class="listing-date">
+Nov 20, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="teaching,relativity,quantum mechanics" data-listing-date-sort="1553832000000" data-listing-file-modified-sort="1690910916963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-03-29-time-travel.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-03-29-time-travel.html">
+<h3 class="no-anchor listing-title">
+Time Travel Lecture
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I gave a fun talk to Eric Vogelstein’s <em>Philosophy of Star Trek</em> class about time travel.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-03-29-time-travel.html">
+<div class="listing-date">
+Mar 29, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="news,optics,papers" data-listing-date-sort="1552968000000" data-listing-file-modified-sort="1690910916953" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-03-19-quasicrystalopticspaper.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-03-19-quasicrystalopticspaper.html">
+<h3 class="no-anchor listing-title">
+New Paper! Generating quasicrystal optical potentials
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>We recently published a paper about how we are generating the quasicrystal optical potentials for our ultracold atom experiment.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-03-19-quasicrystalopticspaper.html">
+<div class="listing-date">
+Mar 19, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="math,reading" data-listing-date-sort="1547096400000" data-listing-file-modified-sort="1690910916944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./posts/2019-01-10-geoalg.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-01-10-geoalg.html">
+<h3 class="no-anchor listing-title">
+Geometric Algebra - beyond vectors
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I stumbled onto the topic of Geometric Algebra (Clifford Algebra) a while back. Does it help us understand physics?</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-01-10-geoalg.html">
+<div class="listing-date">
+Jan 10, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="research,irmpd,optics" data-listing-date-sort="1546491600000" data-listing-file-modified-sort="1690910916936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/2019-01-03-FELIX.html"> <p class="card-img-top"><img data-src="assets/photos/jb-felix-153751.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-01-03-FELIX.html">
+<h3 class="no-anchor listing-title">
+Visiting the FELIX Free Electron Laser
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I visited the FELIX Free Electron Laser facility at Radboud University in Nijmegen, the Netherlands, to do some spectroscopy experiments with Mike Van Stipdonk.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-01-03-FELIX.html">
+<div class="listing-date">
+Jan 3, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="teaching,math,collaboration" data-listing-date-sort="1543899600000" data-listing-file-modified-sort="1690910916927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/2018-12-04-hug-a-math-prof.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-12-04-hug-a-math-prof.html">
+<h3 class="no-anchor listing-title">
+Hug a math professor!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>A brief meeting with a math colleague opened both of our eyes about helping our students.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-12-04-hug-a-math-prof.html">
+<div class="listing-date">
+Dec 4, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="teaching,DAMOP,conferences,grad-school" data-listing-date-sort="1541480400000" data-listing-file-modified-sort="1690910916919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="thumbnail">
+<p><a href="./posts/2018-11-06-grad-admissions.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-11-06-grad-admissions.html">
+<h3 class="no-anchor listing-title">
+Thoughts on the graduate admissions process
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>The DAMOP session on graduate admissions was enlightening and disheartening. Best practices are not being followed by schools or by students. I’ll discuss a little of what I learned here.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-11-06-grad-admissions.html">
+<div class="listing-date">
+Nov 6, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="research,DAMOP,conferences,meta" data-listing-date-sort="1527739200000" data-listing-file-modified-sort="1690910916908" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="thumbnail">
+<p><a href="./posts/2018-05-31-DAMOP-1.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-05-31-DAMOP-1.html">
+<h3 class="no-anchor listing-title">
+DAMOP, Part 1 - Navigating a conference
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Instead of describing the science I’m seeing this week at the DAMOP meeting, I decided to do a couple of meta posts on conferences in general. This first one discusses what happens at a science conference and what to do while you’re there.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-05-31-DAMOP-1.html">
+<div class="listing-date">
+May 31, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="news,conferences" data-listing-date-sort="1527393600000" data-listing-file-modified-sort="1690910916899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2018-05-27-DAMOP-prelude.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-05-27-DAMOP-prelude.html">
+<h3 class="no-anchor listing-title">
+DAMOP 2018 prelude
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Preview of the 2018 DAMOP conference.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-05-27-DAMOP-prelude.html">
+<div class="listing-date">
+May 27, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="teaching,relativity,atomic clocks" data-listing-date-sort="1526011200000" data-listing-file-modified-sort="1690910916891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="thumbnail">
+<p><a href="./posts/2018-05-11-airplane-clocks.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-05-11-airplane-clocks.html">
+<h3 class="no-anchor listing-title">
+Mr.&nbsp;Adam Clock, please report to the ticket counter.
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I’m still amazed that we can measure relativity in such a simple way as putting clocks on airplanes.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-05-11-airplane-clocks.html">
+<div class="listing-date">
+May 11, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="teaching,quantum mechanics,quantum game,papers" data-listing-date-sort="1524542400000" data-listing-file-modified-sort="1690910916882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./posts/2018-04-24-quantum-game.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-04-24-quantum-game.html">
+<h3 class="no-anchor listing-title">
+Quantum State Guessing Game
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>For a couple of years I’ve been polishing up a classroom activity to demonstrate how quantum measurements work on a simple qubit system. Here I’d like to summarize the game in simple terms for non-experts.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-04-24-quantum-game.html">
+<div class="listing-date">
+Apr 24, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="research,lead,ethics,IRB" data-listing-date-sort="1524110400000" data-listing-file-modified-sort="1690910916874" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/2018-04-19-lead-ethics.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-04-19-lead-ethics.html">
+<h3 class="no-anchor listing-title">
+Lead in Drinking Water, Part 2 (Ethics)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Before I describe how we measure lead in drinking water, I want to discuss some of the new (to me) meta issues associated with this project. A lot of these things are uncommon for physics research, but will be familiar to folks in biology or medicine. I am a rank amateur on these issues, so consider this an imperfect discussion by someone still finding his way.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-04-19-lead-ethics.html">
+<div class="listing-date">
+Apr 19, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="fun,coffee" data-listing-date-sort="1522641600000" data-listing-file-modified-sort="1690910916865" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/2018-04-02-invertedfrenchpress.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-04-02-invertedfrenchpress.html">
+<h3 class="no-anchor listing-title">
+Use a French press coffee pot backwards
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I found a different way of using a french press coffee pot that keeps the coffee from getting bitter if you don’t drink it right away.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-04-02-invertedfrenchpress.html">
+<div class="listing-date">
+Apr 2, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="research,lead" data-listing-date-sort="1520485200000" data-listing-file-modified-sort="1690910916857" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="thumbnail">
+<p><a href="./posts/2018-03-08-lead-background.html"> <p class="card-img-top"><img data-src="assets/figs/BLL2015.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-03-08-lead-background.html">
+<h3 class="no-anchor listing-title">
+Lead in Drinking Water, Part 1 (Background)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>One of my major research projects is building an inexpensive handheld device for measuring the amount of lead in drinking water. This is the first of several planned posts on the project. Today, I’d like to introduce the problem we’re trying to solve and talk particularly about lead in Pittsburgh’s drinking water.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-03-08-lead-background.html">
+<div class="listing-date">
+Mar 8, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="fun,reading" data-listing-date-sort="1519880400000" data-listing-file-modified-sort="1690910916847" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="thumbnail">
+<p><a href="./posts/2018-03-01-reading.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-03-01-reading.html">
+<h3 class="no-anchor listing-title">
+Reading List, March 2018
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>I read a lot. It’s probably my biggest hobby. Here’s what’s sitting on my desk or in my ebook right now.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-03-01-reading.html">
+<div class="listing-date">
+Mar 1, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="teaching,optics" data-listing-date-sort="1518670800000" data-listing-file-modified-sort="1690910916838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="thumbnail">
+<p><a href="./posts/2018-02-15-eye-test.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-02-15-eye-test.html">
+<h3 class="no-anchor listing-title">
+Simple eye test without fancy equipment
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Most of us are familiar with the refraction exam done by optometrists to determine our eyeglass prescription. Here’s a different method without the fancy equipment. The only tool we need is a tape measure and an object to look at, like a chart or point-source of light like an LED.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-02-15-eye-test.html">
+<div class="listing-date">
+Feb 15, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="news,meta" data-listing-date-sort="1518498000000" data-listing-file-modified-sort="1690910916829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2018-02-13-welcome.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-02-13-welcome.html">
+<h3 class="no-anchor listing-title">
+Welcome
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Welcome to my new website and blog.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-02-13-welcome.html">
+<div class="listing-date">
+Feb 13, 2018
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="blog-listings-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
 
 
+
+</section>
 </section>
 
 </main> <!-- /main -->
