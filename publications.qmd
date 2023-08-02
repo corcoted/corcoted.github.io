@@ -1,0 +1,72 @@
+---
+title: "Publications"
+format:
+  html:
+    toc: false
+
+cite-method: citeproc
+bibliography: "./_data/publications.json"
+csl: "./_data/review-of-scientific-instruments.csl"
+date-modified: 2023-08-02
+jupyter: website
+execute:
+  freeze: auto
+  echo: false
+---
+
+```{python}
+#| echo: false
+
+# This nonsense is necessary because pandoc doesn't like 'nocite' for a whole bibliography
+# (It seems to need at least one explicit citation to work.)
+# I take advantage to fix the sorting, but in the future I hope I can do this without the python script.
+
+import pandas as pd
+import json
+import numpy as np
+```
+
+```{python}
+filename = './_data/publications.json'
+
+with open(filename,'r',encoding="utf-8") as f:
+    data = json.load(f)
+```
+
+```{python}
+df = pd.json_normalize(data)
+```
+
+```{python}
+years = np.array([ np.array(x[0][0]) for x in df['issued.date-parts'].values])
+#months = np.array([ np.array(x[0][1]) for x in df['issued.date-parts'].values])
+```
+
+```{python}
+df['year']=years
+#df['month']=month
+```
+
+```{python}
+#| output: asis
+keylist=df.sort_values('citation-key',ascending=True).sort_values('year',ascending=False)['citation-key'].values
+
+outhead='''
+---
+no-cite: |'''
+
+outtail='---'
+
+print(outhead)
+for k in keylist:
+    print(f'  @{k}')
+
+print(outtail)
+```
+
+::: {.callout-note appearance="minimal"}
+Copies available upon [request](mailto:corcovilost@duq.edu).
+:::
+
+::: {#refs}
+:::

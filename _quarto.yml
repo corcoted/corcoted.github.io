@@ -10,6 +10,7 @@ website:
         text: Home
       - about.qmd
       - research.qmd
+      - publications.qmd
       - teaching.qmd
       - blog.qmd
     tools:
@@ -27,6 +28,15 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    author:
+      - name: Theodore A. Corcovilos
+        id: tac
+        email: corcovilost@duq.edu
+        affiliation:
+          - name: Duquesne University
+            city: Pittsburgh
+            state: PA
+            url: www.duq.edu
 
 
 

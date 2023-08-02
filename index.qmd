@@ -1,8 +1,6 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: "Corcovilos Lab"
+author: ""
 listing:
   contents: posts
   sort: "date desc"
@@ -12,11 +10,15 @@ format:
   html:
     toc: false
 ---
-![](./assets/photos/Corcovilos.jpg){ width=400px fig-alt="photo of Ted Corcovilos, Ph.D." fig-align="center"}
+![](./assets/photos/Corcovilos.jpg){ width=300px fig-alt="photo of Ted Corcovilos" fig-align="center"}
 
+## Theodore (Ted) A. Corcovilos, Ph.D.
+Associate Professor of Physics<br />
+Duquesne University
+
+::: {.callout-warning}
 ***Website under repair!*** I moved to a [new platform](https://quarto.org/), so some things may look a little funny while I reformat everything.  Also, old links to pages herein are probably dead now.  Please excuse my mess!
-
-## Ted Corcovilos, Ph.D.
+:::
 
 Experimental atomic physics research at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
