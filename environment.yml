@@ -1,0 +1,12 @@
+name: env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - ipykernel
+  - pandas
+  - matplotlib
+  - ca-certificates
+  - openssl
+prefix: ./env

@@ -1,8 +1,54 @@
 ---
 layout: default
 title: Group members
+exectute:
+  echo: false
+jupyter: website
 ---
 
-*Coming soon!*
+::: {.callout-warning appearance="minimal"}
+This list is a work in progress (both content and format).  If you see an error, apologies! [Please let me know!](mailto:corcovilost@duq.edu)
+:::
 
-[Back to the homepage](./index.html)
+```{python}
+#| echo: false
+import pandas as pd
+```
+
+```{python}
+#| echo: false
+filename = './_data/members.csv'
+column_dtypes={'name':'string',
+               'type':'category',
+               'current':'boolean',
+               'start':'UInt16',
+               'end':'UInt16',
+               'grad':'UInt16',
+               'degree':'string', # TODO should be category
+               'now':'string',
+               'photo':'string'}
+df = pd.read_csv(filename,dtype=column_dtypes)
+
+#df
+```
+
+### Current members
+```{python}
+#| echo: false
+these_columns = ['name','start','now','degree']
+df[df['current'] & (df['type']=='UG')][these_columns].sort_values(by='start',ascending=False).style.hide(axis="index")
+```
+
+### Past members
+```{python}
+#| echo: false
+these_columns = ['name','start','end','degree','grad','now']
+df[~df['current'] ][these_columns].sort_values(by='grad',ascending=False).style.hide(axis="index")
+```
+
+### Collaborators
+```{python}
+#| echo: false
+these_columns = ['name','start','now']
+df[df['type']=='C'][these_columns].sort_values(by='start',ascending=True).style.hide(axis="index")
+```
