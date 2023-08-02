@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 12: Using prior knowledge"
+categories:
+  - math
+  - data analysis
+date: 2023-08-10
+abstract: >-
+  In physical sciences we usually don't enter an experiment completely blind.  Usually we have some contraints on our fitting parameters (e.g., the mass of the Earth must be a positive number) or someone has done an experiment before us, and we're trying refine their results.  We can build these prior beliefs into our model, bringing us to Bayesian methods.
+---
+
+Template for blog posts

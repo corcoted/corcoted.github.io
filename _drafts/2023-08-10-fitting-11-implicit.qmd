@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 11: Implicit functions"
+categories:
+  - math
+  - data analysis
+date: 2023-08-10
+abstract: >-
+  The tools we built in the last episode let us go beyond fitting functions of the form *y*&nbsp;=@nbsp;*f(x)*.  They work for inverse functions and implicit functions as well.  For example, we can fit circles!
+---
+
+Template for blog posts

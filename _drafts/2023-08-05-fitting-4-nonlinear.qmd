@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 4: Off the straight and narrow"
+categories:
+  - math
+  - data analysis
+date: 2023-08-05
+abstract: >-
+  Lines are easy, but the world isn't linear.  What can we do?
+---
+
+Template for blog posts

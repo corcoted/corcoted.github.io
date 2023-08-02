@@ -1,0 +1,17 @@
+---
+layout: post
+title: "What we do when we fit data. Part 6: Why I hate significant figures and propagation of errors."
+categories:
+  - math
+  - data analysis
+date: 2023-08-07
+abstract: >-
+  One of the first things we teach about uncertainty is the concept of *significant figures* and rules for how many digits to keep when doing arithmetic.
+  Similarly, in lab we teach rules for *propagation of errors* that serve a similar role.
+  These are poor approximations that should only be used if you're stranded on a deserted island with no access to a computer.
+---
+
+Template for blog posts
+
+## Notes
+See the wikipedia page on [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem), particularly [Common misconceptions](https://en.wikipedia.org/wiki/Central_limit_theorem#Common_misconceptions).  The latter has some bad things we tell students.

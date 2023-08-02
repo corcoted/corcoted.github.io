@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 10: Wait!  Isn't *x* uncertain, too?"
+categories:
+  - math
+  - data analysis
+date: 2023-08-10
+abstract: >-
+  All of the previous discussion assumed that our independent variables were perfectly known.  If we're being honest, that's usually not true in a physical system.  So, how do we account for that when doing our fits?
+---
+
+Template for blog posts
