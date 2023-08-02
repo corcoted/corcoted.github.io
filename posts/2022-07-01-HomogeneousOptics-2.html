@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.306">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -119,9 +120,9 @@ ga('send', {
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="https://twitter.com/TedCorcovilos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com/corcoted" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.linkedin.com/in/ted-corcovilos" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com/TedCorcovilos" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://github.com/corcoted" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/ted-corcovilos" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -216,7 +217,7 @@ ga('send', {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/figs/2022-optics/line.svg" class="img-fluid figure-img" data-alt-text="Graph of a line"></p>
-<p></p><figcaption class="figure-caption">The equation of an oriented line. In this example, <em>a</em> and <em>b</em> &gt; 0 and <em>c</em>&lt;0.</figcaption><p></p>
+<figcaption class="figure-caption">The equation of an oriented line. In this example, <em>a</em> and <em>b</em> &gt; 0 and <em>c</em>&lt;0.</figcaption>
 </figure>
 </div>
 <p>In the <a href="../posts/2022-05-20-HomogeneousOptics-1.html">previous post</a> I defined an oriented line by considering the equation of a line in 2D: $ ax+by+c = 0 $, which we can abbreviate as the vector of coefficients <span class="math inline">\((c,a,b)\)</span>. In this post, we want to perform some geometric operations on this line. Namely, we want to move (translate) it, rotate it about the coordinate origin, and switch its orientation (from left-to-right to right-to-left). Once we understand how to manipulate the line, we’ll perform these same transformations on our ABCD matrices.</p>
@@ -241,7 +242,7 @@ T(u,v) = \begin{pmatrix} 1 &amp; -u &amp; -v \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/figs/2022-optics/retro.svg" class="img-fluid figure-img" data-alt-text="Retroreflector schematic"></p>
-<p></p><figcaption class="figure-caption">Example of retroreflector made from two perpendicular mirrors.</figcaption><p></p>
+<figcaption class="figure-caption">Example of retroreflector made from two perpendicular mirrors.</figcaption>
 </figure>
 </div>
 <p>I have several examples in the paper<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, but my favorite is a common lab optic: a right-angle retroreflector. The setup is simple: we have two flat mirrors that intersect at right angles. Any incoming ray will be retroreflected opposite its original direction, offset by some distance.</p>
