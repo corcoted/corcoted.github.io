@@ -19,7 +19,7 @@ These blog posts will focus on the motivation and how to use the results.
 
 [^1]: T. Corcovilos. Beyond the ABCDs: A projective geometry treatment of paraxial ray tracing using homogeneous coordinates. *American Journal of Physics* 91(6):449-457 (2023).  doi:[10.1119/5.0083069](http://doi.org/10.1119/5.0083069) Preprint at arXiv:[2205.09746](http://arxiv.org/abs/2205.09746)
 
-[Part 2 is here.](/posts/2022-07-01-HomogeneousOptics-2.html)
+[Part 2 is here.](/posts/2022-07-01-HomogeneousOptics-2.qmd)
 
 ## Motivation
 
@@ -163,5 +163,5 @@ We used one of these to add a meaningful orientation to the lines.
 Three more degrees of freedom can be used to translate and rotate the coordinate axes or, equivalently, our optical elements.
 This will be the topic of Part 2.
 
-_[Continued in Part 2](/posts/2022-07-01-HomogeneousOptics-2.html)_
+_[Continued in Part 2](/posts/2022-07-01-HomogeneousOptics-2.qmd)_
 

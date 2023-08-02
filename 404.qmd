@@ -7,4 +7,4 @@ title: Page Not Found
 
 The requested page could not be found. ☹️
 
-[Back to the homepage](./index.html)
+[Back to the homepage](./index.qmd)

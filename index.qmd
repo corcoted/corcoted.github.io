@@ -20,11 +20,11 @@ format:
 
 Experimental atomic physics research at [Duquesne University](http://www.duq.edu) and [Pittsburgh Quantum Institute](http://www.pqi.org).
 
-[Research](./research.html) interests include ultracold atoms, related optics, chemical spectroscopy, environmental hazards.
+[Research](./research.qmd) interests include ultracold atoms, related optics, chemical spectroscopy, environmental hazards.
 
-[Teaching](./teaching.html) interests include undergraduate physics, especially upper division courses.
+[Teaching](./teaching.qmd) interests include undergraduate physics, especially upper division courses.
 
-[More info](./about.html) about where to find me online.
+[More info](./about.qmd) about where to find me online.
 
 A brief video describing our research:
 

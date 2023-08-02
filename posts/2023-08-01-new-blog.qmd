@@ -27,5 +27,5 @@ So, stay tuned!
 
 On deck:
 
-- Part 3 of my geometric optics paper discussion. The paper was [published](https://doi.org/10.1119/5.0083069) a few weeks ago, so I need to finish that up by showing you how to use matrices to solve imaging problems *directly*.  Links to [Part 1](/posts/2022-05-20-HomogeneousOptics-1.html) and [Part 2](/posts/2022-07-01-HomogeneousOptics-2.html).
+- Part 3 of my geometric optics paper discussion. The paper was [published](https://doi.org/10.1119/5.0083069) a few weeks ago, so I need to finish that up by showing you how to use matrices to solve imaging problems *directly*.  Links to [Part 1](/posts/2022-05-20-HomogeneousOptics-1.qmd) and [Part 2](/posts/2022-07-01-HomogeneousOptics-2.qmd).
 - Intro to Markov chain Monte Carlo for fitting data, from a physicist's point of view.  I'm using this technique for analysing my water quality data, and it seems like a useful things to share.  The cool thing is that I can build a realistic model of how my experiment works (including details like instrument response, measurements errors, and chemical kinetics), and extract physically important fitting parameters (and their uncertainties) without doing a lot of algebra and calculus contortions.
