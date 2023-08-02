@@ -1,0 +1,34 @@
+---
+layout: post
+title: Optics in Homogeneous Coordinates, Imaging Points
+categories:
+  - research
+  - optics
+  - papers
+date: 2023-08-02
+abstract: >-
+  Our new 3&nbsp;3 ray matrices give us shortcuts to finding images.
+---
+
+::: {.callout-note appearance="minimal"}
+This is the third post discussing my recent paper on a new way to look at geometric optics.
+I deconstruct the familiar ABCD ray-transfer matrices and rebuild them based on geometric considerations.
+The paper itself is published in *American Journal of Physics*[^1].
+These blog posts will focus on the motivation and how to use the results.
+:::
+
+[^1]: T. Corcovilos. Beyond the ABCDs: A projective geometry treatment of paraxial ray tracing using homogeneous coordinates. *American Journal of Physics* 91(6):449-457 (2023).  doi:[10.1119/5.0083069](http://doi.org/10.1119/5.0083069) Preprint at arXiv:[2205.09746](http://arxiv.org/abs/2205.09746)
+
+- [Part 1](/posts/2022-05-20-HomogeneousOptics-1.qmd)
+- [Part 2](/posts/2022-07-01-HomogeneousOptics-2.qmd)
+
+## Picking up from last time...
+![The equation of an oriented line. In this example, _a_ and _b_ > 0 and _c_<0.](/assets/figs/2022-optics/line.svg){ alt-text="Graph of a line"}
+
+In the [first post](/posts/2022-05-20-HomogeneousOptics-1.qmd) I defined an oriented line by considering the equation of a line in 2D:
+$ ax+by+c = 0 $.
+This gave us 3&times;3 matrices for describing our optical system that contain the traditional *ABCD* matrices as a subset.
+
+The [second post](/posts/2022-07-01-HomogeneousOptics-2.qmd) showed that the extra degrees of freedom also let us move and rotate our optical elements: we're no longer confined to being centered on and normal to a single optical axis.
+
+In this post, I show a little slight of hand using projective geometry that lets us reframe our matrices as transformations of *points* rather than rays.  In other words, we can do imaging calculations directly from the matrices without going through the usual process of tracing rays.
