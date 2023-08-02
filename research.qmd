@@ -1,6 +1,6 @@
 ---
-title: "Research Overview"
-date-modified: 2023-08-01
+title: "Research"
+date-modified: 2023-08-02
 abstract: "A quick summary of current research projects."
 ---
 
@@ -11,6 +11,8 @@ Broadly speaking, I work on atomic physics, but also applications of spectroscop
 </center>
 
 All of this is possible because of my wonderful [student researchers and collaborators](./group.qmd).
+
+See the [publications page](./publications.qmd) for links to my papers.
 
 ## Geometric descriptions of geometric optics
 This may sound a bit odd, but we don't typically use a lot of *geometry* when teaching *geometric optics*.  The usual way that these topics are taught and used is though algebraic methods (e.g. solving Gauss's imaging equation).  By rethinking where these equations come from, we gain insight into the relationships between light rays and images.  Mathematical tools like projective geometry (which has mostly been forgotten since the end of the 1800s) and Clifford's geometric algebra unify these various descriptions of light.
