@@ -5,10 +5,12 @@ categories:
   - research
   - optics
   - papers
-date: 2023-08-02
+date: 2023-08-04
+image: "/assets/figs/2022-optics/thinlens.svg"
+image-alt: "Imaging with a thin lens"
 abstract: >-
-  Our new 3&nbsp;3 ray matrices give us shortcuts to finding images.
-csl: /_data/review-of-scientific-instruments.csl
+  Our new 3&times;3 ray matrices give us shortcuts to finding images.
+csl: "../_data/review-of-scientific-instruments.csl"
 
 references:
 - id: corcovilos2023
@@ -90,7 +92,7 @@ references:
 ::: {.callout-note appearance="minimal"}
 This is the third post discussing my recent paper on a new way to look at geometric optics.
 I deconstruct the familiar ABCD ray-transfer matrices and rebuild them based on geometric considerations.
-The paper itself is published in *American Journal of Physics*[@corcovilos2023].
+The paper itself is published in *American Journal of Physics*[@corcovilos2023], or you can find it on [arXiv](https://arxiv.org/abs/2205.09746).
 These blog posts will focus on the motivation and how to use the results.
 :::
 
@@ -164,6 +166,8 @@ $$
 \vec{p'}\cdot\vec{r'}=0.
 $$
 
+![An interseting ray and point on the object side will also intersect on the image side.](/assets/figs/2022-optics/thinlens.svg){ alt-image="Line and point imaged through a lens" }
+
 We know what the new ray vector image is because we know the matrix for the optical system, _M_.  That gives us
 
 $$
@@ -198,7 +202,7 @@ M_p^TM = k I, \\
 M_p = k (M^{-1})^T,
 \end{gathered}
 $$
-where _k_ is some non-zero constant.  Because we're using homogenous representations for our point, the value of _k_ doesn't matter, but if we're being picky we can show from other arguments that its actual value is the determinant of _M_.
+where _k_ is some non-zero constant.  Because we're using homogenous representations for our point, the value of _k_ doesn't matter, but if we're being picky we can show from other arguments that its actual value is $k=\det(M)$.
 
 In particular, if we know the _ABCD_ matrix, the corresponding point transfer matrix is
 
@@ -228,10 +232,7 @@ $$
 and an object 20 cm in front of the lens with a height of 0.1 cm.
 We would like to locate the resulting image position and height.
 
-Hecht's solution has several steps: 
-(1) Extend the system matrix $M$ with a propagation matrix of length 20 cm in front of the lens (for the object position) and a propagation of unknown length $d$ after the lens (for the image position) so that the system matrix now includes both the object and image points.
-(2) Algebraically set the $B$ element of the resulting product matrix to zero.  This enforces the condition that the final ray height is independent of the incoming ray slope (i.e.\ an image forms). With this constraint, one can solve for the unknown length $d$ to locate the image plane.
-(3) Identify the magnification as the $A$ element of the resulting matrix.  This is true because we set $B=0$ above, meaning that the image ray height only depends on the object ray height, which gives us the magnification.
+Hecht's solution takes about 2 pages and involves constructing new matrices containing unknown distances, and solving for them.
 
 Our solution is much more direct.
 First, we construct the point transfer matrix from the original ray transfer matrix (without additional propagations) and multiply this into the homogeneous position vector $p=[1,x,y]^T$ for the object point.
