@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 2: What we mean by fitting a line."
+categories:
+  - math
+  - data analysis
+date: 2023-08-03
+abstract: >-
+  Why do we try to fit lines to data?  The usual statistics reason (to look for correlation) usually doesn't apply to physics.  We're usually looking to estimate the value of parameters.
+---
+
+Template for blog posts

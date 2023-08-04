@@ -6,7 +6,7 @@ categories:
   - optics
   - papers
 date: 2022-07-01
-date-modified: 2023-08-01
+date-modified: 2023-08-04
 image: "/assets/figs/2022-optics/retro.svg"
 image-alt: "Schematic of a retroreflector"
 abstract: >-
@@ -226,3 +226,5 @@ Substitute these changes into our line equation:
 \\[ a(x \\cos\\theta - y \\sin\\theta) + b(x \\sin\\theta + y \\cos\\theta) + c = 0, \\]
 \\[ (a \\cos \\theta + b \\sin\\theta)x + (-a \\sin\\theta + b \\cos\\theta)y + c = 0. \\]
 
+## Next time
+In [Part 3](/posts/2023-08-04-HomogeneousOptics-3.qmd) I show how to manipulate the matrices to image points directly.

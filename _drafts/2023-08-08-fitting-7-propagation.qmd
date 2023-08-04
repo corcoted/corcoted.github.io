@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 7: Propagating painlessly."
+categories:
+  - math
+  - data analysis
+date: 2023-08-07
+abstract: >-
+  You saw my rant.  Despite that, we can do slightly better by letting the computer handle propagation of errors for us using the magic of automatic differentiation.  Here I give examples in Python.  
+---
+
+Template for blog posts

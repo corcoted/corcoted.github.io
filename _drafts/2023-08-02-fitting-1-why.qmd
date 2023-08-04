@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 1: Why?"
+categories:
+  - math
+  - data analysis
+date: 2023-08-02
+abstract: >-
+  Why do we try to fit equations to data? (Part 1 of a series)
+---
+
+Template for blog posts

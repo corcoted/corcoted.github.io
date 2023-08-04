@@ -6,6 +6,7 @@ categories:
   - optics
   - papers
 date: 2022-05-20
+date-modified: 2023-08-04
 abstract: >-
   I introduce the homogeneous representation of rays and extend the ABCD matrices to include rotations and translations (properly!).
 ---
@@ -97,8 +98,8 @@ In our new represenation we rearrange this to $mx -y + h = 0$ and identify the c
 Because we can multiply the line coefficients by any nonzero scalar, is there any prefered normalization?
 For most of what we'll be doing, the normalization won't matter, but let's take a quick peek.
 One convenient choice is to divide the line coefficients by $\sqrt{a^2+b^2}$ .
-Then the new _a_ and _b_ coefficients become the direction cosines with respect to those axes and the new _c_ value gives the (signed) distance from the origin to the line.
-With this normalization, the angle _&theta;_ between two lines can be calculated easily: $\theta=\arccos(a_1a_2+b_1b_2)$ (proven by applying some trig identities).
+Then the new _a_ and _b_ coefficients become the cosines of the angles between the axes and the line and the new _c_ value gives the (signed) distance from the origin to the line.
+With this normalization, the angle _&theta;_ between any two lines can be calculated easily: $\theta=\arccos(a_1a_2+b_1b_2)$ (proven by applying some trig identities).
 
 ### Orientation
 Besides normalization, we have one more degree of freedom that we can assign meaning to: the overall sign of the coefficients.

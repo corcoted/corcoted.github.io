@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 3: Fuzzy points and fuzzy math"
+categories:
+  - math
+  - data analysis
+date: 2023-08-04
+abstract: >-
+  Real experiments have experimental uncertainty.  Shouldn't our fits be uncertain, too?
+---
+
+Template for blog posts

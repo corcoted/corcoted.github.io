@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 5: Not normal."
+categories:
+  - math
+  - data analysis
+date: 2023-08-06
+abstract: >-
+  Almost everything we learn about fitting assumes normal (Gaussian) uncertainty.  Despite the Central Limit Theorem, real data often is *not* normally distributed.  Should we care?  If we do, what changes?
+---
+
+Template for blog posts

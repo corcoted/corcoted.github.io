@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 9: Fitting by rolling dice"
+categories:
+  - math
+  - data analysis
+date: 2023-08-10
+abstract: >-
+  We revisit fitting with a better model of uncertainty, leading to Markov Chain Monte Carlo methods for estimating our fitting parameters *and their uncertainty*.
+---
+
+Template for blog posts

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "What we do when we fit data. Part 8: Building models"
+categories:
+  - math
+  - data analysis
+date: 2023-08-07
+abstract: >-
+  The best way to deal with uncertainty is to model it.  Forget calculus, we just need a random number generator to run our experiment 1000 times.  I show some python code to do that.
+---
+
+Template for blog posts
