@@ -199,6 +199,12 @@ ga('send', {
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">August 4, 2023</p>
+    </div>
+  </div>
     
   </div>
   
@@ -275,7 +281,7 @@ But wait! There’s more!
 </section>
 <section id="normalization" class="level3">
 <h3 class="anchored" data-anchor-id="normalization">Normalization</h3>
-<p>Because we can multiply the line coefficients by any nonzero scalar, is there any prefered normalization? For most of what we’ll be doing, the normalization won’t matter, but let’s take a quick peek. One convenient choice is to divide the line coefficients by <span class="math inline">\(\sqrt{a^2+b^2}\)</span> . Then the new <em>a</em> and <em>b</em> coefficients become the direction cosines with respect to those axes and the new <em>c</em> value gives the (signed) distance from the origin to the line. With this normalization, the angle <em>θ</em> between two lines can be calculated easily: <span class="math inline">\(\theta=\arccos(a_1a_2+b_1b_2)\)</span> (proven by applying some trig identities).</p>
+<p>Because we can multiply the line coefficients by any nonzero scalar, is there any prefered normalization? For most of what we’ll be doing, the normalization won’t matter, but let’s take a quick peek. One convenient choice is to divide the line coefficients by <span class="math inline">\(\sqrt{a^2+b^2}\)</span> . Then the new <em>a</em> and <em>b</em> coefficients become the cosines of the angles between the axes and the line and the new <em>c</em> value gives the (signed) distance from the origin to the line. With this normalization, the angle <em>θ</em> between any two lines can be calculated easily: <span class="math inline">\(\theta=\arccos(a_1a_2+b_1b_2)\)</span> (proven by applying some trig identities).</p>
 </section>
 <section id="orientation" class="level3">
 <h3 class="anchored" data-anchor-id="orientation">Orientation</h3>
