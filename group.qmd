@@ -4,10 +4,14 @@ title: Group members
 exectute:
   echo: false
 jupyter: website
+comments:
+  giscus:
+    repo: "corcoted/corcoted.github.io"
+    reactions-enabled: false
 ---
 
 ::: {.callout-warning appearance="minimal"}
-This list is a work in progress (both content and format).  If you see an error, apologies! [Please let me know!](mailto:corcovilost@duq.edu)
+This list is a work in progress (both content and format).  If you see an error, apologies! Please let me know by sending an [email](mailto:corcovilost@duq.edu) or posting a note in the comment block below.
 :::
 
 ```{python}

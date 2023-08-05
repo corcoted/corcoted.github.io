@@ -1,6 +1,9 @@
 ---
 title: Teaching
-comments: false
+comments:
+  giscus:
+    repo: "corcoted/corcoted.github.io"
+    reactions-enabled: false
 ---
 
 I teach undergraduate physics courses at [Duquesne University](http://duq.edu).
