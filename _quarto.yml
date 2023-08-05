@@ -28,8 +28,8 @@ website:
         href: https://github.com/corcoted
       - icon: linkedin
         href: https://www.linkedin.com/in/ted-corcovilos
+    search: true
   page-footer: "Copyright 2023, Ted Corcovilos"
-  google-analytics: UA-114117860-1
 
 format:
   html:
