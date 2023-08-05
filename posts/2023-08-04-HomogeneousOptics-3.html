@@ -405,7 +405,7 @@ M=\begin{pmatrix} A &amp; B \\ C &amp; D \end{pmatrix}
 </section>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>Using some ideas from projective geometry[^3], we defined points using homogeneous coordinates and showed that the points have their own matrix representation for an optical system.</p>
+<p>Using some ideas from projective geometry<span class="citation" data-cites="coxeter stolfi"><sup><a href="#ref-coxeter" role="doc-biblioref">2</a>,<a href="#ref-stolfi" role="doc-biblioref">3</a></sup></span>, we defined points using homogeneous coordinates and showed that the points have their own matrix representation for an optical system.</p>
 <p>Why do we care? First, it gives us a shortcut for solving some imaging problems, especially if we already know the ray transfer matrix. I’ll work another extended example in the next post using the PTMs to find the entrance and exit pupils of a lens system. But more broadly, this shows that projective geometry<span class="citation" data-cites="stolfi"><sup><a href="#ref-stolfi" role="doc-biblioref">3</a></sup></span> is really the right environment for optics work. Some other tricks with homogenous points and lines vastly simplify things like calculating the circle of confusion for defocussed lenses, depth of field, and other things that usually result in a big algebra mess.</p>
 <p>But wait, can’t the computer do all of this faster and better? Sure. We’re not doing full ray trancing or wave-front analysis here. We can’t see aberations or diffraction or things like that. The point is to put the <em>geometry</em> (well, geometry disguised as algebra) back into <em>geometric optics</em>.</p>
 
