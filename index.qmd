@@ -6,6 +6,7 @@ listing:
   sort: "date desc"
   page-size: 3
   id: blog-listings
+comments: false
 format:
   html:
     toc: false

@@ -12,6 +12,10 @@ website:
   open-graph:
     site-name: "Ted Corcovilos's Lab webpage"
   google-analytics: "UA-114117860-1"
+  comments:
+    giscus:
+      repo: "corcoted/corcoted.github.io"
+      reactions-enabled: true
   navbar:
     left:
       - href: index.qmd

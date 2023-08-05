@@ -1,5 +1,6 @@
 ---
 title: Teaching
+comments: false
 ---
 
 I teach undergraduate physics courses at [Duquesne University](http://duq.edu).

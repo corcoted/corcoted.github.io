@@ -1,6 +1,6 @@
 ---
 title: About
-
+comments: false
 ---
 
 Theodore (Ted) A. Corcovilos<br />
