@@ -1,0 +1,24 @@
+---
+layout: post
+title: More webpage features
+categories:
+  - news
+  - meta
+date: 2023-08-05
+abstract: >-
+  I turned on some new website features like comments, search, and social media hooks.
+---
+
+![Photo by <a href="https://unsplash.com/@labunsky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Artem Labunsky</a> on <a href="https://unsplash.com/photos/c9p30E94OUU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>](/assets/photos/artem-labunsky-c9p30E94OUU-unsplash.jpg){ alt-text="Crane photo" width='300px' style='float:right;'}
+
+This is just a quick note to say I've been working on the website backend and am trying out some new features:
+
+- Site search (🔍 button on the top right)
+- Comments for blog pages (scroll down)
+- Social media hooks (links below and also these should activate automatically if you link here from outside)
+
+::: { .callout-important appearance="minimal" style="clear: both;"}
+Please let me know if anything is broken or potentally dangerous using either the comment form below or the [old fashioned way](mailto:corcovilos@duq.edu).
+:::
+
+*Next improvement: Themes!*
