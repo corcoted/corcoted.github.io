@@ -5,6 +5,13 @@ project:
 website:
   title: "Corcovilos Lab"
   favicon: favicon.ico
+  twitter-card:
+    creator: "@TedCorcovilos"
+    site: "@TedCorcovilos"
+    title: "Ted Corcovilos's Lab webpage"
+  open-graph:
+    site-name: "Ted Corcovilos's Lab webpage"
+  google-analytics: "UA-114117860-1"
   navbar:
     left:
       - href: index.qmd
