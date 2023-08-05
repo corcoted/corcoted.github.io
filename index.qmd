@@ -10,6 +10,17 @@ comments: false
 format:
   html:
     toc: false
+    share:
+      permalink: "https://www.corcoviloslab.com/"
+      description: "Ted Corcovilos's Lab website"
+      twitter: true
+      facebook: true
+      reddit: true
+      stumble: false
+      tumblr: false
+      linkedin: true
+      email: true
+      mastodon: false
 ---
 ![](./assets/photos/Corcovilos.jpg){ width=300px fig-alt="photo of Ted Corcovilos" fig-align="center"}
 

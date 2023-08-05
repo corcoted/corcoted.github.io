@@ -12,10 +12,7 @@ website:
   open-graph:
     site-name: "Ted Corcovilos's Lab webpage"
   google-analytics: "UA-114117860-1"
-  comments:
-    giscus:
-      repo: "corcoted/corcoted.github.io"
-      reactions-enabled: true
+  comments: false
   navbar:
     left:
       - href: index.qmd
@@ -49,6 +46,16 @@ format:
             city: Pittsburgh
             state: PA
             url: www.duq.edu
-
-
-
+    filters:
+      - social-share
+    share:
+      permalink: "https://www.corcoviloslab.com/"
+      description: "Ted Corcovilos's Lab website"
+      twitter: false
+      facebook: false
+      reddit: false
+      stumble: false
+      tumblr: false
+      linkedin: false
+      email: false
+      mastodon: false
