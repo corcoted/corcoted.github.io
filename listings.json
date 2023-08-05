@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/posts/2023-08-05-discussions.html",
       "/posts/2023-08-04-HomogeneousOptics-3.html",
       "/posts/2023-08-01-new-blog.html",
       "/posts/2022-07-01-HomogeneousOptics-2.html",
@@ -27,8 +28,9 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2023-08-05-discussions.html",
       "/posts/2023-08-04-HomogeneousOptics-3.html",
       "/posts/2023-08-01-new-blog.html",
       "/posts/2022-07-01-HomogeneousOptics-2.html",
