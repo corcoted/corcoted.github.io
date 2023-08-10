@@ -75,8 +75,9 @@ references:
 
 In the [last](/posts/2022-05-20-HomogeneousOptics-1.qmd) [three](/posts/2022-05-20-HomogeneousOptics-1.qmd) [posts](/posts/2022-05-20-HomogeneousOptics-3.qmd) I laid out the main ideas from my recent paper[@corcovilos2023].
 Here I want to demonstrate using these on a simple example optical system.
+As a reminder, this is all in the realm of paraxial geometric optics, so I can't address aberations or diffraction, but I can calculate other useful properties.
 
-The example we'll work through is a basic compound microscope.  Here are the key elements:
+The example is a basic compound microscope.  Here are the key elements:
 
 - The objective is a converging lens of focal length *f~O~*&nbsp;=&nbsp;1.600&nbsp;mm with a clear aperture diameter of *d~O~*&nbsp;=4.000&nbsp;mm.  The aperture stop of the system is the objective lens.
 - The eyepiece is a converging lens of focal length *f~E~*&nbsp;=25.00&nbsp;mm and a clear aperture of *d~E~*&nbsp;=&nbsp;18.00&nbsp;mm.
