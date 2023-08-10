@@ -1,0 +1,12 @@
+---
+layout: post
+title: Optics example
+categories:
+  - optics
+  - teaching
+  - example problems
+date: 2023-08-10
+abstract: >-
+  I use the expanded matrix method to analyze an example problem.
+---
+
