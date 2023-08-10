@@ -6,3 +6,4 @@ _site/
 /.quarto/
 _freeze/site_libs/
 
+/.luarc.json
