@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Group members
-exectute:
+execute:
   echo: false
+  freeze: auto
 jupyter: website
 comments:
   giscus:
