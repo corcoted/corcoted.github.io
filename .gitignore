@@ -2,6 +2,7 @@ _site/
 .vscode/
 *.bak
 /env/
+/.jupyter_cache/
 
 /.quarto/
 _freeze/site_libs/
