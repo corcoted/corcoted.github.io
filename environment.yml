@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python
   - jupyter
+  - jupyter-cache
   - ipykernel
   - pandas
   - matplotlib
