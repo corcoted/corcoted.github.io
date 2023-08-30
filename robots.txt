@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /site_libs/
+Disallow: /assets/
+Disallow: /phys470-2023/
+Disallow: /phys211-2023/
+
