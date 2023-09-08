@@ -1,5 +1,6 @@
 ---
 title: "Presentation archive"
 listing: default
+format: html
 ---
 
