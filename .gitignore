@@ -8,3 +8,5 @@ _site/
 _freeze/
 
 /.luarc.json
+
+/_freeze/site_libs/
