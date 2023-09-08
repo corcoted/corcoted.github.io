@@ -1,0 +1,138 @@
+---
+title: "Atomic, Molecular, and Optical Physics"
+subtitle: "Research presentation"
+footer: "[Ted Corcovilos](/index.html)"
+date: "9/8/2023"
+format: revealjs
+#jupyter: phys211
+---
+
+## About Dr. Corcovilos
+
+::: {.columns}
+::: {.column width="60%"}
+
+- 10 years at Duquesne
+- Before that research at Penn State and Rice
+- Ph.D. at Caltech
+
+:::{.fragment fragment-index=1}
+<br /><br />
+Research interests:
+
+- Optics: light and light-based measurements
+- Collaborations with ⚗️ Chemistry, 🌳 Environmental Science, and 🎺 Music
+:::
+:::
+::: {.column width="40%"}
+![](figs/research/Baseball2023.jpg){ width="400px" }
+
+![](figs/research/Tom-Laser-small.jpg){ width="400px" .fragment fragment-index=1}
+:::
+:::
+
+## Atomic, Molecular, and Optical (AMO) Physics
+
+- Study of light and the interactions of light with matter
+
+
+## Geometric descriptions of geometric optics
+
+:::{.columns}
+:::{.column width="60%"}
+- Bring back 19th century geometry ideas and apply to modern optics
+- Simplifies calculations for things like misaligned lenses
+  - Poster outside my office
+- Laser beams and "classical" light rays now obey the same rules
+:::
+:::{.column width="40%"}
+![](figs/research/thinlens.svg){ width=400 }
+:::
+:::
+
+## Ultracold atoms in quasicrystal potentials
+
+:::{.columns}
+:::{.column width="60%"}
+- Cool atoms down to nanokelvin temperature using lasers
+- Load them into structures built from interfering laser beams
+- Study materials that are hard to make using chemistry like quasicrystals
+:::
+:::{.column width="40%"}
+![](/assets/figs/qx-atoms-zoom-sm.png){width=300}
+
+![](figs/research/qc-photo.png){width=400}
+:::
+:::
+
+## Mathematical analysis of vibrato in music performance
+
+:::{.columns}
+:::{.column width="60%"}
+- Sound and light are both waves, so we can describe them with the same math.
+- The way wind musicians produce *vibrato* is not fully understood.
+- Collaboration with Prof. [Paul Doerksen](https://www.duq.edu/faculty-and-staff/paul-doerksen.php) in School of Music
+:::
+
+:::{.column width="40%"}
+![](figs/research/Flute-vibrato.png){ }
+:::
+:::
+
+## Infrared Multi-Photon Dissociation of gas-phase ions
+
+:::{.columns}
+:::{.column width="60%"}
+- Use infrared lasers to heat molecules until they break
+- Look at the broken bits to learn about chemical bonding in
+ u ranium and other actinide metals
+- Collaborators:
+  - Prof. [Michael Van Stipdonk](https://www.duq.edu/faculty-and-staff/michael-van-stipdonk.php) in Chemistry
+  - Free Electron Laser for Infrared eXperiments ([FELIX](http://www.ru.nl/felix/)) at Radboud University in Nijmegen, the Netherlands
+  - Dr. Christopher Zarzana and Dr. Brittany Hodges at [Idaho National Laboratory](http://inl.gov)
+:::
+:::{.column width="40%"}
+![Thermo-Fisher LTQ mass spec with laser window](/assets/photos/LTQ-CO2.jpg){fig-alt="LTQ with CO2 laser addition" style="float:right;" width=400 }
+:::
+:::
+
+## Optical detection of contaminants in water
+
+:::{.columns}
+:::{.column width="60%"}
+- Measure color changes to quantify contaminants in drinking water like lead, fluoride, and iron
+- Homemade device built by students for about $80 each replaces a $3000 device
+  - Arduino "brain"
+  - 3D printed body
+- Collaboration with Prof. [David Kahler](https://davidmkahler.blogspot.com/) in Environmental Science
+:::
+:::{.column width="40%"}
+![](/assets/photos/LG4-photo.png){width=400}
+
+![](figs/research/FeData.jpg){width=400}
+:::
+:::
+
+## Laser-Induced Fluorescence for Quantitation of Cross-Linking in Bio-polymers
+
+:::{.columns}
+:::{.column width="60%"}
+- Put fluorescent "staples" on proteins then break them apart.
+- Use a home-built microscope with microfluidic sample to count the "staples" to count the protein subunits
+- Collaboration with Prof. [Michael Cascio](https://www.duq.edu/faculty-and-staff/michael-cascio.php) in Biochemistry
+:::
+:::{.column width="40%"}
+![](figs/research/LIF-Davic.jpg){ width=400 }
+
+![](figs/research/LIF.png){ width=400 }
+:::
+:::
+
+## Summary
+- Lots of projects in lots of topics
+- New students always welcome!
+- See webpage for more: <https://corcoviloslab.com>
+
+:::{.center}
+![](/assets/figs/corcoviloslab.png)
+:::
