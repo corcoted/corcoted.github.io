@@ -1,0 +1,26 @@
+author: "Ted Corcovilos"
+institute: "Duquesne University"
+format:
+  revealjs:
+    theme: [simple, mytheme.scss]
+    slide-number: true
+    chalkboard:
+      theme: whiteboard
+    preview-links: false
+    controls: true
+    touch: false
+    fig-align: center
+    width: 1280
+    height: 720
+    logo: "figs/template/DU_LOGO_redblue.svg"
+    footer: "[Ted Corcovilos](/index.html)"
+    multiplex: false
+    navigation-mode: linear
+execute:
+  freeze: auto
+  cache: true
+preview:
+  port: 8256
+  timeout: 300
+  watch-inputs: true
+  navigate: true
