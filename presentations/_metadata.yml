@@ -1,6 +1,8 @@
 author: "Ted Corcovilos"
 institute: "Duquesne University"
 format:
+  html:
+    toc: false
   revealjs:
     theme: [simple, mytheme.scss]
     slide-number: true
