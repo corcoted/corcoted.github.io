@@ -86,6 +86,9 @@ The example we'll work through is a basic compound microscope.  Here are the key
 ```{python}
 from sympy import *
 init_printing()
+
+# custom print raw latex
+mylatex = lambda s: print(f'$${latex(s)}$$') # pretty latex print sympy expression
 ```
 
 ```{python}
@@ -131,30 +134,33 @@ In our example, this is the image of the objective's aperture formed by the eyep
 Using the Gaussian lens equation we can solve for the distance from the eyepiece to the exit pupil (*t~EXP~*):
 
 ```{python}
-
+#| output: asis
 t_EXP = symbols('t_EXP', real=True) # distance from eyepiece to exit pupil
 eq1 = Eq(1/t_OE + 1/t_EXP, 1/f_E)
-display(eq1)
+#display(eq1)
+mylatex(eq1)
 
-display(Eq(t_EXP,solve(eq1,t_EXP)[0]))
+#display(Eq(t_EXP,solve(eq1,t_EXP)[0]))
+mylatex(Eq(t_EXP,solve(eq1,t_EXP)[0]))
 
 values[t_EXP] = solve(eq1,t_EXP)[0].subs(values)
-display(Eq(t_EXP,t_EXP.subs(values),evaluate=False))
+#display(Eq(t_EXP,t_EXP.subs(values),evaluate=False))
+#mylatex(Eq(t_EXP,t_EXP.subs(values),evaluate=False))
+print(f'$${latex(t_EXP)}={t_EXP.subs(values):.2f}$$')
 ```
 
 The diameter of the exit pupil (*d~XP~*) is found by calculating the magnification of the image of the objective aperture.
 
 ```{python}
+#| output: asis
 d_XP = symbols('d_XP', positive=True)
-display(Eq(d_XP,-t_EXP/t_OE*d_O,evaluate=False))
+#display(Eq(d_XP,-t_EXP/t_OE*d_O,evaluate=False))
+mylatex(Eq(d_XP,-t_EXP/t_OE*d_O,evaluate=False))
 values[d_XP]= abs(-t_EXP/t_OE*d_O).subs(values)
-Eq(d_XP,d_XP.subs(values),evaluate=False)
+#Eq(d_XP,d_XP.subs(values),evaluate=False)
+print(f'$${latex(d_XP)}={d_XP.subs(values):.4f}$$')
 ```
 
-```{python}
-#| output: asis
-print(rf'$$ d_{{XP}} = {d_XP.subs(values):.3f} $$')
-```
 where in the last line I discarded the minus sign because we're just interested in the size.
 
 ::: {.callout-warning}
@@ -165,9 +171,10 @@ The value of *d~XP~* looks small to me.  Should check against real microscopes. 
 Now that we know the location of the eye, we go backwards to locate the image.
 
 ```{python}
-#| echo: true
+#| output: asis
 # location of final image relative to eyepiece location
-Eq(t_EXP-NP, (t_EXP-NP).subs(values),evaluate=False)
+#Eq(t_EXP-NP, (t_EXP-NP).subs(values),evaluate=False)
+print(f'$${latex(t_EXP-NP)}={(t_EXP-NP).subs(values):.1f}$$')
 
 # location of intermediate image relative to eyepiece
 #(1/(1/(t_EXP-NP)-1/f_E)).subs(values)
