@@ -9,15 +9,56 @@ abstract: >-
   Why do we try to fit equations to data? (Part 1 of a series)
 ---
 
+Statistics is a topic that we often skim over when teaching physics or chemistry, but it forms the foundation of how we describe and evaluate experiments.
+Most students are comfortable calculating the mean of a set of measurements, and maybe even the standard deviation, but we don't really explain *why* those numbers are useful.
+Then as juniors or seniors, maybe they'll take a formal statistics course, but those, in my observation, tend to focus either heavily on the theory of statistics or on the specific application of hypothesis testing, as used, for example, in medical clinical trials.
+In physical sciences, especially experiental work, we need something a little different for most of our work.
+
 One of the main applications of statistics in the physical sciences is fitting to data to extract the values of some parameter we're trying to measure.
 I think most of us have fit lines to data, for example, but we often treat this process as a black box (e.g. *Add trendline* in Excel) and don't stop to think if the result is useful, or even what it means.
-For more sophisticated problems, we might perform a fit by minimizing some score function (distance squared or χ²), but where do those score functions come from, and how do we know the "best" one?
-Often fitting requires us to provide an initial guess of the very things we're trying to measure.
-Does that guess influence our answer?  What if we have trouble finding a guess that gives us any result?
+For more sophisticated problems, we might perform a fit by minimizing/maximizing some score function (distance squared, r², or χ²), but where do those score functions come from, and how do we know the "best" one?
+Do they even really measure how "good" the fit is?
 
-Over the next few weeks, I'm going to walk through some examples of how we use fitting in physics, and hopefully give a better picture of how *uncertainty* enters into the analysis of data.
+Once we get an answer, how reliable are the results of fitting?  What does it mean when our experimental values don't match our expected outcome?
+Anyone who has graded lab reports cringes at the phrase "human error", because it really means "I don't know why this didn't work".
+But maybe a more careful look at the data can give us a clue about what went wrong.
+
+I'm going to approach these ideas from the perspective of Bayesian statistics.
+That's a potentially controversial choice, and definitely not how we usually teach these topics to undergraduate students, but I think it's closer to how we intuitively think about experiments and experimental data and experiments.
+What do I mean by this?
+
+Well, most of the time in physics, especially in lab classes, we already know how the experiment is supposed to behave.
+We have theory that says, for example, the period of a pendulum should be proportional to the square root of its length.
+We're usually not trying to test whether or not a hypothesis is correct.
+Usually we're trying to quantify something about the theory.
+In the pendulum example, maybe we're trying to determing the length, or maybe measure the gravitational acceleration.
+
+The next step up is that if our data doesn't match the theory -- first of all, what do we mean when we say that? -- we revise our model and reanalyze the data.
+In the pendulum example, maybe we correct for the shape of the pendulum (the "physical pendulum" model), or maybe we try to account for air resistance or friction in the pivot or the fact that in a real pendulum, the period depends weakly on the amplitude of the swings, as well.
+And here we get into trouble.  These more sophisticated models only make sense if we have enough data and data with sufficiently small uncertainty, to tell the difference.  How do we know?
+
+<!--
+In practice, fitting often requires us to provide an initial guess of the very things we're trying to measure.
+Does that guess influence our answer?  What if we have trouble finding a guess that gives us any result?
+-->
+
+Over the next few weeks, I hope to answer some of those questions.
+I'm going to walk through some examples of how we use fitting in physics, and hopefully give a better picture of how *uncertainty* enters into the analysis of data.
 The goal is application.
 To that end, I'll share some example Python code to do the calculations, but the ideas are useful regardless of the tool you use to do the actual calculations.
+
+## Outline
+
+Here are the topics I plan to cover. I'll update this list and add links as we go.
+
+- Fitting a line to data
+- Fit uncertainty
+- Fitting non-linear functions to data
+- Use and abuse of significant digits
+- Propagation of errors
+- Modeling an experiment and its uncertainties from the ground up
+- What happens if your "independent" variable is uncertain, too?
+- 
 
 ## Python setup
 
