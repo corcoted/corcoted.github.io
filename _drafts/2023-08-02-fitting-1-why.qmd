@@ -47,6 +47,21 @@ I'm going to walk through some examples of how we use fitting in physics, and ho
 The goal is application.
 To that end, I'll share some example Python code to do the calculations, but the ideas are useful regardless of the tool you use to do the actual calculations.
 
+### Philosophy
+
+This will be a different take than you usually see in a textbook because I won't spend much time on paper-and-pencil calculations.
+I'm doing to take a predominantly numerical approach and introduce a set of code tools to get the job done.
+The basic principle I'm starting with is that every calculation is a model that we probe in hopes that it matches the "real world".
+Almost every aspect of a scientific experiment has a corresponding model:
+- A *theoretical model* that describes an ideal world.  Perhaps some details of the model are unknown (like the numerical values of some constants), but the mathematical structure is fixed.
+- An *experiment model* that describes an actual setup used to investigate the theoretical model.  Often some of the assumptions built into the theoretical model don't hold in the real test. Our experimental model accounts for these descrepancies as a source of uncertainty.  Traditionally, we classify these sources of uncertainties as "systematic errors". 
+- A *measurement model* that describes how we quantify the experimental output.  Every measurement is limited by the precision and accuracy of the instruments used to make it.  Most measurements are additionally subject to random (stochastic) noise: repeated measurements do not yield identical results.  To interpret our data, we must also have a model of this "noise".
+
+One recurring theme will be scrutinizing a lot of the shortcuts, assumptions, and rules-of-thumb that we, sometimes unknowingly, use when we follow the "standard operating procedure" (SOP) of expermental practice that we teach to undergraduate science students.
+I'll often look at a problem without those assumptions, look at the data, and then ask when it is safe to turn the assumptions back on.
+A lot of SOP developed from the need to do calculations with pencil and paper, perhaps with a calculator handy.
+Modern computer tools let us let go of some previously expedient choices to get closer to the raw data.
+
 ## Outline
 
 Here are the topics I plan to cover. I'll update this list and add links as we go.
