@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
       "/posts/2023-08-05-discussions.html",
       "/posts/2023-08-04-HomogeneousOptics-3.html",
@@ -28,7 +28,7 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
       "/posts/2023-08-05-discussions.html",
       "/posts/2023-08-04-HomogeneousOptics-3.html",
