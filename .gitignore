@@ -4,4 +4,5 @@ _site/
 /env/
 
 /.quarto/
-_freeze/
+_freeze/site_libs/
+
