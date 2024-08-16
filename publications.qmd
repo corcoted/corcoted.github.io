@@ -7,7 +7,7 @@ format:
 cite-method: citeproc
 bibliography: "./_data/publications.json"
 csl: "./_data/review-of-scientific-instruments.csl"
-date-modified: 2023-08-02
+date-modified: 2024-08-16
 jupyter: website
 execute:
   freeze: auto
