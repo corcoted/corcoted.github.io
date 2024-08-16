@@ -273,8 +273,4 @@ So, the (in focus) object plane is 1.6155 mm to the left of the objective.  In o
 
 :::{.callout-note}
 If we had an infinite-conjugate microscope, the object would be exactly at the front focal plane of the objective and the intermediate image would be formed by the tube lens.
-<<<<<<< HEAD
 :::
-=======
-:::
->>>>>>> 9c6f5143ab9ae11fbff9b144b4a7d0e60bb8381a
