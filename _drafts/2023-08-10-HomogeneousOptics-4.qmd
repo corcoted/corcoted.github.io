@@ -1,0 +1,276 @@
+---
+layout: post
+title: Optics example
+categories:
+  - optics
+  - teaching
+  - example problems
+date: 2023-08-10
+jupyter: website
+execute:
+  echo: false
+  freeze: auto
+abstract: >-
+  I use the expanded 3&times;3 matrix method to analyze an example optical system.
+
+csl: "../_data/review-of-scientific-instruments.csl"
+references:
+- id: corcovilos2023
+  archive_location: '[arXiv:2205.09746](https://arxiv.org/abs/2205.09746)'
+  author:
+    - family: Corcovilos
+      given: Theodore A.
+  citation-key: corcovilos2023
+  container-title: American Journal of Physics
+  DOI: 10.1119/5.0083069
+  issue: 6
+  issued:
+    - year: 2023
+      month: 6
+      day: 1
+  page: 449-457
+  source: arXiv.org
+  title: >-
+    Beyond the ABCDs: A better matrix method for geometric optics by using
+    homogeneous coordinates
+  title-short: Beyond the ABCDs
+  type: article
+  volume: '91'
+- id: hecht
+  author:
+    - family: Hecht
+      given: Eugene
+  call-number: QC355.3.H43 2017
+  citation-key: hecht
+  edition: 5
+  event-place: Boston
+  ISBN: 978-0-13-397722-6
+  issued:
+    - year: 2017
+  language: en
+  number-of-pages: '714'
+  publisher: Pearson
+  publisher-place: Boston
+  source: Library of Congress ISBN
+  title: Optics
+  type: book
+- id: pedrotti
+  author:
+    - family: Pedrotti
+      given: Frank L.
+    - family: Pedrotti
+      given: Leno Matthew
+    - family: Pedrotti
+      given: Leno S.
+  edition: 3
+  event-place: Cambridge
+  ISBN: 978-1-108-42826-2
+  issued:
+    - year: 2018
+  publisher: Cambridge
+  publisher-place: Cambridge
+  title: Introduction to optics
+  type: book
+---
+
+In the [last](/posts/2022-05-20-HomogeneousOptics-1.qmd) [three](/posts/2022-05-20-HomogeneousOptics-1.qmd) [posts](/posts/2022-05-20-HomogeneousOptics-3.qmd) I laid out the main ideas from my recent paper[@corcovilos2023].
+Here I want to demonstrate using these on a simple example optical system.
+
+The example we'll work through is a basic compound microscope.  Here are the key elements:
+
+- The objective is a converging lens of focal length *f~O~*&nbsp;=&nbsp;1.600&nbsp;mm with a clear aperture diameter of *d~O~*&nbsp;=4.000&nbsp;mm.  The aperture stop of the system is the objective lens.
+- The eyepiece is a converging lens of focal length *f~E~*&nbsp;=25.00&nbsp;mm and a clear aperture of *d~E~*&nbsp;=&nbsp;18.00&nbsp;mm.
+- The distance between the objective and the eyepiece is 189.2&nbsp;mm.
+- There is an internal aperature located 162.0&nbsp;mm behind the objective lens.  Its diameter is *d~S~*&nbsp;=10.00&nbsp;mm.  This functions as the field stop.
+
+```{python}
+from sympy import *
+init_printing()
+
+# custom print raw latex
+mylatex = lambda s: print(f'$${latex(s)}$$') # pretty latex print sympy expression
+```
+
+```{python}
+f_O, f_E = symbols('f_O f_E', real=True)
+d_O, d_E, d_S = symbols('d_O d_E d_S', positive=True)
+t_OE, t_OS, t_SE = symbols('t_OE t_OS t_SE', positive=True)
+NP, COC = symbols('NP COC', positive=True)
+
+# distances in mm
+values = {f_O: 1.600, # objective focal length
+          f_E: 25.00, # eyepiece focal length
+          d_O: 4.000, # objective diameter
+          d_E: 18.00, # eyepiece diameter
+          d_S: 10.00, # field stop diameter
+          t_OE: 189.2, # distance from objective to eyepiece
+          t_OS: 162.0, # distance from objective to field stop
+          t_SE: 27.2, # distance from field stop to eyepiece
+          NP: 250.0, # near point distance (eye to image)
+          COC: 0.1 # circle of confusion in eye
+          }
+```
+
+We'll assume that the user of the microscope has normal vision and that the final image will be located at the eye's near point distance of 250.0&nbsp;mm.
+We'll also assume that the eye is located at the exit pupil of the instrument (the usual design for microscopes and telescopes).
+
+As a reminder, this is all in the realm of paraxial geometric optics, so we can't address aberrations or wavefront errors, but I can calculate other useful properties.
+The things we want to calculate are
+
+a. The location of the exit pupil (and hence the eye).
+b. The image and object locations.
+c. The magnification.
+d. The numerical aperture and Rayleigh diffraction limit of the microscope.
+e. The locations of the entrance and exit windows.
+f. The field of view.
+g. The depth of field.
+
+## Traditional solution
+Here is how the problem is typically done using the Gaussian imaging equation and some geometry, like you might find in Hecht[@hecht] or Pedrotti[@pedrotti].
+
+### Exit pupil
+The exit pupil is the image of the aperture on the image side of the system.
+In our example, this is the image of the objective's aperture formed by the eyepiece.
+Using the Gaussian lens equation we can solve for the distance from the eyepiece to the exit pupil (*t~EXP~*):
+
+```{python}
+#| output: asis
+t_EXP = symbols('t_EXP', real=True) # distance from eyepiece to exit pupil
+eq1 = Eq(1/t_OE + 1/t_EXP, 1/f_E)
+#display(eq1)
+mylatex(eq1)
+
+#display(Eq(t_EXP,solve(eq1,t_EXP)[0]))
+mylatex(Eq(t_EXP,solve(eq1,t_EXP)[0]))
+
+values[t_EXP] = solve(eq1,t_EXP)[0].subs(values)
+#display(Eq(t_EXP,t_EXP.subs(values),evaluate=False))
+#mylatex(Eq(t_EXP,t_EXP.subs(values),evaluate=False))
+print(f'$${latex(t_EXP)}={t_EXP.subs(values):.2f}$$')
+```
+
+The diameter of the exit pupil (*d~XP~*) is found by calculating the magnification of the image of the objective aperture.
+
+```{python}
+#| output: asis
+d_XP = symbols('d_XP', positive=True)
+#display(Eq(d_XP,-t_EXP/t_OE*d_O,evaluate=False))
+mylatex(Eq(d_XP,-t_EXP/t_OE*d_O,evaluate=False))
+values[d_XP]= abs(-t_EXP/t_OE*d_O).subs(values)
+#Eq(d_XP,d_XP.subs(values),evaluate=False)
+print(f'$${latex(d_XP)}={d_XP.subs(values):.4f}$$')
+```
+
+where in the last line I discarded the minus sign because we're just interested in the size.
+
+::: {.callout-warning}
+The value of *d~XP~* looks small to me.  Should check against real microscopes.  I'm already using an NA of about 0.8, so I don't think increasing *d~O~* makes sense.
+:::
+
+### Image and object locations
+Now that we know the location of the eye, we go backwards to locate the image.
+
+```{python}
+#| output: asis
+# location of final image relative to eyepiece location
+#Eq(t_EXP-NP, (t_EXP-NP).subs(values),evaluate=False)
+print(f'$${latex(t_EXP-NP)}={(t_EXP-NP).subs(values):.1f}$$')
+
+# location of intermediate image relative to eyepiece
+#(1/(1/(t_EXP-NP)-1/f_E)).subs(values)
+
+# location of intermediate image relative to objective
+#(_+t_OE).subs(values)  #may fail _ is above result
+
+# location of object relative to objective
+#1/(1/_-1/f_O).subs(values)
+```
+
+
+Finish up by calculating magnification, NA, Rayleigh limit.
+
+Then find the NW to get the field of view.
+
+Finally, depth of field.  (eye has nominally 1 arc minute of angular resolution.)
+
+## Matrix method
+
+To start we need the matrix for each lens.  We need to set our coordinate system, so we'll place the origin at the center of the objective lens.
+
+The matrix for the objective lens is
+
+```{python}
+M_O = Matrix([[1,0,0],[-1/f_O,1,0],[0,0,1]])
+display(M_O.subs(values))
+```
+
+We get the matrix for the eyepiece by taking a lens matrix and translating it into position
+
+```{python}
+T_E = Matrix([[1,-t_OE,0],[0,1,0],[0,0,1]]) # translation by t_OE
+M_E = T_E*Matrix([[1,0,0],[-1/f_E,1,0],[0,0,1]])*(T_E.inv())
+display(M_E)
+display(M_E.subs(values))
+```
+
+The location of the exit pupil is the image of the aperture stop (in this case the same as the objective lens).  First we need the PTM version of the matrix:
+```{python}
+P_E = M_E.adjugate().T
+# Note, sympy's adjugate is the transpose of ours
+display(P_E)
+display(P_E.subs(values))
+```
+
+We image the edge of the aperture stop (1 radius in the y direction) through the back half of the optical system (in our case, just the eyepiece) to find the edge of the exit pupil.
+
+```{python}
+r_XP = P_E*Matrix([[1],[0],[d_O/2]])
+r_XP = r_XP/r_XP[0,0] # normalize
+r_XP.subs(values)
+x_XP = r_XP[1,0]
+d_XP = 2*r_XP[2,0]
+```
+
+We want the (virtual) image generated by the microscope to be 250 mm to the left of the exit pupil, so that it appears at the eye's near point.  We anticipate this will coincide with the image of the field stop (if the engineer was following common practice to minimize vignetting).
+
+The image plane is also a geometric line in our 2D case, so we can use the ray transfer matrices to see where the intermediate image plane and object plane are.  The image plane is described by the equation
+
+$$ x = x_{XP} - NP \quad \rightarrow \quad 1 x + 0 y + (NP-x_{XP}) = 0 $$
+
+where *x~XP~* is the *x*-position of the exit pupil and *NP* is the eye's near point distance.
+
+```{python}
+x_I = x_XP - NP
+x_I.subs(values)
+```
+
+As a line vector in our notation, the image plane is the vector
+
+$$ p_I = (NP-x_{XP},1,0)^T $$
+
+```{python}
+p_I = Matrix([[NP-x_XP,1,0]]).T
+display(p_I.subs(values))
+```
+
+To find the intermediate image plane, we need to project the image plane *backwards* through the eyepiece.  To go backwards, we need the matrix inverse:
+
+```{python}
+p_II = M_E.inv()*p_I
+display((p_II/sqrt(p_II[1,0]**2+p_II[2,0]**2)).subs(values))
+```
+
+Looks right.
+
+The object plane is the intermediate image plan back propagated through the objective, just like the last step
+
+```{python}
+p_O = M_O.inv()*p_II
+display((-p_O/sqrt(p_O[1,0]**2+p_O[2,0]**2)).subs(values))
+```
+
+So, the (in focus) object plane is 1.6155 mm to the left of the objective.  In other words, just outside the objective's front focal plane.
+
+:::{.callout-note}
+If we had an infinite-conjugate microscope, the object would be exactly at the front focal plane of the objective and the intermediate image would be formed by the tube lens.
+:::

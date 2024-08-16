@@ -1,0 +1,33 @@
+---
+title: "Title"
+subtitle: "Lecture XXX"
+footer: "[PHYS211](/index.html) - Lecture XXX"
+date: "XXX/XXX/2023"
+order: 99
+format: revealjs
+jupyter: phys211
+---
+
+Filenames must be `lecture-XX.qmd` where `XX` is a number.  The lecture number should also be placed in the `order` tag above.
+
+## Announcements
+
+::: {.incremental}
+- blah 
+- blah
+:::
+
+## Daily Quiz
+blah
+
+# Topic 1
+blah
+
+# Topic 2
+
+## Weekly Reflection
+
+blah
+
+## Next time
+blah

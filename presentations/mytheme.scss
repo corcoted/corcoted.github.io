@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+
+$presentation-font-size-root:  36px !default;
+
+/*-- scss:rules --*/
+
+.center{text-align:center;}
+.red{color:red;}
+.blue{color:blue;}
+.gray{color:gray;}
+.sticky-note{border-style:solid; border-width:1px; border-color:black; background-color:lightyellow; padding:10px; font-size:80%;}

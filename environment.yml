@@ -4,9 +4,14 @@ channels:
 dependencies:
   - python
   - jupyter
+  - jupyter-cache
   - ipykernel
   - pandas
   - matplotlib
   - ca-certificates
   - openssl
+  - pymc
+  - arviz
+  - pytensor
+  - sympy
 prefix: ./env
