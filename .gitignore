@@ -5,7 +5,6 @@ _site/
 /.jupyter_cache/
 
 /.quarto/
-_freeze/
 
 /.luarc.json
 
