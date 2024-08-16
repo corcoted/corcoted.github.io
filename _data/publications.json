@@ -1,1433 +1,1676 @@
 [
-  {
-    "author": [
-      {
-        "family": "Chen",
-        "given": "Yong P."
-      },
-      {
-        "family": "Hitchcock",
-        "given": "J."
-      },
-      {
-        "family": "Dries",
-        "given": "D."
-      },
-      {
-        "family": "Junker",
-        "given": "M."
-      },
-      {
-        "family": "Welford",
-        "given": "C."
-      },
-      {
-        "family": "Pollack",
-        "given": "S. E."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Hulet",
-        "given": "R. G."
-      }
-    ],
-    "citation-key": "chen2009",
-    "container-title": "Physica D: Nonlinear Phenomena",
-    "DOI": "10.1016/j.physd.2009.01.015",
-    "id": "chen2009",
-    "issue": "15",
-    "issued": {
-      "date-parts": [
-        [
-          2009,
-          7,
-          15
-        ]
-      ]
+    {
+        "id": "corcovilosABCDsBetterMatrix2023",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2022",
+                    5,
+                    20
+                ]
+            ]
+        },
+        "archive_location": "2205.09746",
+        "author": [
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            }
+        ],
+        "citation-key": "corcovilosABCDsBetterMatrix2023",
+        "container-title": "American Journal of Physics",
+        "DOI": "10.1119/5.0083069",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    6,
+                    1
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "449-457",
+        "source": "arXiv.org",
+        "title": "Beyond the ABCDs: A better matrix method for geometric optics by using homogeneous coordinates",
+        "title-short": "Beyond the ABCDs",
+        "type": "article",
+        "volume": "91"
     },
-    "license": "All rights reserved",
-    "page": "1321–1325",
-    "title": "Experimental studies of Bose–Einstein condensates in disorder",
-    "type": "article-journal",
-    "volume": "238"
-  },
-  {
-    "author": [
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Strayer",
-        "given": "D. M."
-      },
-      {
-        "family": "Asplund",
-        "given": "N."
-      },
-      {
-        "family": "Yeh",
-        "given": "N.-C."
-      }
-    ],
-    "citation-key": "corcovilos2004",
-    "container-title": "Journal of Low Temperature Physics",
-    "DOI": "10.1023/B:JOLT.0000012591.58110.9c",
-    "id": "corcovilos2004",
-    "issue": "1-2",
-    "issued": {
-      "date-parts": [
-        [
-          2004
-        ]
-      ]
+    {
+        "id": "corcovilosSimpleGameSimulating2018",
+        "author": [
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            }
+        ],
+        "citation-key": "corcovilosSimpleGameSimulating2018",
+        "container-title": "American Journal of Physics",
+        "DOI": "10.1119/1.5036620",
+        "issue": "7",
+        "issued": {
+            "date-parts": [
+                [
+                    "2018",
+                    6,
+                    19
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "510–517",
+        "title": "A Simple game simulating quantum measurements of qubits",
+        "type": "article-journal",
+        "volume": "86"
     },
-    "license": "All rights reserved",
-    "page": "431–436",
-    "title": "Multi-frequency Superconducting Cavity Stabilized Oscillators (SCSO) for quantum-gas measurements and gravitational physics",
-    "type": "article-journal",
-    "volume": "134"
-  },
-  {
-    "accessed": {
-      "date-parts": [
-        [
-          2022,
-          4,
-          14
-        ]
-      ]
+    {
+        "id": "huletTunableInteractionsBoseEinstein2009",
+        "author": [
+            {
+                "family": "Hulet",
+                "given": "R. G."
+            },
+            {
+                "family": "Dries",
+                "given": "D."
+            },
+            {
+                "family": "Junker",
+                "given": "M."
+            },
+            {
+                "family": "Pollack",
+                "given": "S. E."
+            },
+            {
+                "family": "Hitchcock",
+                "given": "J. M."
+            },
+            {
+                "family": "Chen",
+                "given": "Y. P."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Welford",
+                "given": "C."
+            }
+        ],
+        "citation-key": "huletTunableInteractionsBoseEinstein2009",
+        "container-title": "Proceedings of the XXI International Conference on Atomic Physics",
+        "DOI": "10.1142/9789814273008_0015",
+        "editor": [
+            {
+                "family": "Cote",
+                "given": "R."
+            },
+            {
+                "family": "Gould",
+                "given": "P. L."
+            },
+            {
+                "family": "Rozman",
+                "given": "M."
+            },
+            {
+                "family": "Smith",
+                "given": "W. W."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2009"
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "150–159",
+        "publisher": "World Scientific",
+        "title": "Tunable interactions in a Bose-Einstein condensate of lithium: Photoassociation and disorder-induced localization",
+        "type": "paper-conference"
     },
-    "author": [
-      {
-        "family": "Corcovilos",
-        "given": "Theodore Allen"
-      }
-    ],
-    "citation-key": "corcovilos2007",
-    "DOI": "10.7907/YGPG-W942",
-    "event-place": "Pasadena, CA, USA",
-    "genre": "PhD",
-    "id": "corcovilos2007",
-    "issued": {
-      "date-parts": [
-        [
-          2007,
-          8,
-          6
-        ]
-      ]
+    {
+        "id": "perezIsotopeLabelingInfrared2019",
+        "author": [
+            {
+                "family": "Perez",
+                "given": "Evan"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore"
+            },
+            {
+                "family": "Gibson",
+                "given": "John"
+            },
+            {
+                "family": "Martens",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Berden",
+                "given": "Giel"
+            },
+            {
+                "family": "Oomens",
+                "given": "Jos"
+            },
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael"
+            }
+        ],
+        "citation-key": "perezIsotopeLabelingInfrared2019",
+        "container-title": "European Journal of Mass Spectroscopy",
+        "DOI": "10.1177/1469066718809881",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    "2019",
+                    2,
+                    18
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "58–72",
+        "title": "Isotope labeling and infrared multiple-photon photodissociation investigation of product ions generated by dissociation of [ZnNO3(CH3OH)2]+: Conversion of methanol to formaldehyde",
+        "type": "article-journal",
+        "volume": "25"
     },
-    "language": "en",
-    "license": "No commercial reproduction, distribution, display or performance rights in this work are provided.",
-    "medium": "PDF",
-    "publisher": "California Institute of Technology",
-    "publisher-place": "Pasadena, CA, USA",
-    "source": "DOI.org (Datacite)",
-    "title": "Fluid Phase Thermodynamics: I) Nucleate Pool Boiling of Oxygen under Magnetically Enhanced Gravity and II) Superconducting Cavity Resonators for High-Stability Frequency References and Precision Density Measurements of Helium-4 Gas",
-    "title-short": "Fluid Phase Thermodynamics",
-    "type": "thesis",
-    "URL": "https://resolver.caltech.edu/CaltechETD:etd-07172007-132955",
-    "version": "Final"
-  },
-  {
-    "author": [
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Baur",
-        "given": "S. K."
-      },
-      {
-        "family": "Hitchcock",
-        "given": "J. M."
-      },
-      {
-        "family": "Mueller",
-        "given": "E. J."
-      },
-      {
-        "family": "Hulet",
-        "given": "R. G."
-      }
-    ],
-    "citation-key": "corcovilos2010",
-    "container-title": "Physical Review A",
-    "DOI": "10.1103/PhysRevA.81.013415",
-    "id": "corcovilos2010",
-    "issue": "1",
-    "issued": {
-      "date-parts": [
-        [
-          2010,
-          1,
-          26
-        ]
-      ]
+    {
+        "id": "dejongRevealingDisparateChemistries2017",
+        "author": [
+            {
+                "family": "Jong",
+                "given": "Wibe A.",
+                "non-dropping-particle": "de"
+            },
+            {
+                "family": "Dau",
+                "given": "Phuong D."
+            },
+            {
+                "family": "Wilson",
+                "given": "Richard E."
+            },
+            {
+                "family": "Marçalo",
+                "given": "Joaquim"
+            },
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Berden",
+                "given": "Giel"
+            },
+            {
+                "family": "Martens",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Oomens",
+                "given": "Jos"
+            },
+            {
+                "family": "Gibson",
+                "given": "John K."
+            }
+        ],
+        "citation-key": "dejongRevealingDisparateChemistries2017",
+        "container-title": "Inorganic Chemistry",
+        "DOI": "10.1021/acs.inorgchem.7b00144",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    "2017",
+                    3,
+                    9
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "3686–3694",
+        "title": "Revealing Disparate Chemistries of Protactinium and Uranium. Synthesis of the Molecular Uranium Tetroxide Anion, UO4-",
+        "type": "article-journal",
+        "volume": "56"
     },
-    "license": "All rights reserved",
-    "page": "013415",
-    "title": "Detecting antiferromagnetism of atoms in an optical lattice via optical Bragg scattering",
-    "type": "article-journal",
-    "volume": "81"
-  },
-  {
-    "author": [
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      }
-    ],
-    "citation-key": "corcovilos2018",
-    "container-title": "American Journal of Physics",
-    "DOI": "10.1119/1.5036620",
-    "id": "corcovilos2018",
-    "issue": "7",
-    "issued": {
-      "date-parts": [
-        [
-          2018,
-          6,
-          19
-        ]
-      ]
+    {
+        "id": "pollackExtremeTunabilityInteractions2009",
+        "author": [
+            {
+                "family": "Pollack",
+                "given": "S. E."
+            },
+            {
+                "family": "Dries",
+                "given": "D."
+            },
+            {
+                "family": "Junker",
+                "given": "M."
+            },
+            {
+                "family": "Chen",
+                "given": "Y. P."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Hulet",
+                "given": "R. G."
+            }
+        ],
+        "citation-key": "pollackExtremeTunabilityInteractions2009",
+        "container-title": "Physical Review Letters",
+        "DOI": "10.1103/PhysRevLett.102.090402",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    "2009",
+                    3,
+                    6
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "090402",
+        "title": "Extreme tunability of interactions in a 7Li Bose-Einstein condensate",
+        "type": "article-journal",
+        "volume": "102"
     },
-    "license": "All rights reserved",
-    "page": "510–517",
-    "title": "A Simple game simulating quantum measurements of qubits",
-    "type": "article-journal",
-    "volume": "86"
-  },
-  {
-    "author": [
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      },
-      {
-        "family": "Mittal",
-        "given": "Jahnavee"
-      }
-    ],
-    "citation-key": "corcovilos2019",
-    "container-title": "Applied Optics",
-    "DOI": "10.1364/AO.58.002256",
-    "id": "corcovilos2019",
-    "issue": "9",
-    "issued": {
-      "date-parts": [
-        [
-          2019,
-          3,
-          15
-        ]
-      ]
+    {
+        "id": "vanstipdonkCollisioninducedDissociationUranylmethoxide2016",
+        "author": [
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J."
+            },
+            {
+                "family": "Hanley",
+                "given": "Cassandra"
+            },
+            {
+                "family": "Perez",
+                "given": "Evan"
+            },
+            {
+                "family": "Pestok",
+                "given": "Jordan"
+            },
+            {
+                "family": "Mihm",
+                "given": "Patricia"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            }
+        ],
+        "citation-key": "vanstipdonkCollisioninducedDissociationUranylmethoxide2016",
+        "container-title": "Rapid Communications in Mass Spectrometry",
+        "DOI": "10.1002/rcm.7668",
+        "issued": {
+            "date-parts": [
+                [
+                    "2016",
+                    8,
+                    30
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "1879–1890",
+        "title": "Collision-induced dissociation of uranyl-methoxide and uranyl-ethoxide cations: Formation of UO2H+ and uranyl-alkyl product ions",
+        "type": "article-journal",
+        "volume": "30"
     },
-    "license": "All rights reserved",
-    "page": "2256–2263",
-    "title": "Two-dimensional optical quasicrystal potentials for ultracold atom experiments",
-    "type": "article-journal",
-    "volume": "58"
-  },
-  {
-    "abstract": "Homogeneous coordinates are a projective geometry tool particularly well suited to paraxial geometric optics. They are useful because they allow the expression of rotations, translations, affine transformations, and projective transformations as linear operators (matrices). While these techniques are common in the computer graphics community, they are not well-known to physicists. Here we apply them to paraxial ray tracing. Geometric optics is often implemented by tracing the paths of non-diffracting rays through an optical system. In the paraxial limit rays can be represented through their height and slope and traced through the optical system using ray transfer (colloquially, \"ABCD\") matrices. The homogeneous representation allows us to add translations and rotations to our set of operations, allowing us to consider decentered and rotated optical elements. The homogeneous representation also distinguishes the orientation of rays (forwards or backwards). Using projective duality, we also show how to image points through an optical system, given the homogeneous ray transfer matrix. We demonstrate the usefulness of these methods with several examples, and discuss future directions to expand this technique.",
-    "accessed": {
-      "date-parts": [
-        [
-          2022,
-          5,
-          20
-        ]
-      ]
+    {
+        "id": "corcovilosMultifrequencySuperconductingCavity2004",
+        "author": [
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Strayer",
+                "given": "D. M."
+            },
+            {
+                "family": "Asplund",
+                "given": "N."
+            },
+            {
+                "family": "Yeh",
+                "given": "N.-C."
+            }
+        ],
+        "citation-key": "corcovilosMultifrequencySuperconductingCavity2004",
+        "container-title": "Journal of Low Temperature Physics",
+        "DOI": "10.1023/B:JOLT.0000012591.58110.9c",
+        "issue": "1-2",
+        "issued": {
+            "date-parts": [
+                [
+                    "2004"
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "431–436",
+        "title": "Multi-frequency Superconducting Cavity Stabilized Oscillators (SCSO) for quantum-gas measurements and gravitational physics",
+        "type": "article-journal",
+        "volume": "134"
     },
-    "archive_location": "2205.09746",
-    "author": [
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      }
-    ],
-    "citation-key": "corcovilos2023",
-    "container-title": "American Journal of Physics",
-    "DOI": "10.1119/5.0083069",
-    "id": "corcovilos2023",
-    "issue": "6",
-    "issued": {
-      "date-parts": [
-        [
-          2023,
-          6,
-          1
-        ]
-      ]
+    {
+        "id": "dauSynthesisHydrolysisUranyl2016",
+        "author": [
+            {
+                "family": "Dau",
+                "given": "Phuong D."
+            },
+            {
+                "family": "Rios",
+                "given": "Daniel"
+            },
+            {
+                "family": "Gong",
+                "given": "Yu"
+            },
+            {
+                "family": "Michelini",
+                "given": "Maria C."
+            },
+            {
+                "family": "Marçalo",
+                "given": "Joaquim"
+            },
+            {
+                "family": "Shuh",
+                "given": "David K."
+            },
+            {
+                "family": "Mogamman",
+                "given": "Mejdi"
+            },
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Martens",
+                "given": "Jonathan K."
+            },
+            {
+                "family": "Oomens",
+                "given": "Jos"
+            },
+            {
+                "family": "Redlich",
+                "given": "Britta"
+            },
+            {
+                "family": "Gibson",
+                "given": "John K."
+            }
+        ],
+        "citation-key": "dauSynthesisHydrolysisUranyl2016",
+        "container-title": "Organometallics",
+        "DOI": "10.1021/acs.organomet.6b00079",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    "2016",
+                    5,
+                    9
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "1228–1240",
+        "title": "Synthesis and hydrolysis of uranyl, neptyl and plutonyl gas-phase complexes exhibiting discrete actinide-carbon bonds",
+        "type": "article-journal",
+        "volume": "35"
     },
-    "license": "All rights reserved",
-    "page": "449-457",
-    "source": "arXiv.org",
-    "title": "Beyond the ABCDs: A better matrix method for geometric optics by using homogeneous coordinates",
-    "title-short": "Beyond the ABCDs",
-    "type": "article",
-    "volume": "91"
-  },
-  {
-    "author": [
-      {
-        "family": "Dau",
-        "given": "Phuong D."
-      },
-      {
-        "family": "Rios",
-        "given": "Daniel"
-      },
-      {
-        "family": "Gong",
-        "given": "Yu"
-      },
-      {
-        "family": "Michelini",
-        "given": "Maria C."
-      },
-      {
-        "family": "Marçalo",
-        "given": "Joaquim"
-      },
-      {
-        "family": "Shuh",
-        "given": "David K."
-      },
-      {
-        "family": "Mogamman",
-        "given": "Mejdi"
-      },
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael J."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      },
-      {
-        "family": "Martens",
-        "given": "Jonathan K."
-      },
-      {
-        "family": "Oomens",
-        "given": "Jos"
-      },
-      {
-        "family": "Redlich",
-        "given": "Britta"
-      },
-      {
-        "family": "Gibson",
-        "given": "John K."
-      }
-    ],
-    "citation-key": "dau2016",
-    "container-title": "Organometallics",
-    "DOI": "10.1021/acs.organomet.6b00079",
-    "id": "dau2016",
-    "issue": "9",
-    "issued": {
-      "date-parts": [
-        [
-          2016,
-          5,
-          9
-        ]
-      ]
+    {
+        "id": "yehRecentDevelopmentsScience2002",
+        "author": [
+            {
+                "family": "Yeh",
+                "given": "N.-C."
+            },
+            {
+                "family": "Chen",
+                "given": "C.-T."
+            },
+            {
+                "family": "Fu",
+                "given": "C. C."
+            },
+            {
+                "family": "Huang",
+                "given": "Z."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Vasquez",
+                "given": "R. P."
+            },
+            {
+                "family": "Strayer",
+                "given": "D. M."
+            }
+        ],
+        "citation-key": "yehRecentDevelopmentsScience2002",
+        "container-title": "Commemorating the Past and Looking Towards the Future",
+        "DOI": "10.1142/9789812776785_0008",
+        "editor": [
+            {
+                "family": "Chang",
+                "given": "N-P"
+            },
+            {
+                "family": "Young",
+                "given": "K."
+            },
+            {
+                "family": "Lai",
+                "given": "H. M."
+            },
+            {
+                "family": "Wong",
+                "given": "C-Y"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2002"
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "72–86",
+        "publisher": "World Scientific",
+        "title": "Recent developments in the science and technology of superconductivity",
+        "type": "paper-conference"
     },
-    "license": "All rights reserved",
-    "page": "1228–1240",
-    "title": "Synthesis and hydrolysis of uranyl, neptyl and plutonyl gas-phase complexes exhibiting discrete actinide-carbon bonds",
-    "type": "article-journal",
-    "volume": "35"
-  },
-  {
-    "author": [
-      {
-        "family": "Jong",
-        "given": "Wibe A.",
-        "non-dropping-particle": "de"
-      },
-      {
-        "family": "Dau",
-        "given": "Phuong D."
-      },
-      {
-        "family": "Wilson",
-        "given": "Richard E."
-      },
-      {
-        "family": "Marçalo",
-        "given": "Joaquim"
-      },
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael J."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      },
-      {
-        "family": "Berden",
-        "given": "Giel"
-      },
-      {
-        "family": "Martens",
-        "given": "Jonathan"
-      },
-      {
-        "family": "Oomens",
-        "given": "Jos"
-      },
-      {
-        "family": "Gibson",
-        "given": "John K."
-      }
-    ],
-    "citation-key": "dejong2017",
-    "container-title": "Inorganic Chemistry",
-    "DOI": "10.1021/acs.inorgchem.7b00144",
-    "id": "dejong2017",
-    "issue": "6",
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          3,
-          9
-        ]
-      ]
+    {
+        "id": "sandersProjectSEESatellite1999",
+        "author": [
+            {
+                "family": "Sanders",
+                "given": "A. J."
+            },
+            {
+                "family": "Alexeev",
+                "given": "A. D."
+            },
+            {
+                "family": "Allison",
+                "given": "S. W."
+            },
+            {
+                "family": "Bronnikov",
+                "given": "K. A."
+            },
+            {
+                "family": "Campbell",
+                "given": "J. W."
+            },
+            {
+                "family": "Cates",
+                "given": "M. R."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Earl",
+                "given": "D. D."
+            },
+            {
+                "family": "Gadfort",
+                "given": "T."
+            },
+            {
+                "family": "Gillies",
+                "given": "G. T."
+            },
+            {
+                "family": "Harris",
+                "given": "M. J."
+            },
+            {
+                "family": "Kolosnitsyn",
+                "given": "N. I."
+            },
+            {
+                "family": "Konstantinov",
+                "given": "M. Yu."
+            },
+            {
+                "family": "Melnikov",
+                "given": "V. N."
+            },
+            {
+                "family": "Newby",
+                "given": "R. J."
+            },
+            {
+                "family": "Schunk",
+                "given": "R. G."
+            },
+            {
+                "family": "Smalley",
+                "given": "L. L."
+            }
+        ],
+        "citation-key": "sandersProjectSEESatellite1999",
+        "container-title": "Measurement Science and Technology",
+        "DOI": "10.1088/0957-0233/10/6/317",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    "1999",
+                    6
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "514",
+        "title": "Project SEE (Satellite Energy Exchange): Proposal for space-based gravitational measurements",
+        "type": "article-journal",
+        "volume": "10"
     },
-    "license": "All rights reserved",
-    "page": "3686–3694",
-    "title": "Revealing Disparate Chemistries of Protactinium and Uranium. Synthesis of the Molecular Uranium Tetroxide Anion, UO4-",
-    "type": "article-journal",
-    "volume": "56"
-  },
-  {
-    "author": [
-      {
-        "family": "Duarte",
-        "given": "P. M."
-      },
-      {
-        "family": "Hart",
-        "given": "R. A."
-      },
-      {
-        "family": "Hitchcock",
-        "given": "J. M."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Yang",
-        "given": "T.-L."
-      },
-      {
-        "family": "Reed",
-        "given": "A."
-      },
-      {
-        "family": "Hulet",
-        "given": "R. G."
-      }
-    ],
-    "citation-key": "duarte2011",
-    "container-title": "Physical Review A",
-    "DOI": "10.1103/PhysRevA.84.061406",
-    "id": "duarte2011",
-    "issue": "6",
-    "issued": {
-      "date-parts": [
-        [
-          2011,
-          12,
-          21
-        ]
-      ]
+    {
+        "id": "sandersProjectSEESatellite2000",
+        "author": [
+            {
+                "family": "Sanders",
+                "given": "A. J."
+            },
+            {
+                "family": "Alexeev",
+                "given": "A. D."
+            },
+            {
+                "family": "Allison",
+                "given": "S. W."
+            },
+            {
+                "family": "Antonov",
+                "given": "V."
+            },
+            {
+                "family": "Bronnikov",
+                "given": "K. A."
+            },
+            {
+                "family": "Campbell",
+                "given": "J. W."
+            },
+            {
+                "family": "Cates",
+                "given": "M. R."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Earl",
+                "given": "D. D."
+            },
+            {
+                "family": "Gadfort",
+                "given": "T."
+            },
+            {
+                "family": "Gillies",
+                "given": "G. T."
+            },
+            {
+                "family": "Harris",
+                "given": "M. J."
+            },
+            {
+                "family": "Kolosnitsyn",
+                "given": "N. I."
+            },
+            {
+                "family": "Konstantinov",
+                "given": "M. Yu."
+            },
+            {
+                "family": "Melnikov",
+                "given": "V. N."
+            },
+            {
+                "family": "Newby",
+                "given": "R. J."
+            },
+            {
+                "family": "Schunk",
+                "given": "R. G."
+            },
+            {
+                "family": "Smalley",
+                "given": "L. L."
+            }
+        ],
+        "citation-key": "sandersProjectSEESatellite2000",
+        "container-title": "Classical and Quantum Gravity",
+        "DOI": "10.1088/0264-9381/17/12/305",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    "2000",
+                    6,
+                    21
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "2331",
+        "title": "Project SEE (Satellite Energy Exchange): An international effort to develop a space-based mission for precise measurements of gravitation",
+        "type": "article-journal",
+        "volume": "17"
     },
-    "license": "All rights reserved",
-    "page": "061406",
-    "title": "All-optical production of a lithium quantum gas using narrow-line laser cooling",
-    "type": "article-journal",
-    "volume": "84"
-  },
-  {
-    "author": [
-      {
-        "family": "Hulet",
-        "given": "R. G."
-      },
-      {
-        "family": "Dries",
-        "given": "D."
-      },
-      {
-        "family": "Junker",
-        "given": "M."
-      },
-      {
-        "family": "Pollack",
-        "given": "S. E."
-      },
-      {
-        "family": "Hitchcock",
-        "given": "J. M."
-      },
-      {
-        "family": "Chen",
-        "given": "Y. P."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Welford",
-        "given": "C."
-      }
-    ],
-    "citation-key": "hulet2009",
-    "container-title": "Proceedings of the XXI International Conference on Atomic Physics",
-    "DOI": "10.1142/9789814273008_0015",
-    "editor": [
-      {
-        "family": "Cote",
-        "given": "R."
-      },
-      {
-        "family": "Gould",
-        "given": "P. L."
-      },
-      {
-        "family": "Rozman",
-        "given": "M."
-      },
-      {
-        "family": "Smith",
-        "given": "W. W."
-      }
-    ],
-    "id": "hulet2009",
-    "issued": {
-      "date-parts": [
-        [
-          2009
-        ]
-      ]
+    {
+        "id": "chenExperimentalStudiesBose2009",
+        "author": [
+            {
+                "family": "Chen",
+                "given": "Yong P."
+            },
+            {
+                "family": "Hitchcock",
+                "given": "J."
+            },
+            {
+                "family": "Dries",
+                "given": "D."
+            },
+            {
+                "family": "Junker",
+                "given": "M."
+            },
+            {
+                "family": "Welford",
+                "given": "C."
+            },
+            {
+                "family": "Pollack",
+                "given": "S. E."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Hulet",
+                "given": "R. G."
+            }
+        ],
+        "citation-key": "chenExperimentalStudiesBose2009",
+        "container-title": "Physica D: Nonlinear Phenomena",
+        "DOI": "10.1016/j.physd.2009.01.015",
+        "issue": "15",
+        "issued": {
+            "date-parts": [
+                [
+                    "2009",
+                    7,
+                    15
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "1321–1325",
+        "title": "Experimental studies of Bose–Einstein condensates in disorder",
+        "type": "article-journal",
+        "volume": "238"
     },
-    "license": "All rights reserved",
-    "page": "150–159",
-    "publisher": "World Scientific",
-    "title": "Tunable interactions in a Bose-Einstein condensate of lithium: Photoassociation and disorder-induced localization",
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "family": "Li",
-        "given": "Xiao"
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      },
-      {
-        "family": "Wang",
-        "given": "Yang"
-      },
-      {
-        "family": "Weiss",
-        "given": "David S."
-      }
-    ],
-    "citation-key": "li2012",
-    "container-title": "Physical Review Letters",
-    "DOI": "10.1103/PhysRevLett.108.103001",
-    "id": "li2012",
-    "issue": "10",
-    "issued": {
-      "date-parts": [
-        [
-          2012,
-          3,
-          9
-        ]
-      ]
+    {
+        "id": "yehExperimentalInvestigationAsymmetric2004",
+        "author": [
+            {
+                "family": "Yeh",
+                "given": "N.-C."
+            },
+            {
+                "family": "Chen",
+                "given": "C.-T."
+            },
+            {
+                "family": "Beyer",
+                "given": "A. D."
+            },
+            {
+                "family": "Hughes",
+                "given": "C. R."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Lee",
+                "given": "S. I."
+            }
+        ],
+        "citation-key": "yehExperimentalInvestigationAsymmetric2004",
+        "container-title": "Physica C: Superconductivity",
+        "DOI": "10.1016/j.physc.2004.03.133",
+        "issued": {
+            "date-parts": [
+                [
+                    "2004"
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "792–793",
+        "title": "Experimental investigation of the asymmetric spectroscopic characteristics of electron-and hole-doped cuprates",
+        "type": "article-journal",
+        "volume": "408–410"
     },
-    "license": "All rights reserved",
-    "page": "103001",
-    "title": "3D Projection Sideband Cooling",
-    "type": "article-journal",
-    "volume": "108"
-  },
-  {
-    "author": [
-      {
-        "family": "Metzler",
-        "given": "Luke J"
-      },
-      {
-        "family": "Farmen",
-        "given": "Christopher T"
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A"
-      },
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael J"
-      }
-    ],
-    "citation-key": "metzler2021",
-    "container-title": "Phys. Chem. Chem. Phys.",
-    "DOI": "10.1039/D1CP00177A",
-    "id": "metzler2021",
-    "issue": "8",
-    "issued": {
-      "date-parts": [
-        [
-          2021,
-          2,
-          11
-        ]
-      ]
+    {
+        "id": "vanstipdonkDissociationGasphaseDoublycharged2016",
+        "author": [
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J."
+            },
+            {
+                "family": "O'Malley",
+                "given": "Catherine"
+            },
+            {
+                "family": "Plaviak",
+                "given": "Alexandra"
+            },
+            {
+                "family": "Martin",
+                "given": "Dean"
+            },
+            {
+                "family": "Pestok",
+                "given": "Jordan"
+            },
+            {
+                "family": "Mihm",
+                "given": "Patricia A."
+            },
+            {
+                "family": "Hanley",
+                "given": "Cassandra G."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Gibson",
+                "given": "John K."
+            },
+            {
+                "family": "Bythell",
+                "given": "Benjamin J."
+            }
+        ],
+        "citation-key": "vanstipdonkDissociationGasphaseDoublycharged2016",
+        "container-title": "International Journal of Mass Spectrometry",
+        "DOI": "10.1016/j.ijms.2015.12.005",
+        "issued": {
+            "date-parts": [
+                [
+                    "2016",
+                    2,
+                    25
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "22–34",
+        "title": "Dissociation of gas-phase, doubly-charged uranyl-acetone complexes by collisional activation and infrared photodissociation",
+        "type": "article-journal",
+        "volume": "396"
     },
-    "language": "en",
-    "license": "All rights reserved",
-    "page": "4475-4479",
-    "source": "Zotero",
-    "title": "Intrinsic chemistry of [OUCH]+: reactions with H2O, CH3CRN and O2",
-    "type": "article-journal",
-    "volume": "23"
-  },
-  {
-    "abstract": "Rationale Building on our report that collision-induced dissociation (CID) can be used to create the highly reactive U-alkylidyne species [O=U≡CH]+, our goal was to determine whether the species could be as an intermediate for synthesis of [OUS]+ by reaction with carbon disulfide (CS2). Methods Cationic uranyl-propiolate precursor ions were generated by electrospray ionization, and multiple-stage CID in a linear trap instrument was used to prepare [O=U≡CH]+. Neutral CS2 was admitted into the trap through a modified He inlet and precision leak valves. Results The [O=U≡CH]+ ion reacts with CS2 to generate [OUS]+. CID of [OUS]+ causes elimination of the axial sulfide ligand to generate [OU]+. Using isotopically labeled reagent, we found that [OUS]+ reacts with O2 to create [UO2]+. Conclusion [O=U≡CH]+ proves to be a useful reagent ion for synthesis of [OUS]+, a species that to date has only been created by gas-phase reactions of U+ and U2+. Dissociation of [OUS]+ to create [OU]+, but not [US]+, and the efficient conversion of the species to [UO2]+ is consistent with the relative differences in U-O and U-S bond energies.",
-    "accessed": {
-      "date-parts": [
-        [
-          2022,
-          1,
-          21
-        ]
-      ]
+    {
+        "id": "corcovilosDetectingAntiferromagnetismAtoms2010",
+        "author": [
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Baur",
+                "given": "S. K."
+            },
+            {
+                "family": "Hitchcock",
+                "given": "J. M."
+            },
+            {
+                "family": "Mueller",
+                "given": "E. J."
+            },
+            {
+                "family": "Hulet",
+                "given": "R. G."
+            }
+        ],
+        "citation-key": "corcovilosDetectingAntiferromagnetismAtoms2010",
+        "container-title": "Physical Review A",
+        "DOI": "10.1103/PhysRevA.81.013415",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    "2010",
+                    1,
+                    26
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "013415",
+        "title": "Detecting antiferromagnetism of atoms in an optical lattice via optical Bragg scattering",
+        "type": "article-journal",
+        "volume": "81"
     },
-    "author": [
-      {
-        "family": "Metzler",
-        "given": "Luke J."
-      },
-      {
-        "family": "Farmen",
-        "given": "Christopher T."
-      },
-      {
-        "family": "Fry",
-        "given": "Allison N."
-      },
-      {
-        "family": "Seibert",
-        "given": "Mark P."
-      },
-      {
-        "family": "Massari",
-        "given": "Kayla A."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      },
-      {
-        "family": "Stipdonk",
-        "given": "Michael J.",
-        "non-dropping-particle": "van"
-      }
-    ],
-    "citation-key": "metzler2022",
-    "container-title": "Rapid Communications in Mass Spectrometry",
-    "DOI": "10.1002/rcm.9260",
-    "id": "metzler2022",
-    "ISSN": "1097-0231",
-    "issue": "8",
-    "issued": {
-      "date-parts": [
-        [
-          2022,
-          4,
-          30
-        ]
-      ]
+    {
+        "id": "wangCoherentAddressingIndividual2015",
+        "author": [
+            {
+                "family": "Wang",
+                "given": "Yang"
+            },
+            {
+                "family": "Zhang",
+                "given": "Xianli"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Kumar",
+                "given": "Aishwarya"
+            },
+            {
+                "family": "Weiss",
+                "given": "David S."
+            }
+        ],
+        "citation-key": "wangCoherentAddressingIndividual2015",
+        "container-title": "Physical Review Letters",
+        "DOI": "10.1103/PhysRevLett.115.043003",
+        "issued": {
+            "date-parts": [
+                [
+                    "2015",
+                    7,
+                    24
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "043003",
+        "title": "Coherent addressing of individual neutral atoms in a 3D optical lattice",
+        "type": "article-journal",
+        "volume": "115"
     },
-    "language": "en",
-    "license": "All rights reserved",
-    "page": "e9260",
-    "source": "Wiley Online Library",
-    "title": "Intrinsic Reactivity of [OUCH]+: Apparent Synthesis of [OUS]+ by Reaction with CS2",
-    "title-short": "Intrinsic Reactivity of [OUCH]+",
-    "type": "article-journal",
-    "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rcm.9260",
-    "volume": "36"
-  },
-  {
-    "author": [
-      {
-        "family": "Perez",
-        "given": "Evan"
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore"
-      },
-      {
-        "family": "Gibson",
-        "given": "John"
-      },
-      {
-        "family": "Martens",
-        "given": "Jonathan"
-      },
-      {
-        "family": "Berden",
-        "given": "Giel"
-      },
-      {
-        "family": "Oomens",
-        "given": "Jos"
-      },
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael"
-      }
-    ],
-    "citation-key": "perez2019",
-    "container-title": "European Journal of Mass Spectroscopy",
-    "DOI": "10.1177/1469066718809881",
-    "id": "perez2019",
-    "issue": "1",
-    "issued": {
-      "date-parts": [
-        [
-          2019,
-          2,
-          18
-        ]
-      ]
+    {
+        "id": "duarteAllopticalProductionLithium2011",
+        "author": [
+            {
+                "family": "Duarte",
+                "given": "P. M."
+            },
+            {
+                "family": "Hart",
+                "given": "R. A."
+            },
+            {
+                "family": "Hitchcock",
+                "given": "J. M."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "T. A."
+            },
+            {
+                "family": "Yang",
+                "given": "T.-L."
+            },
+            {
+                "family": "Reed",
+                "given": "A."
+            },
+            {
+                "family": "Hulet",
+                "given": "R. G."
+            }
+        ],
+        "citation-key": "duarteAllopticalProductionLithium2011",
+        "container-title": "Physical Review A",
+        "DOI": "10.1103/PhysRevA.84.061406",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    "2011",
+                    12,
+                    21
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "061406",
+        "title": "All-optical production of a lithium quantum gas using narrow-line laser cooling",
+        "type": "article-journal",
+        "volume": "84"
     },
-    "license": "All rights reserved",
-    "page": "58–72",
-    "title": "Isotope labeling and infrared multiple-photon photodissociation investigation of product ions generated by dissociation of [ZnNO3(CH3OH)2]+: Conversion of methanol to formaldehyde",
-    "type": "article-journal",
-    "volume": "25"
-  },
-  {
-    "abstract": "While the strong axial UO bonds confer high stability and inertness to UO22+, it has been shown that the axial oxo ligands can be eliminated or replaced in the gas-phase using collision-induced dissociation (CID) reactions. In this study, CID of the pentafluorobenzoate precursor ion [UO2(O2C–C6F5)]+ was used to produce the organo-uranyl ion [UO2(C6F5)]+ by decarboxylation. Subsequent CID of [UO2(C6F5)]+ created [UO2(F)]+ by fluoride transfer and elimination of C6F4, rather than UO2+ by elimination of pentafluorophenyl radical (as has been observed for similar species). Moreover, upon reaction of [UO2(C6F5)]+ with H2O, apparent substitution of OH for F to create [UO3HC6F4]+ is favored over hydrolysis to produce [UO2(OH)]+ and (neutral) C6F5H. Subsequent CID of [UO3HC6F4]+ generates [UO2(F)]+ and [OUF]+. When [OUF]+ is isolated to react with H2O and O2 in the ion trap, the principal product ions observed are [UO2(F)]+ and [UO2(OH)]+. Experiments conducted with labeled reagent suggest that reaction with H218O leads to exchange of the oxo ligand and incorporation of the 18O label into [OUF]+ while reaction with O2 likely creates [UO2(F)]+. Formation of [UO2(OH)]+ from [OUF]+ is the result of a cascade of reactions, with initial formation of [UO2(F)]+ by reaction with O2, followed by hydrolysis to create the hydroxide species.",
-    "accessed": {
-      "date-parts": [
-        [
-          2021,
-          7,
-          12
-        ]
-      ]
+    {
+        "id": "li3DProjectionSideband2012",
+        "author": [
+            {
+                "family": "Li",
+                "given": "Xiao"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Wang",
+                "given": "Yang"
+            },
+            {
+                "family": "Weiss",
+                "given": "David S."
+            }
+        ],
+        "citation-key": "li3DProjectionSideband2012",
+        "container-title": "Physical Review Letters",
+        "DOI": "10.1103/PhysRevLett.108.103001",
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    "2012",
+                    3,
+                    9
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "103001",
+        "title": "3D Projection Sideband Cooling",
+        "type": "article-journal",
+        "volume": "108"
     },
-    "author": [
-      {
-        "family": "Perez",
-        "given": "Evan"
-      },
-      {
-        "family": "Tatosian",
-        "given": "Irena"
-      },
-      {
-        "family": "Bubas",
-        "given": "Amanda"
-      },
-      {
-        "family": "Iacovino",
-        "given": "Anna"
-      },
-      {
-        "family": "Kline",
-        "given": "Susan"
-      },
-      {
-        "family": "Metzler",
-        "given": "Luke"
-      },
-      {
-        "family": "Somogyi",
-        "given": "Arpad"
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore"
-      },
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael"
-      }
-    ],
-    "citation-key": "perez2021",
-    "container-title": "International Journal of Mass Spectrometry",
-    "container-title-short": "International Journal of Mass Spectrometry",
-    "DOI": "10.1016/j.ijms.2021.116664",
-    "id": "perez2021",
-    "ISSN": "1387-3806",
-    "issued": {
-      "date-parts": [
-        [
-          2021,
-          11,
-          1
-        ]
-      ]
+    {
+        "id": "corcovilosTwodimensionalOpticalQuasicrystal2019",
+        "author": [
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Mittal",
+                "given": "Jahnavee"
+            }
+        ],
+        "citation-key": "corcovilosTwodimensionalOpticalQuasicrystal2019",
+        "container-title": "Applied Optics",
+        "DOI": "10.1364/AO.58.002256",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    "2019",
+                    3,
+                    15
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "2256–2263",
+        "title": "Two-dimensional optical quasicrystal potentials for ultracold atom experiments",
+        "type": "article-journal",
+        "volume": "58"
     },
-    "language": "en",
-    "license": "All rights reserved",
-    "page": "116664",
-    "source": "ScienceDirect",
-    "title": "Creation of [OUF]+ using gas-phase reactions of [UO2(C6F5)]+",
-    "type": "article-journal",
-    "URL": "https://www.sciencedirect.com/science/article/pii/S1387380621001445",
-    "volume": "469"
-  },
-  {
-    "author": [
-      {
-        "family": "Pollack",
-        "given": "S. E."
-      },
-      {
-        "family": "Dries",
-        "given": "D."
-      },
-      {
-        "family": "Junker",
-        "given": "M."
-      },
-      {
-        "family": "Chen",
-        "given": "Y. P."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Hulet",
-        "given": "R. G."
-      }
-    ],
-    "citation-key": "pollack2009",
-    "container-title": "Physical Review Letters",
-    "DOI": "10.1103/PhysRevLett.102.090402",
-    "id": "pollack2009",
-    "issue": "9",
-    "issued": {
-      "date-parts": [
-        [
-          2009,
-          3,
-          6
-        ]
-      ]
+    {
+        "id": "tatosianMeasurementAsymmetricUO222019",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2019",
+                    9,
+                    20
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Tatosian",
+                "given": "Irena"
+            },
+            {
+                "family": "Metzler",
+                "given": "Luke"
+            },
+            {
+                "family": "Graca",
+                "given": "Connor"
+            },
+            {
+                "family": "Bubas",
+                "given": "Amanda"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore"
+            },
+            {
+                "family": "Martens",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Berden",
+                "given": "Giel"
+            },
+            {
+                "family": "Oomens",
+                "given": "Jos"
+            },
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J."
+            }
+        ],
+        "citation-key": "tatosianMeasurementAsymmetricUO222019",
+        "container-title": "International Journal of Mass Spectrometry",
+        "container-title-short": "International Journal of Mass Spectrometry",
+        "DOI": "10.1016/j.ijms.2019.116231",
+        "ISSN": "13873806",
+        "issued": {
+            "date-parts": [
+                [
+                    "2019",
+                    12
+                ]
+            ]
+        },
+        "language": "en",
+        "license": "All rights reserved",
+        "page": "116231",
+        "source": "DOI.org (Crossref)",
+        "title": "Measurement of the asymmetric UO22+ stretching frequency for [UVIO2(F)3]- using IRMPD spectroscopy",
+        "type": "article-journal",
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1387380619302982",
+        "volume": "446"
     },
-    "license": "All rights reserved",
-    "page": "090402",
-    "title": "Extreme tunability of interactions in a 7Li Bose-Einstein condensate",
-    "type": "article-journal",
-    "volume": "102"
-  },
-  {
-    "author": [
-      {
-        "family": "Sanders",
-        "given": "A. J."
-      },
-      {
-        "family": "Alexeev",
-        "given": "A. D."
-      },
-      {
-        "family": "Allison",
-        "given": "S. W."
-      },
-      {
-        "family": "Bronnikov",
-        "given": "K. A."
-      },
-      {
-        "family": "Campbell",
-        "given": "J. W."
-      },
-      {
-        "family": "Cates",
-        "given": "M. R."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Earl",
-        "given": "D. D."
-      },
-      {
-        "family": "Gadfort",
-        "given": "T."
-      },
-      {
-        "family": "Gillies",
-        "given": "G. T."
-      },
-      {
-        "family": "Harris",
-        "given": "M. J."
-      },
-      {
-        "family": "Kolosnitsyn",
-        "given": "N. I."
-      },
-      {
-        "family": "Konstantinov",
-        "given": "M. Yu."
-      },
-      {
-        "family": "Melnikov",
-        "given": "V. N."
-      },
-      {
-        "family": "Newby",
-        "given": "R. J."
-      },
-      {
-        "family": "Schunk",
-        "given": "R. G."
-      },
-      {
-        "family": "Smalley",
-        "given": "L. L."
-      }
-    ],
-    "citation-key": "sanders1999",
-    "container-title": "Measurement Science and Technology",
-    "DOI": "10.1088/0957-0233/10/6/317",
-    "id": "sanders1999",
-    "issue": "6",
-    "issued": {
-      "date-parts": [
-        [
-          1999,
-          6
-        ]
-      ]
+    {
+        "id": "perezCreationOUFUsing2021",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2021",
+                    7,
+                    12
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Perez",
+                "given": "Evan"
+            },
+            {
+                "family": "Tatosian",
+                "given": "Irena"
+            },
+            {
+                "family": "Bubas",
+                "given": "Amanda"
+            },
+            {
+                "family": "Iacovino",
+                "given": "Anna"
+            },
+            {
+                "family": "Kline",
+                "given": "Susan"
+            },
+            {
+                "family": "Metzler",
+                "given": "Luke"
+            },
+            {
+                "family": "Somogyi",
+                "given": "Arpad"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore"
+            },
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael"
+            }
+        ],
+        "citation-key": "perezCreationOUFUsing2021",
+        "container-title": "International Journal of Mass Spectrometry",
+        "container-title-short": "International Journal of Mass Spectrometry",
+        "DOI": "10.1016/j.ijms.2021.116664",
+        "ISSN": "1387-3806",
+        "issued": {
+            "date-parts": [
+                [
+                    "2021",
+                    11,
+                    1
+                ]
+            ]
+        },
+        "language": "en",
+        "license": "All rights reserved",
+        "page": "116664",
+        "source": "ScienceDirect",
+        "title": "Creation of [OUF]+ using gas-phase reactions of [UO2(C6F5)]+",
+        "type": "article-journal",
+        "URL": "https://www.sciencedirect.com/science/article/pii/S1387380621001445",
+        "volume": "469"
     },
-    "license": "All rights reserved",
-    "page": "514",
-    "title": "Project SEE (Satellite Energy Exchange): Proposal for space-based gravitational measurements",
-    "type": "article-journal",
-    "volume": "10"
-  },
-  {
-    "author": [
-      {
-        "family": "Sanders",
-        "given": "A. J."
-      },
-      {
-        "family": "Alexeev",
-        "given": "A. D."
-      },
-      {
-        "family": "Allison",
-        "given": "S. W."
-      },
-      {
-        "family": "Antonov",
-        "given": "V."
-      },
-      {
-        "family": "Bronnikov",
-        "given": "K. A."
-      },
-      {
-        "family": "Campbell",
-        "given": "J. W."
-      },
-      {
-        "family": "Cates",
-        "given": "M. R."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Earl",
-        "given": "D. D."
-      },
-      {
-        "family": "Gadfort",
-        "given": "T."
-      },
-      {
-        "family": "Gillies",
-        "given": "G. T."
-      },
-      {
-        "family": "Harris",
-        "given": "M. J."
-      },
-      {
-        "family": "Kolosnitsyn",
-        "given": "N. I."
-      },
-      {
-        "family": "Konstantinov",
-        "given": "M. Yu."
-      },
-      {
-        "family": "Melnikov",
-        "given": "V. N."
-      },
-      {
-        "family": "Newby",
-        "given": "R. J."
-      },
-      {
-        "family": "Schunk",
-        "given": "R. G."
-      },
-      {
-        "family": "Smalley",
-        "given": "L. L."
-      }
-    ],
-    "citation-key": "sanders2000",
-    "container-title": "Classical and Quantum Gravity",
-    "DOI": "10.1088/0264-9381/17/12/305",
-    "id": "sanders2000",
-    "issue": "12",
-    "issued": {
-      "date-parts": [
-        [
-          2000,
-          6,
-          21
-        ]
-      ]
+    {
+        "id": "corcovilosFluidPhaseThermodynamics2007",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2022",
+                    4,
+                    14
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Corcovilos",
+                "given": "Theodore Allen"
+            }
+        ],
+        "citation-key": "corcovilosFluidPhaseThermodynamics2007",
+        "DOI": "10.7907/YGPG-W942",
+        "event-place": "Pasadena, CA, USA",
+        "genre": "PhD",
+        "issued": {
+            "date-parts": [
+                [
+                    "2007",
+                    8,
+                    6
+                ]
+            ]
+        },
+        "language": "en",
+        "license": "No commercial reproduction, distribution, display or performance rights in this work are provided.",
+        "medium": "PDF",
+        "publisher": "California Institute of Technology",
+        "publisher-place": "Pasadena, CA, USA",
+        "source": "DOI.org (Datacite)",
+        "title": "Fluid Phase Thermodynamics: I) Nucleate Pool Boiling of Oxygen under Magnetically Enhanced Gravity and II) Superconducting Cavity Resonators for High-Stability Frequency References and Precision Density Measurements of Helium-4 Gas",
+        "title-short": "Fluid Phase Thermodynamics",
+        "type": "thesis",
+        "URL": "https://resolver.caltech.edu/CaltechETD:etd-07172007-132955",
+        "version": "Final"
     },
-    "license": "All rights reserved",
-    "page": "2331",
-    "title": "Project SEE (Satellite Energy Exchange): An international effort to develop a space-based mission for precise measurements of gravitation",
-    "type": "article-journal",
-    "volume": "17"
-  },
-  {
-    "accessed": {
-      "date-parts": [
-        [
-          2019,
-          9,
-          20
-        ]
-      ]
+    {
+        "id": "metzlerIntrinsicReactivityOUCH2022",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2022",
+                    1,
+                    21
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Metzler",
+                "given": "Luke J."
+            },
+            {
+                "family": "Farmen",
+                "given": "Christopher T."
+            },
+            {
+                "family": "Fry",
+                "given": "Allison N."
+            },
+            {
+                "family": "Seibert",
+                "given": "Mark P."
+            },
+            {
+                "family": "Massari",
+                "given": "Kayla A."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Stipdonk",
+                "given": "Michael J.",
+                "non-dropping-particle": "van"
+            }
+        ],
+        "citation-key": "metzlerIntrinsicReactivityOUCH2022",
+        "container-title": "Rapid Communications in Mass Spectrometry",
+        "DOI": "10.1002/rcm.9260",
+        "ISSN": "1097-0231",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    "2022",
+                    4,
+                    30
+                ]
+            ]
+        },
+        "language": "en",
+        "license": "All rights reserved",
+        "page": "e9260",
+        "source": "Wiley Online Library",
+        "title": "Intrinsic Reactivity of [OUCH]+: Apparent Synthesis of [OUS]+ by Reaction with CS2",
+        "title-short": "Intrinsic Reactivity of [OUCH]+",
+        "type": "article-journal",
+        "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rcm.9260",
+        "volume": "36"
     },
-    "author": [
-      {
-        "family": "Tatosian",
-        "given": "Irena"
-      },
-      {
-        "family": "Metzler",
-        "given": "Luke"
-      },
-      {
-        "family": "Graca",
-        "given": "Connor"
-      },
-      {
-        "family": "Bubas",
-        "given": "Amanda"
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore"
-      },
-      {
-        "family": "Martens",
-        "given": "Jonathan"
-      },
-      {
-        "family": "Berden",
-        "given": "Giel"
-      },
-      {
-        "family": "Oomens",
-        "given": "Jos"
-      },
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael J."
-      }
-    ],
-    "citation-key": "tatosian2019",
-    "container-title": "International Journal of Mass Spectrometry",
-    "container-title-short": "International Journal of Mass Spectrometry",
-    "DOI": "10.1016/j.ijms.2019.116231",
-    "id": "tatosian2019",
-    "ISSN": "13873806",
-    "issued": {
-      "date-parts": [
-        [
-          2019,
-          12
-        ]
-      ]
+    {
+        "id": "corcovilosEquationsMatchDrawings2021",
+        "author": [
+            {
+                "family": "Corcovilos",
+                "given": "Theodore"
+            }
+        ],
+        "citation-key": "corcovilosEquationsMatchDrawings2021",
+        "event-title": "American Association of Physics Teachers Summer Meeting 2021",
+        "issued": {
+            "date-parts": [
+                [
+                    "2021",
+                    8,
+                    2
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "title": "The equations match the drawings: Geometric algebra for geometric optics",
+        "type": "speech",
+        "URL": "https://youtu.be/-X7b55k5P2Y"
     },
-    "language": "en",
-    "license": "All rights reserved",
-    "page": "116231",
-    "source": "DOI.org (Crossref)",
-    "title": "Measurement of the asymmetric UO22+ stretching frequency for [UVIO2(F)3]- using IRMPD spectroscopy",
-    "type": "article-journal",
-    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1387380619302982",
-    "volume": "446"
-  },
-  {
-    "author": [
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael J."
-      },
-      {
-        "family": "Hanley",
-        "given": "Cassandra"
-      },
-      {
-        "family": "Perez",
-        "given": "Evan"
-      },
-      {
-        "family": "Pestok",
-        "given": "Jordan"
-      },
-      {
-        "family": "Mihm",
-        "given": "Patricia"
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      }
-    ],
-    "citation-key": "vanstipdonk2016",
-    "container-title": "Rapid Communications in Mass Spectrometry",
-    "DOI": "10.1002/rcm.7668",
-    "id": "vanstipdonk2016",
-    "issued": {
-      "date-parts": [
-        [
-          2016,
-          8,
-          30
-        ]
-      ]
+    {
+        "id": "vanstipdonkDestructionReconstructionUO2021",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2021",
+                    6,
+                    27
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J."
+            },
+            {
+                "family": "Perez",
+                "given": "Evan H."
+            },
+            {
+                "family": "Metzler",
+                "given": "Luke J."
+            },
+            {
+                "family": "Bubas",
+                "given": "Amanda R."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore"
+            },
+            {
+                "family": "Somogyi",
+                "given": "Arpad"
+            }
+        ],
+        "citation-key": "vanstipdonkDestructionReconstructionUO2021",
+        "container-title": "Physical Chemistry Chemical Physics",
+        "container-title-short": "Phys. Chem. Chem. Phys.",
+        "DOI": "10.1039/D1CP01520F",
+        "ISSN": "1463-9076, 1463-9084",
+        "issue": "20",
+        "issued": {
+            "date-parts": [
+                [
+                    "2021",
+                    5,
+                    7
+                ]
+            ]
+        },
+        "language": "en",
+        "license": "All rights reserved",
+        "page": "11844-11851",
+        "source": "DOI.org (Crossref)",
+        "title": "Destruction and reconstruction of UO₂²⁺ using gas-phase reactions",
+        "type": "article-journal",
+        "URL": "http://xlink.rsc.org/?DOI=D1CP01520F",
+        "volume": "23"
     },
-    "license": "All rights reserved",
-    "page": "1879–1890",
-    "title": "Collision-induced dissociation of uranyl-methoxide and uranyl-ethoxide cations: Formation of UO2H+ and uranyl-alkyl product ions",
-    "type": "article-journal",
-    "volume": "30"
-  },
-  {
-    "author": [
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael J."
-      },
-      {
-        "family": "O'Malley",
-        "given": "Catherine"
-      },
-      {
-        "family": "Plaviak",
-        "given": "Alexandra"
-      },
-      {
-        "family": "Martin",
-        "given": "Dean"
-      },
-      {
-        "family": "Pestok",
-        "given": "Jordan"
-      },
-      {
-        "family": "Mihm",
-        "given": "Patricia A."
-      },
-      {
-        "family": "Hanley",
-        "given": "Cassandra G."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      },
-      {
-        "family": "Gibson",
-        "given": "John K."
-      },
-      {
-        "family": "Bythell",
-        "given": "Benjamin J."
-      }
-    ],
-    "citation-key": "vanstipdonk2016a",
-    "container-title": "International Journal of Mass Spectrometry",
-    "DOI": "10.1016/j.ijms.2015.12.005",
-    "id": "vanstipdonk2016a",
-    "issued": {
-      "date-parts": [
-        [
-          2016,
-          2,
-          25
-        ]
-      ]
+    {
+        "id": "metzlerIntrinsicChemistryOUCH2021",
+        "author": [
+            {
+                "family": "Metzler",
+                "given": "Luke J"
+            },
+            {
+                "family": "Farmen",
+                "given": "Christopher T"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A"
+            },
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J"
+            }
+        ],
+        "citation-key": "metzlerIntrinsicChemistryOUCH2021",
+        "container-title": "Phys. Chem. Chem. Phys.",
+        "DOI": "10.1039/D1CP00177A",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    "2021",
+                    2,
+                    11
+                ]
+            ]
+        },
+        "language": "en",
+        "license": "All rights reserved",
+        "page": "4475-4479",
+        "source": "Zotero",
+        "title": "Intrinsic chemistry of [OUCH]+: reactions with H2O, CH3CRN and O2",
+        "type": "article-journal",
+        "volume": "23"
     },
-    "license": "All rights reserved",
-    "page": "22–34",
-    "title": "Dissociation of gas-phase, doubly-charged uranyl-acetone complexes by collisional activation and infrared photodissociation",
-    "type": "article-journal",
-    "volume": "396"
-  },
-  {
-    "abstract": "While the strong axial UO bonds confer high stability and inertness to UO\n              2\n              2+\n              , it has been shown that the axial oxo ligands can be eliminated or replaced in the gas-phase using collision-induced dissociation (CID) reactions\n            \n          , \n            \n              While the strong axial UO bonds confer high stability and inertness to UO\n              2\n              2+\n              , it has been shown that the axial oxo ligands can be eliminated or replaced in the gas-phase using collision-induced dissociation (CID) reactions. We report here tandem mass spectrometry experiments initiated with a gas-phase complex that includes UO\n              2\n              2+\n              coordinated by a 2,6-difluorobenzoate ligand. After decarboxylation to form a difluorophenide coordinated uranyl ion, [UO\n              2\n              (C\n              6\n              F\n              2\n              H\n              3\n              )]\n              +\n              , CID causes elimination of CO, and then CO and C\n              2\n              H\n              2\n              in sequential dissociation steps, to leave a reactive uranium fluoride ion, [UF\n              2\n              (C\n              2\n              H)]\n              +\n              . Reaction of [UF\n              2\n              (C\n              2\n              H)]\n              +\n              with CH\n              3\n              OH creates [UF\n              2\n              (OCH\n              3\n              )]\n              +\n              , [UF(OCH\n              3\n              )\n              2\n              ]\n              +\n              and [UF(OCH\n              3\n              )\n              2\n              (CH\n              3\n              OH)]\n              +\n              . Cleavage of C–O bonds within these species results in the elimination of methyl cation (CH\n              3\n              +\n              ). Subsequent CID steps convert [UF(OCH\n              3\n              )\n              2\n              ]\n              +\n              to [UO\n              2\n              (F)]\n              +\n              and similarly, [U(OCH\n              3\n              )\n              3\n              ]\n              +\n              to [UO\n              2\n              (OCH\n              3\n              )]\n              +\n              . Our experiments show removal of both uranyl oxo ligands in “top-down” CID reactions and replacement in “bottom-up” ion–molecule and dissociation steps.",
-    "accessed": {
-      "date-parts": [
-        [
-          2021,
-          6,
-          27
-        ]
-      ]
+    {
+        "id": "sorescuStimulatingAmorphousStructure2023",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    11,
+                    13
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Sorescu",
+                "given": "Monica"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Higinbotham",
+                "given": "Douglas"
+            },
+            {
+                "family": "Stutzman",
+                "given": "Marcy"
+            }
+        ],
+        "citation-key": "sorescuStimulatingAmorphousStructure2023",
+        "container-title": "Journal of Alloys and Metallurgical Systems",
+        "container-title-short": "Journal of Alloys and Metallurgical Systems",
+        "DOI": "10.1016/j.jalmes.2023.100045",
+        "ISSN": "2949-9178",
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    12,
+                    1
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "100045",
+        "source": "ScienceDirect",
+        "title": "Stimulating the amorphous structure of Fe56Co24Nb4B13Si2Cu1 ferromagnetic alloy by thermal annealing, laser and electron beam irradiation: A Mӧssbauer spectroscopy investigation",
+        "title-short": "Stimulating the amorphous structure of Fe56Co24Nb4B13Si2Cu1 ferromagnetic alloy by thermal annealing, laser and electron beam irradiation",
+        "type": "article-journal",
+        "URL": "https://www.sciencedirect.com/science/article/pii/S2949917823000457",
+        "volume": "4"
     },
-    "author": [
-      {
-        "family": "Van Stipdonk",
-        "given": "Michael J."
-      },
-      {
-        "family": "Perez",
-        "given": "Evan H."
-      },
-      {
-        "family": "Metzler",
-        "given": "Luke J."
-      },
-      {
-        "family": "Bubas",
-        "given": "Amanda R."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore"
-      },
-      {
-        "family": "Somogyi",
-        "given": "Arpad"
-      }
-    ],
-    "citation-key": "vanstipdonk2021",
-    "container-title": "Physical Chemistry Chemical Physics",
-    "container-title-short": "Phys. Chem. Chem. Phys.",
-    "DOI": "10.1039/D1CP01520F",
-    "id": "vanstipdonk2021",
-    "ISSN": "1463-9076, 1463-9084",
-    "issue": "20",
-    "issued": {
-      "date-parts": [
-        [
-          2021,
-          5,
-          7
-        ]
-      ]
+    {
+        "id": "terhorstConversionUO22Precursor2023",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2023",
+                    11,
+                    13
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Terhorst",
+                "given": "Justin G."
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Stipdonk",
+                "given": "Michael J.",
+                "non-dropping-particle": "van"
+            }
+        ],
+        "citation-key": "terhorstConversionUO22Precursor2023",
+        "container-title": "Journal of the American Society for Mass Spectrometry",
+        "container-title-short": "J. Am. Soc. Mass Spectrom.",
+        "DOI": "10.1021/jasms.3c00260",
+        "ISSN": "1044-0305",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    "2023",
+                    11,
+                    1
+                ]
+            ]
+        },
+        "license": "All rights reserved",
+        "page": "2439-2442",
+        "publisher": "American Society for Mass Spectrometry. Published by the American Chemical Society. All rights reserved.",
+        "source": "ACS Publications",
+        "title": "Conversion of a UO22+ Precursor to UH+ and U+ Using Tandem Mass Spectrometry to Remove Both “yl” Oxo Ligands",
+        "type": "article-journal",
+        "URL": "https://doi.org/10.1021/jasms.3c00260",
+        "volume": "34"
     },
-    "language": "en",
-    "license": "All rights reserved",
-    "page": "11844-11851",
-    "source": "DOI.org (Crossref)",
-    "title": "Destruction and reconstruction of UO₂²⁺ using gas-phase reactions",
-    "type": "article-journal",
-    "URL": "http://xlink.rsc.org/?DOI=D1CP01520F",
-    "volume": "23"
-  },
-  {
-    "author": [
-      {
-        "family": "Wang",
-        "given": "Yang"
-      },
-      {
-        "family": "Zhang",
-        "given": "Xianli"
-      },
-      {
-        "family": "Corcovilos",
-        "given": "Theodore A."
-      },
-      {
-        "family": "Kumar",
-        "given": "Aishwarya"
-      },
-      {
-        "family": "Weiss",
-        "given": "David S."
-      }
-    ],
-    "citation-key": "wang2015",
-    "container-title": "Physical Review Letters",
-    "DOI": "10.1103/PhysRevLett.115.043003",
-    "id": "wang2015",
-    "issued": {
-      "date-parts": [
-        [
-          2015,
-          7,
-          24
-        ]
-      ]
+    {
+        "id": "terhorstGasphaseSynthesisCl2024",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2024",
+                    2,
+                    28
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Terhorst",
+                "given": "Justin"
+            },
+            {
+                "family": "Lenze",
+                "given": "Samuel"
+            },
+            {
+                "family": "Metzler",
+                "given": "Luke"
+            },
+            {
+                "family": "Fry",
+                "given": "Allison N."
+            },
+            {
+                "family": "Ihabi",
+                "given": "Amina"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J."
+            }
+        ],
+        "citation-key": "terhorstGasphaseSynthesisCl2024",
+        "container-title": "Dalton Transactions",
+        "container-title-short": "Dalton Trans.",
+        "DOI": "10.1039/D3DT02811A",
+        "ISSN": "1477-9226, 1477-9234",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024",
+                    2,
+                    22
+                ]
+            ]
+        },
+        "language": "en",
+        "license": "All rights reserved",
+        "page": "5478--5483",
+        "source": "DOI.org (Crossref)",
+        "title": "Gas-phase synthesis of [O=U–X]⁺ (X = Cl, Br and I) from a UO₂²⁺ precursor using ion-molecule reactions and an [O=U=CH] ⁺ intermediate",
+        "type": "article-journal",
+        "URL": "http://xlink.rsc.org/?DOI=D3DT02811A",
+        "volume": "53"
     },
-    "license": "All rights reserved",
-    "page": "043003",
-    "title": "Coherent addressing of individual neutral atoms in a 3D optical lattice",
-    "type": "article-journal",
-    "volume": "115"
-  },
-  {
-    "author": [
-      {
-        "family": "Yeh",
-        "given": "N.-C."
-      },
-      {
-        "family": "Chen",
-        "given": "C.-T."
-      },
-      {
-        "family": "Fu",
-        "given": "C. C."
-      },
-      {
-        "family": "Huang",
-        "given": "Z."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Vasquez",
-        "given": "R. P."
-      },
-      {
-        "family": "Strayer",
-        "given": "D. M."
-      }
-    ],
-    "citation-key": "yeh2002",
-    "container-title": "Commemorating the Past and Looking Towards the Future",
-    "DOI": "10.1142/9789812776785_0008",
-    "editor": [
-      {
-        "family": "Chang",
-        "given": "N-P"
-      },
-      {
-        "family": "Young",
-        "given": "K."
-      },
-      {
-        "family": "Lai",
-        "given": "H. M."
-      },
-      {
-        "family": "Wong",
-        "given": "C-Y"
-      }
-    ],
-    "id": "yeh2002",
-    "issued": {
-      "date-parts": [
-        [
-          2002
-        ]
-      ]
-    },
-    "license": "All rights reserved",
-    "page": "72–86",
-    "publisher": "World Scientific",
-    "title": "Recent developments in the science and technology of superconductivity",
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "family": "Yeh",
-        "given": "N.-C."
-      },
-      {
-        "family": "Chen",
-        "given": "C.-T."
-      },
-      {
-        "family": "Beyer",
-        "given": "A. D."
-      },
-      {
-        "family": "Hughes",
-        "given": "C. R."
-      },
-      {
-        "family": "Corcovilos",
-        "given": "T. A."
-      },
-      {
-        "family": "Lee",
-        "given": "S. I."
-      }
-    ],
-    "citation-key": "yeh2004",
-    "container-title": "Physica C: Superconductivity",
-    "DOI": "10.1016/j.physc.2004.03.133",
-    "id": "yeh2004",
-    "issued": {
-      "date-parts": [
-        [
-          2004
-        ]
-      ]
-    },
-    "license": "All rights reserved",
-    "page": "792–793",
-    "title": "Experimental investigation of the asymmetric spectroscopic characteristics of electron-and hole-doped cuprates",
-    "type": "article-journal",
-    "volume": "408–410"
-  }
+    {
+        "id": "bubasReactionsGasphaseUranyl2024",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2024",
+                    4,
+                    16
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Bubas",
+                "given": "Amanda R."
+            },
+            {
+                "family": "Tatosian",
+                "given": "Irena J."
+            },
+            {
+                "family": "Iacovino",
+                "given": "Anna"
+            },
+            {
+                "family": "Corcovilos",
+                "given": "Theodore A."
+            },
+            {
+                "family": "Van Stipdonk",
+                "given": "Michael J."
+            }
+        ],
+        "citation-key": "bubasReactionsGasphaseUranyl2024",
+        "container-title": "Physical Chemistry Chemical Physics",
+        "container-title-short": "Phys. Chem. Chem. Phys.",
+        "DOI": "10.1039/D4CP00823E",
+        "ISSN": "1463-9076, 1463-9084",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024",
+                    4,
+                    10
+                ]
+            ]
+        },
+        "language": "en",
+        "license": "All rights reserved",
+        "page": "12753-12763",
+        "source": "DOI.org (Crossref)",
+        "title": "Reactions of gas-phase uranyl formate/acetate anions: reduction of carboxylate ligands to aldehydes by intra-complex hydride attack",
+        "title-short": "Reactions of gas-phase uranyl formate/acetate anions",
+        "type": "article-journal",
+        "URL": "https://xlink.rsc.org/?DOI=D4CP00823E",
+        "volume": "26"
+    }
 ]
