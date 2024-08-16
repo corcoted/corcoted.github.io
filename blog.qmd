@@ -2,7 +2,7 @@
 title: "Blog Posts"
 comments: false
 listing:
-  contents: posts
+  contents: [posts,drafts]
   sort: "date desc"
   categories: true
   page-size: 10

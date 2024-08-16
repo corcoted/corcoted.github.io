@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Corcovilos Lab"
+  draft-mode: gone
   favicon: favicon.ico
   twitter-card:
     creator: "@TedCorcovilos"
@@ -23,14 +24,14 @@ website:
       - teaching.qmd
       - blog.qmd
     tools:
-      - icon: twitter
-        href: https://twitter.com/TedCorcovilos
+      - icon: twitter-x
+        href: https://x.com/TedCorcovilos
       - icon: github
         href: https://github.com/corcoted
       - icon: linkedin
         href: https://www.linkedin.com/in/ted-corcovilos
     search: true
-  page-footer: "Copyright 2023, Ted Corcovilos"
+  page-footer: "Copyright 2024, Ted Corcovilos"
 
 format:
   html:

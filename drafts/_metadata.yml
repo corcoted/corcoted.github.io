@@ -1,0 +1,16 @@
+draft: true
+comments:
+  giscus:
+    repo: "corcoted/corcoted.github.io"
+    reactions-enabled: true
+share:
+  permalink: "https://www.corcoviloslab.com/"
+  description: "Ted Corcovilos's Lab website"
+  twitter: true
+  facebook: true
+  reddit: true
+  stumble: false
+  tumblr: false
+  linkedin: true
+  email: true
+  mastodon: false
