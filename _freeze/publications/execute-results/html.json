@@ -1,0 +1,12 @@
+{
+  "hash": "bfc6e4fd086acd8c3ce4504300e99550",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Publications\"\nformat:\n  html:\n    toc: false\n\ncite-method: citeproc\nbibliography: \"./_data/publications.json\"\ncsl: \"./_data/review-of-scientific-instruments.csl\"\ndate-modified: 2024-08-16\njupyter: website\nexecute:\n  freeze: auto\n  echo: false\n---\n\n\n\n\n\n\n\n\n\n\n\n\n---\nno-cite: |\n  @bubasReactionsGasphaseUranyl2024\n  @terhorstGasphaseSynthesisCl2024\n  @sorescuStimulatingAmorphousStructure2023\n  @corcovilosABCDsBetterMatrix2023\n  @terhorstConversionUO22Precursor2023\n  @metzlerIntrinsicReactivityOUCH2022\n  @perezCreationOUFUsing2021\n  @metzlerIntrinsicChemistryOUCH2021\n  @corcovilosEquationsMatchDrawings2021\n  @vanstipdonkDestructionReconstructionUO2021\n  @perezIsotopeLabelingInfrared2019\n  @corcovilosTwodimensionalOpticalQuasicrystal2019\n  @tatosianMeasurementAsymmetricUO222019\n  @corcovilosSimpleGameSimulating2018\n  @dejongRevealingDisparateChemistries2017\n  @vanstipdonkDissociationGasphaseDoublycharged2016\n  @dauSynthesisHydrolysisUranyl2016\n  @vanstipdonkCollisioninducedDissociationUranylmethoxide2016\n  @wangCoherentAddressingIndividual2015\n  @li3DProjectionSideband2012\n  @duarteAllopticalProductionLithium2011\n  @corcovilosDetectingAntiferromagnetismAtoms2010\n  @chenExperimentalStudiesBose2009\n  @huletTunableInteractionsBoseEinstein2009\n  @pollackExtremeTunabilityInteractions2009\n  @corcovilosFluidPhaseThermodynamics2007\n  @yehExperimentalInvestigationAsymmetric2004\n  @corcovilosMultifrequencySuperconductingCavity2004\n  @yehRecentDevelopmentsScience2002\n  @sandersProjectSEESatellite2000\n  @sandersProjectSEESatellite1999\n---\n\n\n::: {.callout-note appearance=\"minimal\"}\nCopies available upon [request](mailto:corcovilost@duq.edu).\n:::\n\n::: {#refs}\n:::\n\n",
+    "supporting": [
+      "publications_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

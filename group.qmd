@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Group members
-exectute:
+date-modified: 2024-08-16
+execute:
   echo: false
 jupyter: website
 comments:
